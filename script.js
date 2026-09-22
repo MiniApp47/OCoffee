@@ -35,28 +35,28 @@ document.addEventListener("DOMContentLoaded", function () {
   const contactLinks = [
     {
       name: "WHATSAPP 📞",
-      url: "https://wa.me/33745907270",
+      url: "",
       id: "whatsapp",
       className: "whatsapp", // Il faudra peut-être ajouter ce CSS (Jaune)
       text: "WHATSAPP 📞",
     },
     {
       name: "CANAL TÉLÉGRAM 💙",
-      url: "https://t.me/+qHFh_JeCp405MTc0",
+      url: "",
       id: "telegram-main",
       className: "telegram", // Garde le style Bleu Telegram
       text: "CANAL TÉLÉGRAM 💙",
     },
     {
       name: "POTATO / MENU 🥔",
-      url: "https://dympt.org/legacyog75",
+      url: "",
       id: "potato-main",
       className: "potato", // Garde le style Marron/Doré Potato
       text: "CANAL POTATO 🥔",
     },
     {
       name: "INSTAGRAM 📸",
-      url: "https://www.instagram.com/og_legacy75?igsh=bG5nc3duNWRxd3Ey&utm_source=qr",
+      url: "",
       id: "instagram",
       className: "instagram", // Style dégradé Insta
       text: "INSTAGRAM 📸",
@@ -76,19 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategHo.png", // Ton image de catégorie Weed
 
       products: [
-        /*  {
-          id: "SuperSilverHaze",
-          flag: "🇳🇱",
-          name: "Super Silver Haze 🥬🥒",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductSSH.png",
-          video: "VideoSSH.mp4",
-          description:
-              "NOUVELLE ARRIVAGE : \n\n 🥬🥒 SUPER SILVER HAZE — HOLLANDE 🇳🇱🥒🥬\n\nUne grande classique hollandaise au profil frais, végétal et citronné. La Super Silver Haze est une sélection appréciée des connaisseurs pour son identité old school, son parfum expressif et sa vraie signature Haze européenne. 🇳🇱🔥\n\n👃 Profil aromatique :\n🍋 Notes citronnées et fraîches\n🌿 Arômes Haze classiques\n🥒 Touches vertes et végétales\n🌶️ Petite pointe épicée\n🌬️ Fond légèrement encensé\n\n👅 Goût :\nEn bouche, la Super Silver Haze développe une attaque fraîche et citronnée, accompagnée de notes végétales et légèrement épicées. La dégustation reste vive, propre et aromatique, avec une finale Haze bien marquée qui reste en bouche. 😮‍💨🥬\n\n✨ Qualité & sélection :\n💎 Profil old school reconnu\n🌱 Arômes frais et naturels\n🔥 Sélection hollandaise classique\n☁️ Fumée douce et parfumée\n🇳🇱 Référence appréciée des amateurs de Haze\n\n🏆 Le verdict :\nUne valeur sûre pour ceux qui aiment les profils frais, citronnés et typiquement hollandais. Super Silver Haze combine fraîcheur, caractère et authenticité dans une sélection simple, efficace et pleine de personnalité. 🥬🥒🇳🇱🔥",
-          tarifs: [{ weight: "10g", price: 70.0 }],
-        }, */
         {
           id: "🧠🍀AMNESIA CORE CUT 🍀🧠",
           flag: "🇳🇱",
@@ -113,6 +100,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
         {
+                    id: 'RUNTZ',
+                    flag: '🇺🇸',
+                    name: 'RUNTZ 🍁',
+                    farm: '👹 MONSTER CALI-MOUSSE 👹',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductRun.jpg', 
+                                        video: "VideoMS.mov",
+
+                    description: '👹🍁 MONSTER CALI-MOUSSE — RUNTZ 🍁👹\n\nUne mousse jaune inspirée d’une des génétiques les plus connues pour son profil candy, fruité et crémeux. Runtz se distingue par une odeur sucrée très reconnaissable, avec une belle rondeur aromatique et une identité typiquement Cali. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍬 Bonbon sucré et candy\n🍇 Fruits rouges et raisin doux\n🍦 Crème vanillée légère\n🌸 Petite touche florale\n⛽ Fond gazeux discret\n\n👅 Goût :\nEn bouche, Runtz développe une attaque douce et sucrée, avec des saveurs fruitées très gourmandes. Le côté crémeux arrive ensuite pour arrondir le profil, avant une finition légèrement gassy qui apporte du caractère sans casser la douceur. 😮‍💨🍬\n\n💛 Texture & qualité :\n☁️ Mousseuse et homogène\n🤲 Souple et facile à manipuler\n✨ Profil candy très expressif\n🔥 Fumée douce et aromatique\n💎 Finition premium Monster Cali-Mousse\n\n🏆 Le verdict :\nRuntz est une valeur sûre pour les amateurs de profils candy, fruités et crémeux. Une Cali-Mousse douce, gourmande et bien équilibrée, avec une vraie identité moderne. 👹🍁🍬🔥',
+                    tarifs: [
+            { weight: "9G", price: 50.0 },
+            { weight: "25G", price: 120.0 },
+            { weight: "50G", price: 200.0 },
+            {
+              weight: "100G",
+              price: 350.0,
+            },
+                    ]
+                },
+        {
           id: "Papaya",
           flag: "🇺🇸",
           name: "PAPAYA 🥭",
@@ -133,26 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         },
-       /*  {
-          id: "RUNTZ",
-          flag: "🇺🇸",
-          name: "RUNTZ 🍁",
-          farm: "👹 MONSTER CALI-MOUSSE 👹",
-          promoEligible: true,
-          type: "JauneUsa",
-          image: "ProductRun.jpg",
-          description:
-            "👹🍁 MONSTER CALI-MOUSSE — RUNTZ 🍁👹\n\nUne mousse jaune inspirée d’une des génétiques les plus connues pour son profil candy, fruité et crémeux. Runtz se distingue par une odeur sucrée très reconnaissable, avec une belle rondeur aromatique et une identité typiquement Cali. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍬 Bonbon sucré et candy\n🍇 Fruits rouges et raisin doux\n🍦 Crème vanillée légère\n🌸 Petite touche florale\n⛽ Fond gazeux discret\n\n👅 Goût :\nEn bouche, Runtz développe une attaque douce et sucrée, avec des saveurs fruitées très gourmandes. Le côté crémeux arrive ensuite pour arrondir le profil, avant une finition légèrement gassy qui apporte du caractère sans casser la douceur. 😮‍💨🍬\n\n💛 Texture & qualité :\n☁️ Mousseuse et homogène\n🤲 Souple et facile à manipuler\n✨ Profil candy très expressif\n🔥 Fumée douce et aromatique\n💎 Finition premium Monster Cali-Mousse\n\n🏆 Le verdict :\nRuntz est une valeur sûre pour les amateurs de profils candy, fruités et crémeux. Une Cali-Mousse douce, gourmande et bien équilibrée, avec une vraie identité moderne. 👹🍁🍬🔥",
-          tarifs: [
-            { weight: "9G", price: 50.0 },
-            { weight: "25G", price: 120.0 },
-            { weight: "50G", price: 200.0 },
-            {
-              weight: "100G",
-              price: 350.0,
-            },
-          ],
-        }, */
+      
          {
                     id: 'White truffle 🍄',
                     flag: '🇺🇸',
@@ -164,65 +153,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     video:'VideoWT.mp4',
                       description: '🍄🤍 WHITE TRUFFLE — WEST COAST MOUSSE 🤍🍄\n\n Une mousse premium au profil profond, crémeux et raffiné. White Truffle se distingue par son mélange de notes terreuses, boisées et légèrement gazeuses, accompagné d’une douceur gourmande qui apporte beaucoup de rondeur à l’ensemble. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍄 Notes terreuses et boisées\n 🌰 Noisette et fruits à coque\n 🍦 Fond crémeux et vanillé\n 🌿 Légère touche végétale\n ⛽ Finition gazeuse discrète\n\n 👅 Goût :\n En bouche, l’attaque est ronde et crémeuse, avec des saveurs de noisette grillée et de sous-bois. Une douceur légèrement vanillée apparaît ensuite, avant de laisser place à une finale plus profonde, terreuse et gassy qui reste longtemps sur le palais. 😮‍💨🍄\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et homogène\n 🤲 Souple et facile à travailler\n ✨ Profil aromatique riche\n 🔥 Fumée dense et savoureuse\n 💎 Finition premium West Coast\n\n 🏆 Le verdict :\n White Truffle est une sélection élégante et pleine de caractère, idéale pour les amateurs de profils crémeux, terreux et légèrement gazeux. Une mousse raffinée qui change des saveurs fruitées classiques. 🍄🤍⛽🔥',
                       tarifs: [
-                        { weight: '9G', price: 50.00 },
-                        { weight: '25G', price: 120.00 },
-                        { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 350.00 },
-                    ]
-                },
-        /* {
-                    id: 'Pink Lemonade 🥤',
-                    flag: '🇺🇸',
-                    name: 'Pink Lemonade 🥤',
-                    farm: '🌾 WEST COAST MOUSSE',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductPK.jpg',
-                    video: 'VideoPK.mp4',
-                      description: '🍓🍋 PINK LEMONADE — WEST COAST MOUSSE 🥤💗\n\n Une mousse ultra fraîche et fruitée qui rappelle une limonade rose bien glacée. Pink Lemonade mélange des agrumes acidulés, des fruits rouges sucrés et une touche candy pour créer un profil vif, gourmand et particulièrement rafraîchissant. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍋 Citron frais et zesté\n 🍓 Fraise et fruits rouges\n 🥤 Limonade sucrée\n 🍬 Bonbon acidulé\n 🌸 Petite touche florale\n\n 👅 Goût :\n Dès la première bouffée, une vague de citron sucré et de fruits rouges envahit le palais. L’acidité reste parfaitement équilibrée par une douceur candy et légèrement crémeuse. La finale est fraîche, fruitée et persistante, comme une limonade rose artisanale. 😮‍💨🍓🍋\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et légère\n 🤲 Facile à travailler\n ✨ Arômes frais et expressifs\n 🔥 Fumée douce et parfumée\n 💎 Sélection premium West Coast\n\n 🏆 Le verdict :\n Pink Lemonade est parfaite pour les amateurs de profils citronnés, fruités et sucrés. Une mousse moderne, colorée et rafraîchissante qui ne passe pas inaperçue. 🥤💗🍓🔥',
-                      tarifs: [
                         { weight: '10G', price: 60.00 },
                         { weight: '20G', price: 100.00 },
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                }, */
-        /* {
-          id: "BISCOTTI 🍪",
-          flag: "🇺🇸",
-          name: "BISCOTTI 🍪",
-          farm: "🌾 WEST COAST MOUSSE",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductBisco.jpg",
-          video: "VideoBisco.mp4",
-          description:
-            "🍪🔥 BISCOTTI — WEST COAST MOUSSE 🔥🍪\n\n Une mousse gourmande inspirée des meilleurs profils dessert américains. Biscotti développe un mélange riche de biscuit sucré, de crème vanillée et de notes légèrement épicées, accompagné d’un fond kush et gazeux qui lui apporte beaucoup de caractère. 🇺🇸💎\n\n 👃 Profil aromatique :\n 🍪 Biscuit chaud et pâte sucrée\n 🍦 Vanille et crème douce\n 🌰 Amande et noisette grillée\n 🌶️ Légères notes épicées\n ⛽ Fond kush et gazeux\n\n 👅 Goût :\n En bouche, l’attaque rappelle un biscuit tout juste sorti du four, avec des notes de vanille, de caramel et de fruits à coque. Le profil devient ensuite plus profond et légèrement épicé, avant une finale kush et gassy qui reste longtemps sur le palais. 😮‍💨🍪\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et souple\n 🤲 Facile à effriter\n ✨ Profil gourmand très marqué\n 🔥 Fumée dense et crémeuse\n 💎 Finition premium West Coast\n\n 🏆 Le verdict :\n Biscotti est une valeur sûre pour les amateurs de profils pâtissiers, crémeux et gazeux. Une mousse riche et réconfortante avec une véritable identité Cali dessert. 🍪🍦⛽🔥",
-          tarifs: [
-            { weight: "10G", price: 60.0 },
-            { weight: "20G", price: 100.0 },
-            { weight: "50G", price: 220.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        },
-        {
-          id: "Candy Crush 🍭",
-          flag: "🇺🇸",
-          name: "Candy Crush 🍭",
-          farm: "🌾 WEST COAST MOUSSE",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductUsa3.jpg",
-          video: "VideoCCH.mp4",
-          description:
-            "🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d'une technique \"Dry Sift\" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l'ancienne version. \n\n  🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy. \n\n 🍯 Texture : Jaune mousseux d’exception qui s'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫",
-          tarifs: [
-            { weight: "10G", price: 60.0 },
-            { weight: "20G", price: 100.0 },
-            { weight: "50G", price: 220.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        }, */
+                },
           {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇺🇸',
@@ -362,152 +298,6 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         },
-        /* {
-                    id: 'ORANGE CREAMPOP 🔥💛',
-                    flag: '🇲🇦',
-                    name: 'ORANGE CREAMPOP 🔥💛',
-                    farm: '🌾 WEST COAST MOUSSE',
-                    promoEligible: true,
-                    type: 'JauneUsa',
-                    image: 'ProductOre.png', 
-                    video: 'VideoOre.mov',
-                    description: 'Un jaune mousseux ultra gourmand qui frappe direct dès l’ouverture du pochon 🍊💨\n La strain Orange Creampop ramène un profil ultra crémeux et fruité, avec une vraie identité cali premium 🇺🇸✨\n\n 👃 Profil aromatique :\n Une grosse odeur d’orange sucrée type bonbon crémeux, mélangée à des notes vanilla cream et une légère touche gazeuse bien propre 🍦🍊⛽️\n Le mousseux est gras, collant et hyper parfumé.\n\n 👅 Goût :\n En bouche c’est une vraie dinguerie 😮‍💨\n Tu retrouves un mélange parfait entre agrumes sucrés, crème vanillée et une petite finition légèrement candy qui reste longtemps sur le palais 🍬🍊\n Une fumée douce, lourde et ultra savoureuse.\n\n 💥 Effets :\n Bonne grosse défonce relaxante mais propre 🧠🔥\n Ça monte progressivement avec un effet lourd sur le corps tout en gardant un mood chill et agréable. Parfait pour se poser tranquillement le soir 😴💨\n ⭐️ Texture mousseuse\n ⭐️ Goût ultra prononcé\n ⭐️ Cali vibes\n ⭐️ Très gros niveau de qualité',
-                    tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }
-                   {
-                    id: '🤯🚀 PERMANENT MARKER',
-                    flag: '🇺🇸',
-                    name: '🤯🚀 PERMANENT MARKER',
-                    farm: '🌾 WEST COAST MOUSSE',
-                    promoEligible: true,
-                    type: 'JauneUsa',
-                    image: 'ProductPerm.jpg', 
-                    video:'VideoPerm.mp4',
-                    description: '🔥 Une mousse réputée pour son caractère unique et sa puissance. Son profil est marqué par des notes de gaz, de crème et de marqueur, ce qui lui donne une identité immédiatement reconnaissable.\n\n 💨 Effets recherchés :\n 😌 Détente profonde\n 😊 Sensation de bien-être\n 🧠 Esprit apaisé\n 🛋️ Relaxation physique marquée\n 🌙 Peut devenir très relaxante en fin de session\n\n ⭐ Pourquoi les amateurs l’apprécient ?\n ✔️ Arômes puissants et originaux\n ✔️ Goût qui reste longtemps en bouche\n ✔️ Effets durables\n ✔️ Idéale pour se poser et profiter du moment\n\n 🇺🇸💎 Pour les vrais connaisseurs de mousse US, la Permanent Marker est souvent considérée comme une référence moderne grâce à son profil terpénique atypique, puissant et facilement identifiable. Une variété qui ne passe jamais inaperçue et qui a su se faire une place parmi les génétiques les plus appréciées de ces dernières années.\n 🏆 En bref : Une mousse de caractère, riche en saveurs et en sensations, pensée pour ceux qui recherchent une expérience authentique et typiquement West Coast. 🌊🔥🧱💨',
-                    tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 350.00 },
-                    ]
-                },*/
-
-        /*  {
-                    id: 'Candy Crush 🍭',
-                    flag: '🇲🇦',
-                    name: 'Candy Crush 🍭',
-                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductUsa3.jpg',
-                    video:'VideoCCH.mp4',
-                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n  🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy. \n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
-                      tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                    {
-                    id: 'Gelato 🎂',
-                    flag: '🇲🇦',
-                    name: 'Gelato 🎂',
-                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductUsa1.jpg',
-                    video:'VideoGel.mp4',
-                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Gelato : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
-                      tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'PermanentMarker 🖍️',
-                    flag: '🇲🇦',
-                    name: 'PermanentMarker 🖍️',
-                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductUsaP.jpg',
-                    video:'VideoPerm4.mp4',
-                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🖍️ PermanentMarker : Sédation profonde, notes d\'aromes brut.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
-                      tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*   {
-                    id: 'Jaune mousseux 🥵',
-                    flag: '🇲🇦',
-                    name: 'Jaune mousseux 🥵',
-                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductUsa3.jpg',
-                    // images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
-                     images: ['ProductUsa3.jpg','ProductUsa4.jpg','ProductUsaP.jpg'],
-                      // 👇 NOUVELLE STRUCTURE
-                      variantTitle: 'Saveurs 🧁 :',
-                      jars: [
-                        { name: 'PermanentMarker', emoji: '🖍️', colorClass: 'style-cherry' },
-                         { name: 'Candy Crush', emoji: '🍭', colorClass: 'style-purple' }, 
-                        { name: 'Gelato', emoji: '🎂', colorClass: 'style-orange' }, 
-                       ],
-
-                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🖍️ PermanentMarker : Sédation profonde, notes d\'aromes brut.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🎂 Gelato : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
-                      tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-
-        /* {
-                    id: 'BLUE LOBSTER 🦞💙',
-                    flag: '🇲🇦',
-                    name: 'BLUE LOBSTER 🦞💙',
-                    farm: '🌾 WEST COAST MOUSSE',
-                    promoEligible: true,
-                    type: 'JauneUsa',
-                    image: 'ProductBlueL.png', 
-                    video: 'VideoBlueL.mov',
-                    description: 'Une variété lourde qui mélange parfaitement le côté fruité sucré et le gaz puissant typique des grosses génétiques US 🇺🇸🔥\n Le Blue Lobster en jaune mousseux envoie un profil très riche avec une fumée épaisse et ultra savoureuse 😮‍💨💨\n\n 👃 Profil aromatique :\n Dès l’ouverture, t’as une grosse odeur berry sucrée avec des notes crémeuses et un fond bien gassy ⛽️🫐🍬\n Le tout accompagné d’une petite touche marine/funky typique du Blue Lobster qui lui donne une vraie identité premium.\n\n 👅 Goût :\n En bouche c’est hyper gras et intense 🔥\n Tu sens les fruits bleus sucrés, une crème légère et surtout une finition diesel/gaz qui reste collée au palais longtemps 😵‍💫💨\n Très complexe et très propre à la combustion.\n\n 💥 Effets :\n Défonce lourde et euphorique au début avant de laisser place à une relaxation profonde 🧠💥\n Parfait pour les amateurs de produits qui cognent vraiment fort tout en gardant un goût incroyable.\n⭐️ Texture mousseuse premium\n⭐️ Très gros terps US\n⭐️ Fumée épaisse et savoureuse\n⭐️ Effet puissant et longue durée 🦞🔥',
-                    tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'ORANGE CREAMPOP 🔥💛',
-                    flag: '🇲🇦',
-                    name: 'ORANGE CREAMPOP 🔥💛',
-                    farm: '🌾 WEST COAST MOUSSE',
-                    promoEligible: true,
-                    type: 'JauneUsa',
-                    image: 'ProductOre.png', 
-                    video: 'VideoOre.mov',
-                    description: 'Un jaune mousseux ultra gourmand qui frappe direct dès l’ouverture du pochon 🍊💨\n La strain Orange Creampop ramène un profil ultra crémeux et fruité, avec une vraie identité cali premium 🇺🇸✨\n\n 👃 Profil aromatique :\n Une grosse odeur d’orange sucrée type bonbon crémeux, mélangée à des notes vanilla cream et une légère touche gazeuse bien propre 🍦🍊⛽️\n Le mousseux est gras, collant et hyper parfumé.\n\n 👅 Goût :\n En bouche c’est une vraie dinguerie 😮‍💨\n Tu retrouves un mélange parfait entre agrumes sucrés, crème vanillée et une petite finition légèrement candy qui reste longtemps sur le palais 🍬🍊\n Une fumée douce, lourde et ultra savoureuse.\n\n 💥 Effets :\n Bonne grosse défonce relaxante mais propre 🧠🔥\n Ça monte progressivement avec un effet lourd sur le corps tout en gardant un mood chill et agréable. Parfait pour se poser tranquillement le soir 😴💨\n ⭐️ Texture mousseuse\n ⭐️ Goût ultra prononcé\n ⭐️ Cali vibes\n ⭐️ Très gros niveau de qualité',
-                    tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },*/
       ],
     },
     {
@@ -553,585 +343,6 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 450.0 },
           ],
         },
-
-        /*     {
-                    id: 'STRAWBERRY PINK',
-                    flag: '🇺🇸',
-                    name: '🍓 STRAWBERRY PINK 🌷', 
-                    farm: '🌸 The Pink Farms 🌸',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductSTP.jpg',
-                    video: 'VideoSTP.mp4',
-                    description: '⚡️🌸 STATIC SIFT PLASMA 🌸⚡️ \n\n Une exclusivité ultra premium signée 🌸 The Pink Farms 🌸. La Strawberry Pink est une extraction static d\'élite qui repousse les limites des profils fruités et floraux. Une véritable masterclass pour les palais les plus exigeants 🔥\n\n 👃 Aromatique :\n Dès l’ouverture, une explosion de fraise bien mûre et sucrée 🍓, enveloppée par des notes florales délicates 🌷. En arrière-plan, on retrouve un fond candy crémeux et une légère touche gazeuse ⛽️ qui vient rappeler l\'ADN US de cette génétique exceptionnelle.\n\n 👅 Goût :\n En bouche, c’est une expérience luxueuse : attaque gourmande sur la fraise bonbon, suivie d\'une rondeur lactée et florale qui tapisse le palais. La texture du static offre une combustion parfaite et une fumée épaisse, douce et ultra propre ☁️✨.\n\n 💨 Effets :\n Montée rapide avec un high très joyeux et euphorique 🚀. L\'esprit reste clair et créatif tandis qu\'une relaxation physique profonde s\'installe progressivement 😌. Idéal pour chiller avec une vibe ultra positive.\n\n 🏆 Le verdict :\n Un static sift full terpènes, à la texture sableuse et fondante. The Pink Farms livre ici un produit d\'une pureté maximale, alliant douceur extrême et vraie frappe de connaisseur 💎🍓.',
-                    tarifs: [
-                                   { weight: "3G", price: 50.0 },
-            { weight: "10G", price: 140.0  },
-            { weight: "25G", price: 250.0 },
-            { weight: "50G", price: 450.0  },
-                    ]
-                }, */
-        /*  {
-                    id: 'HONEY (BANANAS x SPRITZER) 🍌🍯',
-                    flag: '🇺🇸',
-                    name: 'HONEY (BANANAS x SPRITZER) 🍌🍯', 
-                    farm: '🌟 By Secret House Smoke Farm 🌟',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductHBS.jpg',
-                    video: 'VideoHBS.mp4',
-                    description: '⚡🍯 STATIC SIFT PLASMA 70-130u 🍯⚡  \n\n 💎🔥 Un static sift premium sélectionné sur la tranche 70-130 microns, réputée pour offrir un excellent équilibre entre pureté, richesse aromatique et puissance. Cette extraction met en avant des trichomes soigneusement isolés afin de préserver un maximum de terpènes et de saveurs.  \n\n ✨ Génétique\n 🧬 Honey Bananas x Spritzer\n Une combinaison qui marie le caractère sucré et crémeux de Honey Bananas avec le profil frais et pétillant de Spritzer, donnant naissance à un hash moderne particulièrement expressif.\n\n 👃 Profil aromatique\n\n 🍯 Miel doux et gourmand\n 🍌 Banane mûre\n 🍬 Notes crémeuses et sucrées\n 🍋 Légère touche d’agrumes pétillante\n\n 😮‍💨 Effets\n\n ⚡ Euphorie rapide et agréable\n 🧠 Bien-être mental et humeur positive\n 😌 Relaxation corporelle progressive\n 🎵 Idéal pour une session détente, musique ou fin de journée\n\n 🎯 Pour les connaisseurs\n 🔥 Le calibre 70-130u est souvent recherché pour sa capacité à conserver une belle complexité aromatique tout en offrant une excellente qualité de résine.  \n 💎 Secret House Smoke Farm propose ici un plasma gourmand et très parfumé, où les notes de miel et de banane dominent la dégustation. Une pièce qui séduira les amateurs de hash moderne à la recherche d’un profil riche, doux et particulièrement savoureux. 🍯🍌✨',
-                    tarifs: [
-                        { weight: '3G', price: 50.00 },
-                        { weight: '10G', price: 140.00},
-                        { weight: '25G', price: 250.00 },
-                        { weight: '50G', price: 450.00 },
-                    ]
-                }, */
-        /* {
-                    id: '⚡🍇❄️ FORBIDDEN',
-                    flag: '🇲🇦',
-                    name: '⚡🍇❄️ FORBIDDEN', 
-                    farm: '🎻 MOZART FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductForr.jpg',
-                    video: 'VideoForr.mp4',
-                    description: '⚡🍇❄️ PLASMA STATIC ❄️🍇⚡ \n\n 💎 Type d’extraction\n Static Sift hautement purifié.\n Forte concentration en trichomes.\n Très peu de matière végétale résiduelle.\n Résine destinée aux amateurs de hash moderne premium.\n\n 🍇🍬 Profil aromatique\n Notes de fruits noirs et fruits rouges.\n Touches sucrées rappelant le bonbon et le raisin.\n Fond crémeux avec une légère pointe gassy.\n Odeur puissante et complexe dès l’ouverture.\n\n 🤤 Texture\n Souple et grasse.\n Aspect brillant et résineux.\n Se travaille facilement à température ambiante.\n Fusion lente et propre.\n\n 💨 Effets généralement recherchés\n Montée euphorique et relaxante.\n Sensation de bien-être assez rapide.\n Relaxation musculaire progressive.\n Effet équilibré entre détente mentale et physique.\n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Terpènes très présents.\n Extraction particulièrement propre.\n Saveurs persistantes.\n Excellent compromis entre puissance et plaisir gustatif.\n\n ⚡💎 PLASMA STATIC FORBIDDEN – MOZART FARM 💎⚡\n ✨ Une résine moderne qui séduit par sa richesse aromatique et sa pureté. Son profil mêlant fruits noirs, notes sucrées et fond crémeux en fait un hash particulièrement apprécié des amateurs de Static recherchant une expérience terpénique intense. 🤤🍇❄️\n\n 👑 Destiné aux vrais connaisseurs de résines premium qui privilégient avant tout la qualité d’extraction, les saveurs et la richesse des terpènes. 👑🔥🍇',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                }, */
-        /* {
-                    id: '🍬🍓❄️ CANDY FRUIT',
-                    flag: '🇲🇦',
-                    name: '🍬🍓❄️ CANDY FRUIT', 
-                    farm: '🎻 MOZART FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductCF.jpg',
-                    video: 'VideoCF.mp4',
-                    description: '🍬🍓❄️ DOUBLE STATIC ❄️🍓🍬 \n\n Le Double Static Candy Fruit de Mozart Farm semble être une résine orientée sur un profil très fruité et sucré, dans l’esprit des variétés modernes inspirées des génétiques Candy, Runtz, Zkittlez ou Fruit Cocktail\n\n ✨ Ce qui le distingue :\n Double purification statique pour obtenir un hash très propre.\n Forte concentration en têtes de trichomes.\n Excellent niveau de préservation des terpènes.\n Résine destinée aux amateurs de qualité premium.  \n\n 🍭 Profil aromatique\n Bonbon fruité très prononcé.\n Notes de fruits rouges, fruits exotiques et agrumes sucrés.\n Fond crémeux rappelant parfois certaines génétiques type Runtz ou Candy.\n Odeur puissante dès l’ouverture.  \n\n 🤤 Texture\n Souple et grasse.\n Très malléable à température ambiante.\n Aspect brillant avec une belle richesse en résine.\n Fond généralement mieux qu’un dry sift classique.  \n\n 💨 Effets recherchés\n Euphorie légère et agréable au départ.\n Sensation de bien-être et de détente.\n Relaxation corporelle progressive.\n Effet souvent décrit comme équilibré entre plaisir gustatif et puissance.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n aveurs très marquées.\n Longueur en bouche importante.\n Extraction particulièrement propre.\n Excellent compromis entre gourmandise et puissance.  \n\n 🍬💎 DOUBLE STATIC CANDY FRUIT – MOZART FARM 💎🍬\n ✨ Résine premium aux terpènes ultra gourmands, dominée par des notes de bonbons fruités et de fruits mûrs. Grâce à son extraction Double Static, elle offre une texture fondante, une grande pureté et une expression aromatique intense qui séduit particulièrement les amateurs de hash moderne haut de gamme. ❄️🤤🔥\n\n 🍓🍭 Un hash pensé pour les vrais connaisseurs qui recherchent avant tout le goût, les terpènes et une qualité d’extraction irréprochable. 🍭🍓',
-                    tarifs: [
-                        { weight: '5G', price: 90.00 },
-                        { weight: '10G', price: 160.00},
-                        { weight: '25G', price: 380.00 },
-                        { weight: '50G', price: 800.00 },
-                    ]
-                }, */
-        /*  {
-                    id: '🍉❄️ WATERMELON',
-                    flag: '🇲🇦',
-                    name: '🍉❄️ WATERMELON', 
-                    farm: '🎻 MOZART FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductMel1.jpg',
-                    video: 'VideoMel.mp4',
-                    description: '🍉❄️ DOUBLE STATIC ❄️🍉 \n\n 💎 Type d’extraction : Double Static Sift\n Le « Double Static » désigne une double purification des trichomes par électricité statique afin d’éliminer un maximum d’impuretés végétales. Le résultat est généralement plus pur, plus fondant et plus riche en terpènes qu’un hash classique.  \n\n 🍉 Profil aromatique\n Notes sucrées rappelant la pastèque mûre.\n Fond légèrement crémeux et terreux typique des résines premium.\n Odeur très expressive à froid, avec une belle intensité terpénique.  \n\n 🤤 Texture\n Souple et grasse.\n Facile à travailler à température ambiante.\n Tendance à devenir plus collante lorsqu’elle est conservée dans de bonnes conditions.  \n\n ✨ Effets généralement recherchés\n Sensation de détente progressive.\n Effet mental agréable sans être trop lourd au départ.\n Relaxation corporelle marquée en fin d’expérience.\n Souvent apprécié pour les moments calmes en soirée.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Très bonne conservation des terpènes.\n Pureté élevée grâce au double tri statique.\n Saveurs plus nettes et plus persistantes qu’une mousse ou un dry classique.\n Format recherché par les amateurs de résines premium modernes.  \n\n 🫒🍉💎 Le Double Static Watermelon de Mozart Farm s’adresse surtout aux amateurs de hash premium qui recherchent une résine propre, fondante et extrêmement parfumée, avec un profil sucré et frais rappelant la pastèque. 💎🍉🫒',
-                    tarifs: [
-                        { weight: '5G', price: 90.00 },
-                        { weight: '10G', price: 160.00},
-                        { weight: '25G', price: 380.00 },
-                        { weight: '50G', price: 800.00 },
-                    ]
-                }, */
-        /*    {
-                    id: 'HONEY (BANANAS x SPRITZER) 🍌🍯',
-                    flag: '🇺🇸',
-                    name: 'HONEY (BANANAS x SPRITZER) 🍌🍯', 
-                    farm: '🌟 By Secret House Smoke Farm 🌟',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductHBS.png',
-                    video: 'VideoHBS.mov',
-                    description: '⚡🍯 STATIC SIFT PLASMA 70-130u 🍯⚡  \n\n 💎🔥 Un static sift premium sélectionné sur la tranche 70-130 microns, réputée pour offrir un excellent équilibre entre pureté, richesse aromatique et puissance. Cette extraction met en avant des trichomes soigneusement isolés afin de préserver un maximum de terpènes et de saveurs.  \n\n ✨ Génétique\n 🧬 Honey Bananas x Spritzer\n Une combinaison qui marie le caractère sucré et crémeux de Honey Bananas avec le profil frais et pétillant de Spritzer, donnant naissance à un hash moderne particulièrement expressif.\n\n 👃 Profil aromatique\n\n 🍯 Miel doux et gourmand\n 🍌 Banane mûre\n 🍬 Notes crémeuses et sucrées\n 🍋 Légère touche d’agrumes pétillante\n\n 😮‍💨 Effets\n\n ⚡ Euphorie rapide et agréable\n 🧠 Bien-être mental et humeur positive\n 😌 Relaxation corporelle progressive\n 🎵 Idéal pour une session détente, musique ou fin de journée\n\n 🎯 Pour les connaisseurs\n 🔥 Le calibre 70-130u est souvent recherché pour sa capacité à conserver une belle complexité aromatique tout en offrant une excellente qualité de résine.  \n 💎 Secret House Smoke Farm propose ici un plasma gourmand et très parfumé, où les notes de miel et de banane dominent la dégustation. Une pièce qui séduira les amateurs de hash moderne à la recherche d’un profil riche, doux et particulièrement savoureux. 🍯🍌✨',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00 },
-                        { weight: '100G', price: 800.00 },
-                    ]
-                },
-                {
-                    id: '⚡🥣 CEREAL MILK 🥣⚡',
-                    flag: '🇺🇸',
-                    name: '⚡🥣 CEREAL MILK 🥣⚡', 
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductCCC.png',
-                    video: 'VideoCCC.mov',
-                    description: '⚡🇺🇸 Static plasma us 🇺🇸⚡  \n\n 💎🔥 Une variété connue pour son parfum gourmand et son effet équilibré. Son nom vient de son arôme qui rappelle le lait sucré restant au fond d’un bol de céréales. 🔥💎\n ✨ À quoi ça ressemble ?\n Dès l’ouverture, Cereal Milk dégage une odeur douce et agréable 🤤💨.\n\n 🥣 Notes de céréales sucrées\n 🍦 Touches crémeuses et vanillées\n 🍬 Parfum gourmand et réconfortant\n 🍓 Légères nuances fruitées\n\n 😮‍💨 Et au goût ?\n Chaque bouffée offre une saveur douce et persistante 💨✨.\n 🥛 Saveur crémeuse\n 🍪 Notes sucrées et gourmandes\n 🍦 Arrière-goût vanillé\n ☁️ Fumée douce et agréable\n ✨ Longueur en bouche appréciée\n\n 🧠 Quels effets ?\n Les effets peuvent varier selon la personne et le produit, mais sont souvent décrits comme :\n\n 😁 Bonne humeur\n 💬 Plus sociable et détendu\n 🌈 Sensation de bien-être\n 🧠 Relaxation mentale\n 💆‍♂️ Détente physique modérée\n ✨ Sensation générale de confort\n\n 🏆 En résumé\n ⚡🥣 Cereal Milk est appréciée pour son côté gourmand, ses saveurs crémeuses et son équilibre entre détente et bonne humeur. Une variété souvent choisie pour un moment agréable et relaxant. 💎🔥💨👑✨',
-                    tarifs: [
-                        { weight: '5G', price: 110.00 },
-                        { weight: '10G', price: 200.00},
-                        { weight: '25G', price: 450.00 },
-                    ]
-                },
-                {
-                    id: '🧩 GIRAFE PUZZY 🧩',
-                    flag: '🇺🇸',
-                    name: '🧩 GIRAFE PUZZY 🧩', 
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductPZ.png',
-                    video: 'VideoPZ.mov',
-                    description: '🧩⚡️ PLASMA STATIC ⚡️🧩 \n\n 💎🔥 Une variété qui mise avant tout sur l’intensité de ses terpènes et la qualité de son extraction. Une référence moderne qui séduit autant par son caractère que par son expérience globale. 🔥💎\n ✨ À quoi ça ressemble ?\n Dès l’ouverture, Static Plasma dévoile un parfum puissant et complexe 🤤💨. Un mélange d’agrumes, de fraîcheur et de notes sucrées qui attire immédiatement l’attention.\n\n 😮‍💨 Et au goût ?\n Chaque bouffée révèle une palette aromatique riche et persistante 💨✨.\n 🍋 Attaque fraîche et vive\n 🥭 Saveurs intenses et complexes\n 🍬 Douceur subtile en arrière-plan\n ☁️ Fumée agréable et soyeuse\n ✨ Belle longueur en bouche\n\n 🏆 En résumé\n Static Plasma est une variété appréciée pour son identité marquée et sa richesse aromatique 💎🔥.\n\n 😁 Bien-être\n 🌈 Bonne humeur\n 🧠 Relaxation mentale\n 💆‍♂️ Détente corporelle\n ☁️ Sensation de confort\n ✨ Expérience harmonieuse\n\n ⚡🧩 Une variété moderne et expressive qui combine caractère, richesse aromatique et moment de détente particulièrement agréable. 🔥💎💨👑✨',
-                    tarifs: [
-                        { weight: '5G', price: 110.00 },
-                        { weight: '10G', price: 200.00},
-                        { weight: '25G', price: 450.00 },
-                    ]
-                },
-                {
-                    id: '🦞 BLUE LOBSTER 🦞',
-                    flag: '🇺🇸',
-                    name: '🦞 BLUE LOBSTER 🦞', 
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductBLL.png',
-                    video: 'VideoBLL.mp4',
-                    description: '🦞⚡️ PLASMA STATIC ⚡️🦞 \n\n 💎🌊 Une sélection qui combine caractère, finesse et richesse aromatique. Blue Lobster n’est pas le genre de variété qui cherche à impressionner par l’excès, mais plutôt par son équilibre et son identité unique. 🌊💎\n ✨ Une génétique qui se démarque\n Dès les premiers instants, Blue Lobster dévoile un profil sophistiqué et moderne 🎯. Entre fraîcheur, douceur et profondeur aromatique, elle offre une expérience complète qui séduit aussi bien les connaisseurs que les curieux.\n\n ⚡ Les effets\n 😁 Sensation de bien-être rapide\n 🌈 Humeur positive et détendue\n 🧠 Relaxation mentale agréable\n 💆‍♂️ Relâchement corporel progressif\n ☁️ Sensation de confort et de légèreté\n ✨ Expérience équilibrée et harmonieuse\n\n 🌟 Ce qui fait sa différence\n Blue Lobster se distingue par sa complexité aromatique et sa capacité à évoluer tout au long de la dégustation. Chaque bouffée révèle de nouvelles nuances, offrant une expérience riche sans jamais devenir lourde.',
-                    tarifs: [
-                        { weight: '5G', price: 110.00 },
-                        { weight: '10G', price: 200.00},
-                        { weight: '25G', price: 450.00 },
-                    ]
-                }, */
-
-        /* {
-                    id: 'MOTORBREAD',
-                    flag: '🇲🇦',
-                    name: 'MOTORBREAD 🛵', 
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductMB.png',
-                    video: 'VideoMB.mp4',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n La Motorbread est une variété qui séduit les amateurs de profils gazeux, crémeux et puissants. Réputée pour son caractère intense, elle développe un mélange complexe de notes de carburant, de pâte sucrée, d’épices et de terre, offrant une expérience aromatique riche et persistante.\n ✨ En version Plasma Static de Lakers Farm, on peut s’attendre à :\n\n 🔬 Une pureté exceptionnelle\n Sélection minutieuse des trichomes.\n Extraction très propre et raffinée.\n Texture grasse, fondante et homogène.\n Concentration élevée en terpènes.\n\n ⛽🍞 Profil terpénique\n Diesel puissant\n Essence fraîche\n Notes pâtissières et crémeuses\n Épices douces\n Fond terreux typé OG\n\n 😮‍💨 Effets généralement recherchés\n Relaxation profonde du corps\n Sensation de bien-être durable\n Euphorie calme et agréable\n Expérience idéale pour les moments de détente\n\n 💎 Pourquoi les connaisseurs l’apprécient ?\n La Motorbread combine la puissance des variétés gazy avec des nuances plus gourmandes et crémeuses. En extraction Plasma Static, son profil terpénique gagne encore en intensité, offrant une dégustation particulièrement savoureuse et complexe.\n\n 🏆 Lakers Farm Motorbread Plasma Static\n ➡️ Une résine premium destinée aux amateurs de gaz, de crème et de gros terpènes, avec une texture haut de gamme et une signature aromatique qui reste longtemps en bouche. Un vrai plaisir pour les connaisseurs de hash moderne. 🔥⛽🍞💎',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                },
-                {
-                    id: 'super boof 🦍⛽️',
-                    flag: '🇲🇦',
-                    name: 'SUPER BOOF 🦍⛽️', 
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductSB.png',
-                    video: 'VideoSB.mov',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une vraie dinguerie signée LAKERS FARM 😮‍💨🔥\n Ce Plasma Static Super boof envoie une énorme claque dès l’ouverture du pochon 🫠💨\n\n 👃 Profil aromatique :\n Une odeur ultra gazy ⛽️, bien lourde et puissante 💥\n Tu retrouves un mélange de notes diesel 🛢️, terreuses 🌱 et légèrement sucrées 🍬 avec un fond crémeux qui rend la strain encore plus folle 🤤🔥\n\n 👅 Goût :\n En bouche c’est une vraie explosion 💣💨\n Le côté essence/gaz ⛽️🔥 prend direct toute la place avec une finition douce et épicée 🌶️🍯\n Une fumée bien grasse 😮‍💨☁️ avec un goût qui reste longtemps en bouche 🫠\n\n 🧊 Texture & qualité :\n Static ultra propre ✨\n Texture sableuse/mousseuse 🏜️🧈 \n Full terpènes 🍯🌈 avec une finition premium digne des grosses sélections 🇲🇦💎\n\n 🧠💥 Effet :\n Très grosse frappe 🥊😵‍💫\n Montée rapide 🚀 relaxation lourde 🛋️ mental posé 😶‍🌫️ parfait pour les amateurs de grosses variétés bien gazy ⛽️🦍\n\n ⚡️🦍 Super boof – LAKERS FARM 🦍⚡️\n Du vrai plasma static premium 😮‍💨💎\n ⛽️ Goût violent • 🍬 Terps lourds • 🔥 Qualité top niveau',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                },
-                {
-                    id: 'IPANEMA 🍍🥭',
-                    flag: '🇲🇦',
-                    name: 'IPANEMA 🍍🥭', 
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductIP.png',
-                    video: 'VideoIP.mov',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Encore une énorme sélection signée LAKERS FARM 😮‍💨💎\n Le Plasma Static IPANEMA balance un profil ultra exotique 🌈🔥 avec une qualité vraiment premium ✨\n\n 👃 Profil aromatique :\n Dès l’ouverture, ça explose en notes tropicales 🍍🥭🍬\n Un mélange fruité ultra frais avec des touches d’agrumes 🍊, de fruits sucrés 🍑 et un fond crémeux bien smooth 🧈😮‍💨\n Une odeur propre, puissante et ultra addictive 🤤💨\n\n 👅 Goût :\n En bouche c’est un vrai cocktail exotique 🍹🌴\n Tu sens direct les saveurs fruitées bien sucrées 🍍🍬 avec une petite touche creamy/gazy en fond ⛽️🧈 qui donne énormément de relief à la smoke 🔥💨\n Une fumée grasse ☁️ et pleine de terpènes 🍯\n\n 🧊 Texture & qualité :\n Static ultra mousseux 🏜️✨\n Extraction super propre 💎\n Full terpènes 🌈 avec une texture premium qui fond parfaitement 😮‍💨🔥\n\n 🧠💥 Effet :\n Très grosse détente 😶‍🌫️🛋️\n Effet lourd mais agréable 🧠💨 avec une montée relaxante et euphorique 🚀🔥\n\n 🌴🍍 IPANEMA – LAKERS FARM 🍍🌴\n 💎 Plasma Static ultra premium\n 🍬 Fruité exotique • ⛽️ Fond creamy/gazy • 🔥 Frappe lourde 😮‍💨',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                }, */
-        /* {
-                    id: 'GAZ MONKEY 🦍⛽️ ⚡️💎',
-                    flag: '🇲🇦',
-                    name: 'GAZ MONKEY 🦍⛽️', 
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductGaz.png',
-                    video: 'VideoGaz.mov',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une vraie dinguerie signée LAKERS FARM 😮‍💨🔥\n Ce Plasma Static Gaz Monkey envoie une énorme claque dès l’ouverture du pochon 🫠💨\n\n 👃 Profil aromatique :\n Une odeur ultra gazy ⛽️, bien lourde et puissante 💥\n Tu retrouves un mélange de notes diesel 🛢️, terreuses 🌱 et légèrement sucrées 🍬 avec un fond crémeux qui rend la strain encore plus folle 🤤🔥\n\n 👅 Goût :\n En bouche c’est une vraie explosion 💣💨\n Le côté essence/gaz ⛽️🔥 prend direct toute la place avec une finition douce et épicée 🌶️🍯\n Une fumée bien grasse 😮‍💨☁️ avec un goût qui reste longtemps en bouche 🫠\n\n 🧊 Texture & qualité :\n Static ultra propre ✨\n Texture sableuse/mousseuse 🏜️🧈\n Full terpènes 🍯🌈 avec une finition premium digne des grosses sélections 🇲🇦💎\n\n 🧠💥 Effet :\n Très grosse frappe 🥊😵‍💫\n Montée rapide 🚀 relaxation lourde 🛋️ mental posé 😶‍🌫️ parfait pour les amateurs de grosses variétés bien gazy ⛽️🦍\n\n ⚡️🦍 GAZ MONKEY – LAKERS FARM 🦍⚡️\n Du vrai plasma static premium 😮‍💨💎\n ⛽️ Goût violent • 🍬 Terps lourds • 🔥 Qualité top niveau',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                }, */
-        /* {
-                    id: 'RAINBOW x SPRITZER 🌈🍹',
-                    flag: '🇲🇦',
-                    name: 'RAINBOW x SPRITZER 🌈🍹', 
-                    farm: 'SECRET HOUSE SMOKE FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductRP.png',
-                    video: 'VideoRP.mov',
-                    description: '⚡️ PLASMA STATIC 70-130U ⚡️ \n\n Une vraie pépite marocaine signée Secret House Smoke Farm. Ce plasma static 70-130U sort un niveau de qualité ultra sérieux avec une extraction propre, mousseuse et blindée de terpènes 🔥\n\n 👃 Aromatique :\n Le croisement Rainbow x Spritzer développe un profil explosif : fruits sucrés, bonbon tropical 🌈, agrumes pétillants et petite touche creamy/gazeuse qui vient équilibrer parfaitement l’ensemble. À l’ouverture, ça sent direct le static premium travaillé avec soin.\n\n 👅 Goût :\n En bouche, c’est ultra riche : mélange de candy fruité 🍬, notes citronnées fraîches 🍋, raisin sucré et fond légèrement creamy qui reste longtemps après la taffe. Le plasma static ressort parfaitement tous les terpènes avec une fumée douce, épaisse et très propre.\n\n 💨 Effet :\n Une vraie frappe de static ⚡️\n Montée rapide avec un gros côté euphorique et relaxant en même temps. Effet puissant, propre et long lasting, parfait pour les amateurs de hash premium.\n\n Extraction 70-130U ultra qualitative, texture mousseuse et full terpènes.\n SECRET HOUSE SMOKE FARM a envoyé du très lourd sur cette Rainbow x Spritzer 🚀🔥',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00 },
-                    ]
-                }, */
-        /* {
-                    id: 'SPRITZER 🌈🍹',
-                    flag: '🇲🇦',
-                    name: 'SPRITZER 🌈🍹', 
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductSpii.png',
-                    video: 'VideoSpii.mp4',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n 💎🔥 Un Static Plasma qui met en avant toute la richesse aromatique de la génétique Spritzer, une variété réputée pour son profil ultra gourmand et sa production de résine exceptionnelle. Les extractions issues de Spritzer sont particulièrement appréciées des amateurs de hash moderne pour leur puissance aromatique et leur texture fondante.  \n\n ✨ Les effets recherchés :\n 😌 Sensation de détente progressive sans être trop lourde\n 😊 Humeur positive et euphorique\n 🧠 Esprit léger et agréable\n 💨 Moment relaxant tout en restant fonctionnel\n 🔥 Effet propre et équilibré, apprécié en journée comme en soirée  \n\n 🌿 Profil aromatique :\n 🍇 Raisin sucré\n 🍬 Bonbon fruité\n 🍊 Notes d’agrumes et de mandarine\n ⛽ Fond légèrement gazzy et crémeux\n 🍓 Touches de fruits rouges et de baies  \n\n ❄️ Texture Plasma Static :\n ✨ Très riche en têtes de trichomes sélectionnées\n 🤤 Texture grasse, souple et fondante\n 💎 Aspect clair et propre caractéristique des Static haut de gamme\n 🌿 Conservation maximale des terpènes grâce au procédé d’extraction statique  \n\n 🏆 Un hash qui plaira particulièrement aux amateurs de profils candy, raisin et agrumes, avec une fumée douce, savoureuse et une belle longueur en bouche. Une variété souvent recherchée par les connaisseurs de résines modernes pour son équilibre entre saveurs et effets.  \n 🔥 Pour les vrais connaisseurs de Static US, le Spritzer est considéré comme l’une des génétiques les plus intéressantes à travailler en hash grâce à son rendement en résine et à son profil “candy gas” particulièrement marqué.',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                },
-                {
-                    id: 'CHERRY PIE 🍒🥧⚡️',
-                    flag: '🇲🇦',
-                    name: 'CHERRY PIE 🍒🥧⚡️', 
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductCh.png',
-                    video: 'VideoCh.mp4',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n gourmand signé LAKERS FARM. La strain Cherry Pie envoie direct une vague sucrée et fruitée dès l’ouverture du pot 🔥\n\n 👃 Aromatique :\n Une grosse odeur de cerise sucrée mélangée à une pâte dessert crémeuse, avec un fond légèrement terreux et gazeux typique des grosses génétiques US. Le profil est riche, profond et ultra addictif.\n\n 👅 Goût :\n En bouche, c’est un vrai dessert : cerise mûre 🍒, notes pâtissières sucrées 🥧, avec une légère touche creamy et kush qui reste longtemps après l’expiration. Très terpy, très propre, chaque taffe est lourde en saveur.\n\n 💨 Effet :\n Une vraie frappe de static : détente puissante, montée rapide, effet lourd et relaxant sans perdre le côté euphorique. Parfait pour les amateurs de static bien fort avec un goût premium.\n PLASMA STATIC by LAKERS FARM = qualité très sérieuse ⚡️🍒',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                },
-                {
-                    id: 'HONEY BANANA 🍯🍌⚡️',
-                    flag: '🇲🇦',
-                    name: 'HONEY BANANA 🍯🍌⚡️', 
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductHo.png',
-                    video: 'VideoHo.mov',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une vraie dinguerie signée LAKERS FARM. Ce Plasma Static Honey Banana sort un profil ultra gourmand et collant en terpènes, avec une qualité de static vraiment violente. Dès l’ouverture, ça sent le produit travaillé proprement, lourd en goût et en puissance 🔥\n\n 👃 Aromatique :\n Le Honey Banana développe une odeur hyper riche mêlant banane bien mûre, miel sucré 🍯 et crème tropicale. Derrière, on retrouve une légère touche kush/gazeuse qui vient casser le côté trop sucré et donne un équilibre parfait. L’odeur remplit direct la pièce, avec ce côté dessert exotique très premium.\n\n 👅 Goût :\n En bouche, c’est ultra onctueux : grosse saveur de banana cream, miel chaud, sucre vanillé et petite note fruitée tropicale 🍌✨\n Le plasma static ressort parfaitement les terpènes : fumée douce, saveur intense et longue tenue en bouche. Chaque taffe laisse un arrière-goût crémeux et sucré vraiment propre.\n\n 💨 Effet :\n Une vraie frappe. Montée rapide avec une grosse détente physique, tout en gardant un côté euphorique et chill. Le genre de static qui tape fort mais reste ultra agréable à fumer.\n\n ⚡️ Texture premium, full terpènes, extraction très propre.\n LAKERS FARM a clairement sorti une pépite sur cette Honey Banana 🍯🍌',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'STATIC RS11 🍬⛽',
-                    flag: '🇲🇦',
-                    name: 'STATIC RS11 🍬⛽', 
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductRS11.png',
-                    video: 'VideoRS11.mov',
-                    description: '⚡️ STATIC HASH \n\n Une sélection ultra premium signée HASBULLA FARM autour de la célèbre strain RS11. Un static propre, gras et ultra parfumé qui mélange parfaitement le côté candy crémeux avec une lourde touche gazeuse 🔥\n\n 👃 Aromatique :\n ès l’ouverture, ça tape direct avec une odeur sucrée type bonbon fruité et crème vanillée, suivie d’un fond bien gazzy et légèrement terreux. Un profil complexe et très “US Cali” 🇺🇸🍭\n\n 👅 Goût :\n En bouche c’est une vraie dinguerie :\n 🍬 notes candy ultra sucrées\n ⛽ gaz puissant et propre\n 🍓 petite touche fruit rouge / tropicale\n 🥛 arrière-goût crémeux presque dessert\n\n La fumée est lisse, épaisse et reste longtemps en bouche avec un goût très reconnaissable de la RS11 😮‍💨\n\n 💨 Effets :\n Une montée rapide avec un gros mood relax et euphorique. Parfait pour se poser, rigoler, écouter du son ou simplement profiter d’une grosse frappe premium 🧠🔥\n ✨ Extraction ultra propre\n ✨ Terps très prononcés\n ✨ Qualité top shelf static hash',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'SPRITE RS 🍋🥤',
-                    flag: '🇲🇦',
-                    name: 'SPRITE RS 🍋🥤', 
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductRS.png',
-                    video: 'VideoRS.mov',
-                    description: '⚡️ STATIC HASH \n\n Un static ultra frais et explosif signé HASBULLA FARM. La strain Sprite RS apporte un profil hyper citronné et gazeux qui rappelle direct une boisson citron-lime bien glacée 🔥❄️\n\n 👃 Aromatique :\n À l’ouverture, une énorme claque d’agrumes sucrés envahit direct la pièce 🍋🍈\n On retrouve un mélange de citron vert, bonbon acidulé et une grosse note gazeuse propre typique des variétés modernes US 🇺🇸⛽\n\n 👅 Goût :\n En bouche c’est ultra savoureux :\n 🥤 effet soda citron-lime\n 🍬 touche candy sucrée\n 🍋 acidité fraîche et propre\n ⛽ fond gazzy puissant qui reste longtemps\n\n Une fumée douce mais bien lourde en terpènes avec un goût ultra addictif 😮‍💨\n\n 💨 Effets :\n High rapide et euphorique avec une bonne détente mentale et physique. Ça tape propre sans être trop lourd, parfait à tout moment de la journée 🔥🧠\n ✨ Texture grasse et fondante\n ✨ Extraction très propre\n ✨ Terps frais, citronnés et gazeux à fond ⚡️',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                }, */
-        /*    {
-                    id: 'CAP JUNKY HASH 🧪🔥',
-                    flag: '🇲🇦',
-                    name: 'CAP JUNKY HASH 🧪🔥', 
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductCAP.png',
-                    video: 'VideoCAP.mov',
-                    description: '🔥 DOUBLE STATIC 🔥 \n\n Une sélection double static hash ultra premium signée HASBULLA FARM, mettant en avant toute la complexité de la Cap Junky dans une extraction d’exception. Un profil moderne, puissant et ultra riche en terpènes 💎\n\n 👃 Aromatique :\n Un mélange crémeux et gassy avec des notes de vanille, carburant et une touche fruitée légèrement sucrée. Un nez complexe, à la fois lourd et raffiné.\n\n 👅 Goût :\n En bouche, c’est riche et enveloppant : creamy, gas, avec une finition sucrée et légèrement épicée. Texture grasse et fondante, combustion lente et propre — signature d’un double static parfaitement maîtrisé.\n\n 💨 Effets :\n High puissant et équilibré : euphorie mentale au début, suivie d’une relaxation progressive du corps. Idéal pour chiller tout en restant posé.\n\n ✨ Qualité :\n Double static hash full terpènes, extraction ultra propre, texture brillante, homogène et huileuse. Un produit travaillé avec précision pour exprimer toute la richesse de la Cap Junky.\n\n ⚡️ Conclusion :\n Un hash moderne haut de gamme, complexe et ultra savoureux.\n HASBULLA FARM propose ici une Cap Junky lourde, propre et parfaitement exécutée.',
-                    tarifs: [
-                        { weight: '5G', price: 90.00 },
-                        { weight: '10G', price: 160.00},
-                        { weight: '25G', price: 340.00 },
-                    ]
-                }, */
-        /*    {
-                    id: 'SFV HASH ⛽️🔥',
-                    flag: '🇲🇦',
-                    name: 'SFV HASH ⛽️🔥', 
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductSFV.png',
-                    video: 'VideoSFV.mov',
-                    description: '🔥 DOUBLE STATIC 🔥 \n\n Une sélection double static hash ultra premium signée HASBULLA FARM, mettant à l’honneur une SFV Kush puissante dans une extraction d’une pureté exceptionnelle. Dès l’ouverture, c’est une vraie signature OG : lourd, résineux et ultra gassy 💣\n\n 👃 Aromatique :\n Un profil intense et profond dominé par le diesel lourd, accompagné de notes terreuses, pine et une légère touche citronnée typique de la SFV. Un nez riche, authentique, old school.\n\n 👅 Goût :\n En bouche, c’est gras et savoureux : kush, gas, avec une finition légèrement lemon et épicée. La texture est huileuse et fondante, révélant une combustion lente et propre, typique d’un hash de très haute qualité.\n\n 💨 Effets :\n High puissant et enveloppant, relaxation profonde du corps avec un côté mental apaisant. Parfait pour chiller lourd ou en fin de journée.\n\n ✨ Qualité :\n Double static hash full terpènes, extraction raffinée, texture brillante, grasse et homogène. Un produit travaillé avec précision pour sublimer la richesse naturelle de la résine.\n\n ⚡️ Conclusion :\n Un hash double static OG gassy de très haut niveau, pour les vrais amateurs de Kush.\n HASBULLA FARM propose ici une SFV lourde, propre et ultra qualitative.',
-                    tarifs: [
-                        { weight: '5G', price: 90.00 },
-                        { weight: '10G', price: 160.00},
-                        { weight: '25G', price: 340.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'FF x SD HASH 🍓⛽️',
-                    flag: '🇲🇦',
-                    name: 'FF x SD HASH 🍓⛽️', 
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductFFS.png',
-                    video: 'VideoFFS.mov',
-                    description: '🔥 DOUBLE STATIC 🔥 \n\n Une sélection double static hash ultra premium signée HASBULLA FARM, issue d’un croisement explosif entre FF et Sour Diesel. Un profil intense, entre douceur fruitée et puissance gassy 💣\n\n 👃 Aromatique :\n Un nez complexe et percutant : notes fruitées sucrées (berries / fruits rouges) mêlées à un diesel puissant typique de la Sour D. Une légère touche acidulée et chimique vient renforcer le caractère.\n\n 👅 Goût :\n En bouche, c’est un contraste parfait : attaque fruitée et sucrée, suivie d’une montée gassy / diesel bien marquée. Finition propre et persistante, texture grasse et fondante.\n\n 💨 Effets :\n High rapide et énergisant au départ (Sour D vibes), avec une euphorie mentale qui évolue vers une détente plus posée. Idéal en journée ou début de soirée.\n\n ✨ Qualité :\n Double static hash full terpènes, extraction très propre, texture brillante, homogène et huileuse. Travail précis pour sublimer le croisement.\n\n ⚡️ Conclusion :\n Un hash hybride puissant et savoureux, parfait équilibre entre fruit et gas.\n HASBULLA FARM envoie une FF x SD nerveuse, propre et ultra addictive.',
-                    tarifs: [
-                        { weight: '5G', price: 90.00 },
-                        { weight: '10G', price: 160.00},
-                        { weight: '25G', price: 340.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'OBAMA KUSH 🇺🇸⚡️',
-                    flag: '🇲🇦',
-                    name: 'OBAMA KUSH 🇺🇸⚡️', 
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductOB.png',
-                    video: 'VideoOB.mov',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une sélection ultra premium signée LAKERS FARM, où le plasma static met en lumière une Kush profonde et authentique. Dès l’ouverture, ça sent le vrai OG : lourd, sombre et ultra résineux 🔥\n\n 👃 Aromatique :\n Un profil typique Kush old school : terreux, boisé, avec une forte dominante diesel/pine. Une légère touche épicée et citronnée vient apporter de la complexité.\n\n 👅 Goût :\n En bouche, c’est riche et enveloppant : notes de hashy kush, pin, terre humide, avec une finition légèrement citronnée et propre. Texture fondante, signature d’un static parfaitement travaillé.\n\n 💨 Effets :\n High profond et relaxant, avec une montée qui calme direct l’esprit. Sensation lourde dans le corps, idéale pour se poser et déconnecter.\n\n ✨ Qualité :\n Plasma static full terpènes, extraction précise, texture brillante et homogène. Un produit qui respecte parfaitement l’identité Kush.\n\n ⚡️ Conclusion :\n Un static OG puissant et authentique, pour les amateurs de vraies Kush.\n LAKERS FARM livre une OBAMA KUSH lourde, propre et ultra efficace.',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                }, */
-        /*   {
-                    id: 'GMO FUEL ⛽️⚡️',
-                    flag: '🇲🇦',
-                    name: 'GMO FUEL ⛽️⚡️', 
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductGMF.png',
-                    video: 'VideoGMF.mov',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une sélection ultra premium signée LAKERS FARM, où la puissance du plasma static rencontre un profil gassy extrême. Dès l’ouverture, ça annonce la couleur : lourd, profond, et ultra addictif 🔥\n\n 👃 Aromatique :\n Un mélange intense de diesel brut, ail fermenté et terre humide, typique de la GMO. Le côté “fuel” vient appuyer avec une note chimique/gazeuse très marquée qui reste longtemps en nez.\n\n 👅 Goût :\n En bouche, c’est lourd et complexe : gas pur, notes savory / garlic, avec une pointe légèrement épicée. La finition est ultra clean, signature d’un static parfaitement maîtrisé.\n\n 💨 Effets :\n Montée rapide avec un effet puissant et enveloppant. Relaxation mentale, sensation lourde dans le corps, parfait pour chiller ou en fin de journée.\n\n ✨ Qualité :\n Plasma static full terpènes, extraction ultra propre, texture brillante et homogène. Un travail de précision qui met en avant toute la richesse du profil GMO.\n\n ⚡️ Conclusion :\n Un static lourd et gassy pour les vrais amateurs.\n Puissance, profondeur et propreté — LAKERS FARM frappe encore fort avec cette GMO FUEL.',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                }, */
-        /*     {
-                    id: 'PINEAPPLE JUICE 🍍⚡️',
-                    flag: '🇲🇦',
-                    name: 'PINEAPPLE JUICE 🍍⚡️', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
-                    farm: '🏀 LAKERS FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductPJ.png',
-                    video: 'VideoPJ.mov',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une vraie pépite ultra premium signée LAKERS FARM. Ce plasma static sur la strain Pineapple Juice envoie direct une explosion tropicale dès l’ouverture 🔥\n\n 👃 Aromatique :\n Un profil hyper fruité dominé par l’ananas bien sucré, avec une touche acidulée qui rappelle un jus frais pressé. Derrière, t’as une légère note crémeuse et une pointe gazeuse qui vient équilibrer le tout.\n\n 👅 Goût :\n En bouche, c’est un vrai cocktail exotique : ananas juteux, agrumes doux, avec un fond légèrement sucré et une finition propre typique du static. Ça fond parfaitement, texture ultra clean.\n\n 💨 Effets :\n High rapide et clair, euphorique au début avec une montée énergisante.\n\n ✨ Qualité :\n  Extraction plasma static ultra raffinée, full terpènes, texture brillante et homogène. Un produit travaillé avec précision, qui met en avant toute la richesse aromatique de la strain.\n\n ⚡️ Conclusion :\n Un static tropical de très haut niveau, parfait pour les amateurs de saveurs fruitées puissantes avec une vraie propreté à la combustion. LAKERS FARM frappe fort avec cette Pineapple Juice.',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                }, */
-        /*   {
-                    id: 'ACAPULCO 🌴🔥',
-                    flag: '🇲🇦',
-                    name: 'ACAPULCO 🌴🔥', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
-                    farm: '💎 ORGANIC VALLEY',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductAca.png',
-                    video: 'VideoAca.mov',
-                    description: '🔥 Description\n Un static qui sent le soleil et le pur old school… Acapulco revisité en version ultra propre par ORGANIC VALLEY FARMZ, avec une vraie identité terpène qui tape direct 💥\n\n 👃 Aromatique :\n Profil intense et naturel, mélange de notes terreuses, épicées et légèrement citronnées, avec un fond tropical sec. Ça rappelle les variétés classiques, mais avec une fraîcheur moderne grâce au static.\n\n 👅 Goût :\n En bouche, c’est riche et profond : attaque sur des saveurs boisées et herbacées, suivies d’un twist citronné/agrume qui vient éclaircir le tout. Finition longue, propre, avec une vraie signature old school.\n\n  💨 Effets :\n  High énergisant et cérébral, très clair dans la tête. Ça boost la motivation, la concentration et l’humeur. \n Parfait en journée ou avant training.\n\n ✨ Qualité :\n  Static bien travaillé, texture fine et résineuse, couleur propre. Extraction qui respecte parfaitement la génétique Acapulco, avec un max de terpènes conservés.\n\n ⚡️ Conclusion :\n Un static authentique et puissant, parfait pour les amateurs de strains classiques avec une vraie montée clean et efficace. ORGANIC VALLEY FARMZ livre un produit propre, old school dans l’âme mais premium dans la finition.',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 140.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 850.00}
-                    ]
-                },  */
-        /*  {
-                    id: '🫒 PINK RUNTZ 🎀',
-                    flag: '🇲🇦',
-                    name: '🫒 PINK RUNTZ 🎀', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
-                    farm: '💎 ORGANIC VALLEY',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductPR.png',
-                    video: 'VideoPR.mov',
-                    description: '🔥 Description\n Le static Pink Runtz issu de la sélection NO FARMZ, c’est l’exigence à l’état pur. Une extraction minutieuse qui offre une résine d’une pureté exceptionnelle. Un vrai travail d’orfèvre pour les puristes qui cherchent une matière ultra clean et un profil terpénique respecté à 100%.\n\n 👃 Arômes & Saveurs\n Une véritable explosion de bonbons acidulés et de fruits rouges sucrés 🍓🍬. Le profil Runtz est indéniable, avec une base crémeuse et une légère touche gazeuse en fond qui vient tapisser le palais. À la chauffe, ça libère une fumée douce, épaisse et extrêmement gourmande.\n\n 👀 Aspect\n Teinte dorée à sable clair, avec une texture fine et soyeuse caractéristique des meilleurs statics. Ça s’effrite tout seul entre les doigts tout en gardant ce côté collant parfait pour le roulage. Zéro impureté.\n\n 😮‍💨 Effet\n Un high joyeux et euphorique qui monte rapidement à la tête, suivi d’une détente corporelle profonde et chaleureuse. Puissant mais lucide, parfait pour chill entre potes ou se relaxer en fin de journée sans être totalement assommé.\n\n 💎 Conclusion\n Le Pink Runtz NO FARMZ, c’est le bonbon ultime version premium. Un static qui allie une gourmandise extrême à une frappe nette et sans bavure. Une valeur sûre pour les amateurs de sucré.',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 140.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 850.00}
-                    ]
-                }, */
-        /* {
-                    id: '🫒 ZKITTLEZ 🧸',
-                    flag: '🇲🇦',
-                    name: '🫒 ZKITTLEZ 🧸',
-                    farm: '💎 ORGANIC VALLEY',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductZ.png',
-                    video: 'VideoZ.mov',
-                    description: '🔥 Description\n Le static Zkittlez de la sélection NO FARMZ frappe très fort. On est sur une extraction de très haute volée, avec un tri des trichomes chirurgical. Un produit brut, haut de gamme, qui capture parfaitement l\'essence de l\'une des génétiques les plus réputées au monde.\n\n 👃 Arômes & Saveurs\n Un véritable arc-en-ciel de saveurs 🌈. Dès l\'ouverture, tu te prends des notes intenses de fruits tropicaux, d’agrumes doux et de baies sucrées. À la combustion, le fameux côté "Z" se révèle pleinement, offrant une fumée riche, intensément fruitée et qui reste très longtemps en bouche.\n\n 👀 Aspect\n Une poudre d’or compacte. Couleur blonde très claire, texture sablonneuse et malléable qui bulle instantanément au contact de la flamme. Le tri est parfait, c\'est de la tête de trichome pure.\n\n 😮‍💨 Effet\n L\'équilibre parfait. La montée est stimulante, booste l\'humeur et la créativité, avant de glisser doucement vers un apaisement physique lourd et réconfortant. Une défonce premium qui dure dans le temps.\n\n 💎 Conclusion\n Le Zkittlez en static NO FARMZ, c’est le summum de l\'exotisme. Un profil terpénique explosif couplé à une qualité de filtration irréprochable. Un must-have absolu pour les chasseurs de terps fruités.',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 140.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 850.00}
-                    ]
-                }, */
-        /* {
-                    id: '🌟 CALYPSO',
-                    flag: '🇲🇦',
-                    name: '🌟 CALYPSO',
-                    farm: 'MOZART FARM 🎹',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductC.png', // ⚠️ A changer
-                    video: 'VideoC.mov',
-                    description: '🔥 Description\n Le static Calypso signé MOZART FARM, c’est clairement du très haut niveau — une extraction propre, raffinée, où chaque détail est maîtrisé. On est sur un produit ultra clean, avec une texture sablonneuse fine, presque soyeuse, qui témoigne d’un tri précis et d’une qualité de résine exceptionnelle.\n\n 👃 Arômes & Saveurs\n Calypso, ça part sur un profil exotique et lumineux : des notes fruitées tropicales bien fraîches, mélangées à une touche sucrée presque creamy, avec derrière un léger fond gazeux qui vient équilibrer le tout. À la chauffe, ça développe encore plus — c’est riche, doux, et surtout hyper savoureux, sans agressivité.\n\n 👀 Aspect\n Couleur claire à dorée, homogène, avec cette texture “static” bien sèche mais collante juste comme il faut. Ça s’effrite parfaitement, signe d’une extraction premium et bien travaillée.\n\n 😮‍💨 Effet\n Un high propre et progressif : ça démarre avec une montée cérébrale légère, euphorique, puis ça pose tranquillement le corps sans t’écraser. Idéal pour rester fonctionnel tout en profitant d’un vrai moment de détente qualitative.\n\n 💎 Conclusion\n Le Calypso en static de chez MOZART FARM, c’est un produit d’esthète — goût précis, effet maîtrisé, et finition premium. Clairement une pièce de collection pour ceux qui cherchent du clean et du goût au-dessus de la moyenne.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                },   */
-        /* {
-                    id: '🌑 BLACK CHERRY',
-                    flag: '🇲🇦',
-                    name: '🌑 BLACK CHERRY',
-                    farm: 'MOZART FARM 🎹',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductBC.png', // ⚠️ A changer
-                    video: 'VideoBC.mov',
-                    description: '🔥 Description\n Le static Black Cherry de chez MOZART FARM, c’est une extraction ultra propre avec une vraie identité. On est sur un produit travaillé avec précision, texture fine et homogène, qui montre direct que le tri a été fait sérieusement. Un static premium, propre, sans impuretés, avec ce côté sablonneux haut de gamme. \n\n 👃 Arômes & Saveurs \n Là on part sur un profil gourmand et profond : grosse dominante cerise noire bien mûre 🍒, presque confiturée, accompagnée de notes sucrées et légèrement crémeuses. En fond, tu retrouves une touche terreuse/gazeuse qui vient donner du relief et éviter le côté trop sucré. À la chauffe, ça devient encore plus riche, avec une vraie longueur en bouche. \n\n 👀 Aspect \n Couleur beige clair à doré, texture sèche et aérienne, qui s’effrite parfaitement. Brillance légère, signe d’une extraction bien maîtrisée. C’est propre, fin, et très agréable à manipuler. \n\n 😮‍💨 Effet \n Effet chill mais qualitatif : une montée douce avec une sensation de bien-être mentale, suivie d’un relâchement physique progressif. Pas assommant, mais bien relaxant — parfait pour poser sans être KO. \n\n 💎 Conclusion \n Le Black Cherry en static de chez MOZART FARM, c’est le parfait mélange entre gourmandise et puissance maîtrisée. Une vraie signature aromatique avec ce côté fruit noir sucré, et une qualité d’extraction qui place le produit dans le haut du panier.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                },  */
-        /*  {
-                    id: '🌬️ B. GARLIC JAM',
-                    flag: '🇲🇦',
-                    name: '🌬️ B. GARLIC JAM',
-                    farm: 'DR FRENCH 🥖',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductBG.png', // ⚠️ A changer
-                    video: 'VideoBG.mp4',
-                    description: '🔥 Description \n\n  Le Static B. Garlic Jam, signé DR French, c’est une vraie pièce de caractère. On est sur un concentré ultra propre, travaillé avec précision pour garder toute la richesse terpénique de la strain. Dès l’ouverture, ça envoie direct : une attaque garlic bien pungente, mélangée à une douceur presque confiturée (“jam”), avec un fond légèrement épicé et crémeux.  \n\n Le résultat est unique : un équilibre entre le funky US bien sale et une rondeur sucrée qui rend le produit hyper addictif.  \n\n 🌿 Texture & Aspect  \n Static clair, presque sableux, avec une texture fine et soyeuse. Les grains sont propres, bien séparés, avec une couleur beige doré tirant parfois vers le blond clair — signe d’une extraction maîtrisée et d’une sélection premium.  \n\n👃 Profil aromatique \n • 🧄 Garlic / onion funky (dominant) \n • 🍯 Sucré “jam” / confiture légère \n • 🌶️ Épicé subtil \n • 🌿 Notes terreuses & creamy en fond  \n\n 💨 Effet  \n Une montée rapide qui frappe direct au cerveau avec un côté euphorique et focus, puis une descente plus lourde, relaxante, qui te pose sans t’éteindre complètement. Parfait pour ceux qui aiment les profils puissants avec du goût qui reste en bouche longtemps.  \n\n 💎 Conclusion  \n Le B. Garlic Jam en static, c’est un produit de connaisseur : un goût sale mais maîtrisé, une extraction clean, et une vraie identité. Typiquement le genre de pièce que tu retrouves pas partout.  \n\n O'Coffee approved 🔥',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                }, */
-        /* {
-                    id: 'ALL BLUE 🫐',
-                    flag: '🇲🇦',
-                    name: 'ALL BLUE 🫐',
-                    farm: 'DR FRENCH 🥖',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductAllB.png', // ⚠️ A changer
-                    video: 'VideoAllB.mp4',
-                    description: '🫐 STATIC SINGLE SOURCE \n\n 🔥 Description\n All Blue, c’est une strain ultra fruitée qui tourne autour de notes intenses de myrtille, baies sauvages et une légère touche sucrée presque candy. À l’ouverture, ça sent direct le fruit mûr avec une profondeur fraîche et légèrement crémeuse — un profil terpénique propre et addictif. \n\n 🌿 Qualité Static \n Single source signé DR FRENCH = qualité maîtrisée de A à Z. Le static est propre, clair, texture sableuse fine avec un reflet légèrement doré, signe d’une extraction propre et bien travaillée. Ça fond parfaitement et ça libère tous les arômes. \n\n 😶‍🌫️ Effet \n Effet équilibré avec une montée mentale douce et euphorique, suivie d’un relâchement corporel léger. Ça reste fonctionnel mais ultra chill — parfait pour kiffer sans être KO. \n\n 💎 Conclusion \n All Blue, c’est la combinaison parfaite entre fraîcheur fruitée, douceur et qualité premium. Un static propre qui parle aux amateurs de goûts nets et raffinés.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                },  */
-        /*      {
-                    id: 'ALL CAKEZ 🍰',
-                    flag: '🇲🇦',
-                    name: 'ALL CAKEZ 🍰',
-                    farm: 'DR FRENCH 🥖',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductAll.png', // ⚠️ A changer
-                    video: 'VideoAll.mp4',
-                    description: '🍰 STATIC SINGLE SOURCE \n\n 🔥 Description \n All Cakez, c’est une vraie pâtisserie version haut de gamme. Une strain ultra gourmande qui mélange des notes sucrées, crémeuses et légèrement vanillées, avec une profondeur riche typique des meilleures génétiques “cake”. Dès l’ouverture, ça dégage un parfum lourd et raffiné, entre dessert fraîchement sorti du four et touche légèrement gassy qui rappelle son côté premium. \n\n 🌿 Qualité Static \n Extraction single source = pureté maximale. Tout vient de la même farm DR FRENCH, ce qui garantit une cohérence parfaite entre goût, effet et qualité. Le résultat : un static clean, blond clair, texture sableuse ultra fine, qui fond parfaitement. \n\n 😶‍🌫️ Effet \n Un high smooth mais puissant. Ça commence par une montée euphorique et relaxante, puis ça s’installe dans un chill profond sans t’éteindre. Parfait pour se poser, kiffer ou créer. \n\n 💎 Conclusion \n  Un produit élite pour les vrais connaisseurs. All Cakez en static single source, c’est le mélange parfait entre gourmandise, puissance et pureté.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                },  */
-
-        /*  {
-                    id: 'OLIVE',
-                    flag: '🇲🇦',
-                    name: '🍫 OLIVE HASBULLA 🍯🫒',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductOlive.png', // ⚠️ A changer
-                    video: 'VideoOlive.mov',
-                    description: 'OLIVE DOUBLE STATIC TRES GROS GOUT PRONONCÉ ET HIGH QUI TE MET UNE VRAI FRAPPE POUR LES GROS PECS 🍯',
-
-                         // 👇 NOUVELLE STRUCTURE
-                         variantTitle: 'Choisis ton goût 🥣 :',
-                         jars: [
-                             { name: 'CEREAL MILK', emoji: '🍼🥵', colorClass: 'style-passion' },
-                             { name: 'PINA', emoji: '🍍🤯', colorClass: 'style-melon' },
-                             { name: 'GEORGIA PIE', emoji: '🍑🍯', colorClass: 'style-orange' }
-                         ],
-
-                    tarifs: [
-                        { weight: '5G', price: 100.00 },
-                        { weight: '10G', price: 150.00 },
-                        { weight: '20G', price: 280.00 },
-                    ]
-                }, */
       ],
     },
     // ============================================================
@@ -1145,6 +356,57 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategWeed.png", // Ton image de catégorie Weed
 
       products: [
+        {
+                    id: 'GAS TRUFFLE ⛽',
+                    flag: '🇺🇸',
+                    name: 'GAS TRUFFLE ⛽',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGT.png', 
+                    video: 'VideoGT.mp4',
+                    description:   "⛽🍄 GAS TRUFFLE — CALI PREMIUM 🍄⛽\n\nUne sélection au profil puissant, profond et ultra aromatique. Gas Truffle se distingue par une belle intensité gassy, une rondeur terreuse raffinée et une vraie identité premium pensée pour les amateurs de profils lourds et marqués. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes gazeuses bien présentes\n🍄 Touches terreuses et truffées\n🌿 Fond végétal propre\n🍦 Légère rondeur crémeuse\n🔥 Finition résineuse intense\n\n👅 Goût :\nEn bouche, Gas Truffle développe une attaque puissante et aromatique, dominée par des notes gassy et terreuses. Le profil devient ensuite plus rond, avec une légère touche crémeuse qui équilibre parfaitement la finale, longue et bien marquée. 😮‍💨⛽\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil profond et expressif\n☁️ Fumée dense et savoureuse\n🔥 Belle longueur en bouche\n🍄 Identité forte et raffinée\n\n🏆 Le verdict :\nUne variété de caractère, idéale pour ceux qui aiment les profils gassy, terreux et résineux. Gas Truffle combine puissance aromatique, profondeur et finition premium dans une sélection qui ne passe pas inaperçue. ⛽🍄🔥",                    
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'GRAPPE SODA',
+                    flag: '🇺🇸',
+                    name: 'GRAPPE SODA',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGS.png', 
+                    video: 'VideoGS.mp4',
+                    description:   "🍇🥤 GRAPPE SODA — CALI PREMIUM 🥤🍇\n\nUne sélection fruitée, fraîche et ultra gourmande, pensée pour les amateurs de profils sucrés et modernes. Grappe Soda se distingue par ses notes de raisin, sa douceur candy et sa finition pétillante qui rappelle une boisson fruitée bien fraîche. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍇 Raisin sucré et fruits violets\n🥤 Notes soda fraîches et pétillantes\n🍬 Touche candy bien marquée\n🌸 Légère nuance florale\n🌿 Fond propre et fruité\n\n👅 Goût :\nEn bouche, Grappe Soda développe une attaque douce et sucrée, avec une belle présence de raisin et de bonbon fruité. Le profil reste frais, rond et agréable, avec une finale pétillante et gourmande qui reste longtemps en bouche. 😮‍💨🍇\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil fruité très expressif\n☁️ Fumée douce et parfumée\n🔥 Belle gourmandise en bouche\n🥤 Identité originale et moderne\n\n🏆 Le verdict :\nUne variété parfaite pour ceux qui aiment les profils fruités, candy et rafraîchissants. Grappe Soda combine douceur, fraîcheur et vraie personnalité dans une sélection gourmande et efficace. 🍇🥤🔥",                   
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: '🍨🌿 GELATO  🌿🍨',
+                    flag: '🇺🇸',
+                    name: '🍨🌿 GELATO 🌿🍨',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGO.png', 
+                    video: 'VideoGO.mp4',
+                    description: '💎🔥 Une des variétés les plus célèbres de la famille Gelato, réputée pour son équilibre entre puissance, saveurs gourmandes et effets agréables. 🔥💎\n\n ✨ Origines\n Gelato #33 est issue du croisement entre la variété Sunset Sherbet et Thin Mint GSC (Girl Scout Cookies). Cette génétique lui a permis de devenir une référence mondiale dans l’univers du cannabis.  \n\n 🌈 Aspect\n • Têtes denses et compactes 🟣🟢\n • Couleurs vert foncé à violettes ✨\n • Couvertes d’une épaisse couche de résine givrée ❄️\n • Pistils orange vif 🧡  \n\n 👃 Arômes & Saveurs\n 🍦 Crémeux et gourmand\n 🍓 Notes de fruits rouges et d’agrumes\n 🍪 Fond biscuité et légèrement mentholé\n 🍋 Touches sucrées et citronnées  \n\n ⚡ Effets recherchés\n 😄 Euphorie et bonne humeur\n 🧠 Sensation de bien-être mental\n 🎨 Créativité et sociabilité\n 😌 Relaxation corporelle sans forcément être assommante\n 🌙 À dose plus élevée, elle peut devenir très relaxante et favoriser le repos  \n\n 🎯 Profil général\n • Hybride équilibrée (légère dominance indica selon les phénotypes)\n • THC souvent situé entre 20 % et 29 % 🔥\n • Adaptée aussi bien pour se détendre que pour profiter d’une activité calme ou entre amis.  \n\n ⭐ En résumé\n Gelato #33 est souvent appréciée pour son mélange de détente physique et d’euphorie mentale. Elle procure généralement un effet heureux, relaxant et agréable, accompagné d’un profil aromatique crémeux et sucré qui a fait sa réputation. 🍨✨',                    
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
         {
           id: "Milk runtz",
           flag: "🇺🇸",
@@ -1181,42 +443,6 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         },
-       /*  {
-          id: "🍰⛽ Cali Gascake ⛽🍰",
-          flag: "🇺🇸",
-          name: "🍰⛽ Cali Gascake ⛽🍰",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductCG.png",
-          video: "VideoCG.mp4",
-          description:
-            "💎 Une variété très appréciée des amateurs de profils gassy/cake, mélangeant des notes de carburant, de vanille crémeuse et de pâtisserie sucrée. Les génétiques les plus souvent associées à Gas Cake proviennent du croisement High Octane × Jungle Cake, ce qui lui donne un profil puissant et très résineux.  \n\n ✨ Effets généralement recherchés :\n 😌 Relaxation profonde du corps\n 😊 Sensation de bien-être et d’euphorie\n 🧠 Esprit détendu sans être complètement assommé au départ\n 🍕 Ouverture de l’appétit\n 😴 Peut devenir très relaxante en fin de session  \n\n 👃 Profil aromatique :\n ⛽ Diesel / essence prononcé\n 🍰 Vanille crémeuse\n 🍬 Notes pâtissières et sucrées\n 🌿 Fond terreux et légèrement épicé  \n\n 🔥 Pour les connaisseurs :\n La Cali Gascake est souvent recherchée pour son équilibre entre la gourmandise des variétés « Cake » et la puissance terpènique des lignées « Gas ». Elle offre généralement une fumée riche, grasse et très parfumée, avec une détente marquée qui plaît aux amateurs de fleurs ou de hash haut de gamme.",
-          tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
-          ],
-        }, */
-        /* {
-          id: "Frosted cherry Cookie",
-          flag: "🇺🇸",
-          name: "Frosted cherry Cookie 🍪",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductFCC.png",
-          video: "VideoFCC.mp4",
-          description:
-            "🍪🍒 FROSTED CHERRY COOKIE — CALI PREMIUM 🍒🍪\n\nUne sélection au profil dessert, fruité et crémeux, pensée pour les amateurs de saveurs sucrées et modernes. Frosted Cherry Cookie mélange la gourmandise du biscuit avec une touche de cerise sucrée et une finition douce très agréable. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍒 Cerise sucrée\n🍪 Biscuit gourmand\n🍦 Crème vanillée\n🍬 Notes candy légères\n🌿 Fond doux et propre\n\n👅 Goût :\nEn bouche, Frosted Cherry Cookie développe une attaque fruitée et sucrée, suivie de notes biscuitées et crémeuses. Le profil est rond, gourmand et bien équilibré, avec une finale douce qui rappelle un dessert à la cerise. 😮‍💨🍒\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Arômes fruités et gourmands\n☁️ Fumée douce et parfumée\n🔥 Profil dessert bien marqué\n🍪 Identité sucrée et moderne\n\n🏆 Le verdict :\nUne variété gourmande et pleine de douceur, idéale pour les amateurs de profils dessert, cherry et cookie. Frosted Cherry Cookie combine fruit, crème et biscuit dans une sélection très plaisante. 🍪🍒🔥",
-          tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
-          ],
-        }, */
         {
           id: "Trade",
           flag: "🇺🇸",
@@ -1235,24 +461,6 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         },
-        /* {
-          id: "Lemon chery gelonade",
-          flag: "🇺🇸",
-          name: "Lemon Cherry Gelonade 🍨",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductLCG.png",
-          video: "VideoLCG.mp4",
-          description:
-            "🍋🍒🍨 LEMON CHERRY GELONADE — CALI PREMIUM 🍨🍒🍋\n\nUne sélection fruitée, fraîche et gourmande qui mélange des notes citronnées, cerise sucrée et crème glacée. Lemon Cherry Gelonade offre un profil moderne, coloré et très aromatique, parfait pour les amateurs de saveurs fruitées. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍒 Cerise sucrée\n🍨 Crème glacée douce\n🍬 Notes candy fruitées\n🌸 Petite touche florale\n\n👅 Goût :\nEn bouche, Lemon Cherry Gelonade démarre sur une fraîcheur citronnée, rapidement équilibrée par la douceur de la cerise et une rondeur crémeuse. Le profil est fruité, sucré et très agréable, avec une finale fraîche et gourmande. 😮‍💨🍋🍒\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Arômes fruités bien marqués\n☁️ Fumée douce et parfumée\n🔥 Profil candy frais\n🍨 Rondeur crémeuse en finition\n\n🏆 Le verdict :\nUne variété fraîche, fruitée et gourmande, idéale pour ceux qui aiment les profils lemon, cherry et candy. Lemon Cherry Gelonade combine peps, douceur et vraie identité Cali. 🍋🍒🍨🔥",
-          tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
-          ],
-        }, */
         {
           id: "Blueberry 🌀",
           flag: "🇺🇸",
@@ -1271,785 +479,8 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         },
-       /*  {
-          id: "PermanentMarker 🖍️",
-          flag: "🇺🇸",
-          name: "PermanentMarker 🖍️",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductPermm.jpg",
-          video: "VideoPermm.mp4",
-          description:
-            "🖍️⛽ PERMANENT MARKER ⛽🖍️\n\n Une génétique américaine devenue incontournable grâce à son profil aromatique extrêmement reconnaissable. Permanent Marker combine des notes chimiques et gazeuses avec une douceur crémeuse et légèrement fruitée, pour une variété moderne pleine de caractère. 🇺🇸🔥\n\n 👃 Profil aromatique :\n ⛽ Gaz et carburant puissant\n 🖍️ Notes chimiques rappelant le marqueur\n 🍬 Bonbon sucré et légèrement fruité\n 🍦 Fond crémeux et vanillé\n 🌿 Petite touche terreuse en finition\n\n 👅 Goût :\n Dès les premières bouffées, le côté gassy et chimique prend rapidement toute la place. Il est ensuite adouci par des notes crémeuses, sucrées et légèrement fruitées. La finale reste longtemps en bouche avec une signature intense et facilement identifiable. 😮‍💨🖍️\n\n ✨ Effets généralement recherchés :\n 🚀 Montée rapide et marquée\n 😄 Euphorie mentale\n 🧠 Esprit progressivement apaisé\n 💆 Relaxation corporelle profonde\n 🛋️ Sensation lourde et confortable en fin de session\n\n 🏆 Le verdict :\n Une variété puissante et originale destinée aux amateurs de profils gas, chimiques et crémeux. Permanent Marker ne passe jamais inaperçue et reste une véritable référence parmi les génétiques US modernes. 🖍️⛽🔥💎",
-          tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
-          ],
-        }, */
-       /*  {
-          id: "OBAMA RUNTZ 🇺🇸⚡️",
-          flag: "🇺🇸",
-          name: "OBAMA RUNTZ 🇺🇸⚡️",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductOR.jpg",
-          video: "VideoOR.mp4",
-          description:
-            "🇺🇸⚡ OBAMA RUNTZ ⚡🇺🇸\n\n Une sélection au profil moderne qui mélange parfaitement la gourmandise sucrée de la famille Runtz avec des notes plus profondes, crémeuses et gazeuses. Obama Runtz dévoile une identité riche et équilibrée, pensée pour les amateurs de grosses génétiques américaines. 🔥💎\n\n 👃 Profil aromatique :\n 🍬 Bonbon fruité et sucré\n 🍓 Fruits rouges et baies mûres\n 🍦 Crème vanillée\n 🌿 Notes terreuses et légèrement boisées\n ⛽ Fond gazeux typiquement US\n\n 👅 Goût :\n En bouche, l’attaque est dominée par des saveurs candy et fruitées, accompagnées d’une belle rondeur crémeuse. Une touche plus terreuse et gazeuse apparaît progressivement, offrant une finale profonde et persistante. 😮‍💨🍬\n\n ✨ Effets généralement recherchés :\n 😄 Euphorie et bonne humeur\n 🧠 Sensation mentale légère et agréable\n 🎵 Moment convivial et détendu\n 💆 Relaxation corporelle progressive\n 🌙 Effet plus posé au fil de la session\n\n 🏆 Le verdict :\n Une Runtz gourmande, fruitée et gassy qui équilibre parfaitement douceur et caractère. Obama Runtz s’adresse aux amateurs de profils candy modernes avec une finition plus lourde et profonde. 🇺🇸⚡🍬🔥",
-          tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
-          ],
-        }, */
-       /*  {
-          id: "🥣🥛 CEREAL MILK 🥛🥣",
-          flag: "🇺🇸",
-          name: "🥣🥛 CEREAL MILK 🥛🥣",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductGSM.jpg",
-          video: "VideoGSM.mp4",
-          description:
-            "🔥 Une variété devenue incontournable grâce à son profil terpénique unique, à mi-chemin entre les céréales sucrées, le lait crémeux et une puissance moderne parfaitement maîtrisée. Très appréciée des amateurs de génétiques américaines pour son équilibre entre saveur et effet. 🔥\n ✨ Ce qu’elle apporte\n\n 😄 Euphorie propre et immédiate\n 🧠 Esprit léger et positif\n 🎯 Bonne clarté mentale\n 😌 Relaxation progressive sans lourdeur excessive\n 💨 Effet équilibré qui peut accompagner aussi bien une discussion qu’un moment de détente\n\n 👃 Profil aromatique\n\n 🥣 Céréales sucrées\n 🥛 Lait crémeux\n 🍦 Notes vanillées et gourmandes\n 🍬 Fond sucré rappelant parfois les marshmallows\n 🍋 Légère touche fruitée et citronnée selon les phénotypes\n\n 💨 L’expérience\n\n Dès les premières bouffées, Cereal Milk se distingue par sa douceur et son côté gourmand. L’effet démarre souvent par une montée euphorique et agréable qui améliore l’humeur, avant d’évoluer vers une détente confortable sans écraser l’esprit. C’est cette combinaison entre puissance, saveurs et équilibre qui lui a valu sa réputation.\n ⭐ Pourquoi les connaisseurs l’apprécient ?\n\n 🥛 Terpènes ultra gourmands et reconnaissables\n ❄️ Production de résine souvent impressionnante\n 🧠 Effet à la fois lucide et relaxant\n 🍦 Profil moderne très recherché dans les génétiques américaines\n 🔥 Une variété qui a marqué toute une génération de cultivars “dessert” et qui reste aujourd’hui une référence du haut de gamme. 💎✨",
-          tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
-          ],
-        }, */
-       /*  {
-          id: "GlueBerry 🧴",
-          flag: "🇺🇸",
-          name: "GlueBerry 🧴",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductGL.jpg",
-          video: "VideoGL.mp4",
-          description:
-            "🫐🧴 GLUEBERRY 🧴🫐\n\n Une génétique puissante qui combine un profil de fruits rouges et de baies avec le caractère collant, terreux et gazeux des variétés de la famille Glue. Une variété riche en arômes, résineuse et dotée d’une vraie personnalité. 🔥💎\n\n 👃 Profil aromatique :\n 🫐 Myrtille et fruits des bois\n 🍓 Fruits rouges sucrés\n ⛽ Notes de gaz et de diesel\n 🌿 Fond terreux et légèrement boisé\n 🍬 Petite douceur fruitée en finition\n\n 👅 Goût :\n L’attaque dévoile des saveurs de baies sucrées et de fruits mûrs. Progressivement, le côté Glue prend le dessus avec des notes terreuses, résineuses et gazeuses. La finale est longue, légèrement crémeuse et laisse un mélange de fruits noirs et de diesel sur le palais. 😮‍💨⛽\n\n ✨ Effets généralement recherchés :\n 🚀 Montée rapide et marquée\n 😄 Euphorie mentale\n 🧠 Esprit progressivement apaisé\n 💆 Relaxation corporelle profonde\n 🛋️ Idéale pour les moments de détente\n\n 🏆 Le verdict :\n Une variété complète qui équilibre parfaitement gourmandise fruitée et puissance gazeuse. GlueBerry s’adresse aux amateurs de profils complexes, résineux et riches en terpènes. 🫐⛽🧴🔥",
-          tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
-          ],
-        }, */
-       /*  {
-          id: "Cherry runtz 🍒",
-          flag: "🇺🇸",
-          name: "Cherry runtz 🍒",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductCHR.jpg",
-          images: ["ProductCHRR.jpg"],
-          video: "",
-          description:
-            "🍒🍬 CHERRY RUNTZ 🍬🍒\n\n Une variété ultra gourmande qui mélange parfaitement le caractère fruité de la cerise avec le célèbre profil sucré et crémeux de la famille Runtz. Dès l’ouverture, elle dévoile une identité moderne, intense et particulièrement agréable. 🔥💎\n\n 👃 Profil aromatique :\n 🍒 Cerise mûre et sucrée\n 🍬 Bonbon fruité\n 🍓 Fruits rouges\n 🍦 Fond crémeux et légèrement vanillé\n ⛽ Petite touche gazeuse en arrière-plan\n\n 👅 Goût :\n En bouche, l’attaque est dominée par une cerise sucrée et juteuse, rapidement accompagnée de notes de bonbons et de fruits rouges. La finale devient plus crémeuse, avec une légère touche gassy qui apporte du caractère et une belle longueur en bouche. 😮‍💨🍒\n\n ✨ Effets généralement recherchés :\n 😄 Euphorie et bonne humeur\n 🧠 Esprit détendu\n 🎨 Sensation créative et agréable\n 💆 Relaxation corporelle progressive\n 🌙 Peut devenir plus reposante en fin de session\n\n 🏆 Le verdict :\n Une Runtz fruitée, sucrée et pleine de caractère, idéale pour les amateurs de profils candy, cerise et crème. Une variété moderne aussi séduisante par ses arômes que par son équilibre. 🍒🍬🔥💎",
-          tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
-          ],
-        }, */
-        /*  {
-                    id: '🌴💣 SUPER BOMBE 💣🌴',
-                    flag: '🇺🇸',
-                    name: '🌴💣 SUPER BOMBE 💣🌴',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductS.jpg', 
-                    video: 'VideoSB.mp4',
-                    description: '✨ Cette génétique est appréciée pour son profil aromatique très expressif :\n 🍬 Notes sucrées et fruitées\n ⛽ Fond gazeux et légèrement diesel\n 🍋 Touches d’agrumes selon les phénotypes\n ❄️ Têtes très résineuses et visuellement attractives\n\n 💨 Effets généralement recherchés :\n 😁 Euphorie rapide\n 🚀 Sensation cérébrale puissante\n 😌 Relaxation progressive du corps\n 🎨 Peut favoriser la créativité et la bonne humeur\n\n 👃 Ce qui séduit les connaisseurs, c’est surtout son mélange entre douceur sucrée et caractère gassy, offrant une fumée riche en terpènes et une belle longueur en bouche.  \n\n 💎 Une variété moderne qui mise avant tout sur l’intensité aromatique, la résine et une expérience complète du premier nez jusqu’à la dernière bouffée. 🔥🌴💨',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },  */
-        /*  {
-                    id: '🍨🌿 GELATO #33 🌿🍨',
-                    flag: '🇺🇸',
-                    name: '🍨🌿 GELATO #33 🌿🍨',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductG.jpg', 
-                    video: 'VideoG.mp4',
-                    description: '💎🔥 Une des variétés les plus célèbres de la famille Gelato, réputée pour son équilibre entre puissance, saveurs gourmandes et effets agréables. 🔥💎\n\n ✨ Origines\n Gelato #33 est issue du croisement entre la variété Sunset Sherbet et Thin Mint GSC (Girl Scout Cookies). Cette génétique lui a permis de devenir une référence mondiale dans l’univers du cannabis.  \n\n 🌈 Aspect\n • Têtes denses et compactes 🟣🟢\n • Couleurs vert foncé à violettes ✨\n • Couvertes d’une épaisse couche de résine givrée ❄️\n • Pistils orange vif 🧡  \n\n 👃 Arômes & Saveurs\n 🍦 Crémeux et gourmand\n 🍓 Notes de fruits rouges et d’agrumes\n 🍪 Fond biscuité et légèrement mentholé\n 🍋 Touches sucrées et citronnées  \n\n ⚡ Effets recherchés\n 😄 Euphorie et bonne humeur\n 🧠 Sensation de bien-être mental\n 🎨 Créativité et sociabilité\n 😌 Relaxation corporelle sans forcément être assommante\n 🌙 À dose plus élevée, elle peut devenir très relaxante et favoriser le repos  \n\n 🎯 Profil général\n • Hybride équilibrée (légère dominance indica selon les phénotypes)\n • THC souvent situé entre 20 % et 29 % 🔥\n • Adaptée aussi bien pour se détendre que pour profiter d’une activité calme ou entre amis.  \n\n ⭐ En résumé\n Gelato #33 est souvent appréciée pour son mélange de détente physique et d’euphorie mentale. Elle procure généralement un effet heureux, relaxant et agréable, accompagné d’un profil aromatique crémeux et sucré qui a fait sa réputation. 🍨✨',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },  */
-        /* {
-                    id: 'Pech sherbet 🍨',
-                    flag: '🇺🇸',
-                    name: 'Pech sherbet 🍨',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductPS.jpg', 
-                    images:['ProductPSS.jpg'],
-                    video: '',
-                    description: '🍑🍨 PEACH SHERBET 🍨🍑\n\n Une variété ultra gourmande inspirée des meilleurs profils dessert californiens. Peach Sherbet associe la douceur d’une pêche bien mûre à des notes crémeuses et légèrement acidulées, pour une expérience aromatique riche et rafraîchissante. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍑 Pêche mûre et juteuse\n 🍨 Sorbet fruité\n 🍦 Crème douce et vanillée\n 🍬 Bonbon légèrement acidulé\n 🍋 Petite touche d’agrumes frais\n\n 👅 Goût :\n Dès les premières bouffées, une saveur de pêche sucrée envahit le palais. Elle laisse ensuite apparaître une crème façon glace ou sorbet, accompagnée d’une légère fraîcheur citronnée. La fumée est douce, gourmande et laisse une belle saveur fruitée en bouche. 😮‍💨🍑\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur\n 🌈 Sensation euphorique agréable\n 🧠 Esprit léger et détendu\n 💆 Relaxation physique progressive\n 🎶 Parfaite pour un moment calme et convivial\n\n 🏆 Le verdict :\n Une variété dessert fruitée, crémeuse et pleine de fraîcheur. Peach Sherbet conviendra parfaitement aux amateurs de saveurs sucrées qui recherchent un profil gourmand sans manquer de caractère. 🍑🍨✨🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'ROCKET 🚀🔥',
-                    flag: '🇺🇸',
-                    name: 'ROCKET 🚀🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductROCK.jpg', 
-                    images:['ProductROCKK.jpg'],
-                    video: '',
-                    description: 'Une strain qui porte parfaitement son nom. Rocket envoie une vraie montée puissante avec un profil moderne ultra terpy, mélangeant gaz, fruits sucrés et notes crémeuses pour une fumée lourde et premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça explose avec une odeur gazeuse bien forte ⛽️ accompagnée de touches fruitées et sucrées. On retrouve aussi un fond creamy/kush qui donne beaucoup de profondeur au profil.\n\n 👅 Goût :\n En bouche, c’est intense : mélange de candy fruité 🍬, gaz lourd et légère touche tropicale qui reste longtemps après la taffe. La fumée est épaisse, propre et ultra savoureuse.\n\n 💨 Effet :\n Montée rapide et puissante 🚀 avec un gros effet euphorique au début avant une détente physique bien lourde. Une vraie frappe pour les amateurs de strains qui tapent fort.\n\n 🌿 Buds bien résineux, full terpènes et qualité premium.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, */
       ],
     },
-
-    /* {
-                    id: '💜🫐 BLURPLE 🇺🇸🔥',
-                    flag: '🇺🇸',
-                    name: '💜🫐 BLURPLE 🇺🇸🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductBLU.jpg', 
-                    video: '',
-                    description: '(Blue Dream × Mendocino Purps)\n 💎 Type : Hybride équilibrée 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🫐 Myrtille fraîche\n 🍇 Raisin sucré\n 🍓 Fruits rouges\n 🌸 Notes florales\n 🌲 Léger côté boisé et terreux\n 🍬 Une odeur gourmande qui rappelle les bonbons aux fruits.\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🫐 Fruitées\n 🍇 Sucrées\n 🍬 Douces\n 🌸 Florales\n 🌿 Avec une légère touche terreuse en fin de bouche.\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n 😁 Sourires faciles\n 🌞 Sensation de bien-être\n 🧠 Esprit détendu\n 🎨 Créativité\n 🎶 Musique encore plus immersive\n 🎮 Moment chill\n 🎬 Films & séries encore plus agréables\n 💆 Relaxation progressive\n 😴 À forte dose, elle peut favoriser l’endormissement.\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 💜 Profil aromatique fruité et gourmand\n ❄️ Très résineuse\n 🌿 Effet souvent décrit comme équilibré\n 😊 Sensation de détente sans être immédiatement assommante chez de nombreuses personnes\n 🎉 Adaptée à une soirée détente ou à un moment convivial entre amis.\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 💎 Résine : ⭐⭐⭐⭐⭐\n\n 💜🫐 “Une variété appréciée pour ses arômes gourmands de baies, son équilibre entre détente et bonne humeur, et son caractère idéal pour un moment chill.” 🇺🇸🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                },
-                {
-                    id: '🧼🍭 ZOAP 🇺🇸🔥',
-                    flag: '🇺🇸',
-                    name: '🧼🍭 ZOAP 🇺🇸🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductZP.jpg', 
-                    video: '',
-                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🍬 Bonbons fruités\n 🍊 Agrumes sucrés\n 🌸 Notes florales\n 🧼 Légère touche “savonneuse” qui lui donne son identité\n 🍓 Fruits rouges\n 🌿 Fond crémeux et légèrement terreux\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🍭 Sucrées\n 🍬 Gourmandes\n 🍊 Agrumes\n 🫐 Fruits mûrs\n 🌸 Florales\n 🧁 Finale douce et crémeuse\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n ✨ Sensation d’euphorie\n 🧠 Esprit clair et inspiré\n 🎨 Créativité\n 💬 Envie de discuter et de partager\n 🎶 Musique encore plus immersive\n 🎮 Moment chill\n 😌 Relaxation progressive\n 🌙 En fin d’effet, sensation de détente plus marquée chez certaines personnes\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 🍭 Saveur unique et gourmande\n 🧼 Profil aromatique original, souvent décrit comme « soapy »\n 🌿 Effet souvent décrit comme équilibré entre énergie légère et détente\n 😊 Convient aussi bien pour un moment entre amis que pour une soirée tranquille\n 💎 Variété très appréciée pour son profil terpénique\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 💎 Originalité : ⭐⭐⭐⭐⭐\n\n 🧼🍭 “Une variété devenue incontournable en Californie, réputée pour son parfum unique mêlant douceur, fruits et notes florales, avec un effet souvent décrit comme équilibré et agréable.” 🇺🇸🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                },
-                {
-                    id: '🍒🔴 RED POP 🇺🇸🔥',
-                    flag: '🇺🇸',
-                    name: '🍒🔴 RED POP 🇺🇸🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductRDP.jpg', 
-                    video: '',
-                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🍒 Cerise mûre\n 🍓 Fruits rouges\n 🍬 Bonbons sucrés\n 🍇 Baies gourmandes\n 🌸 Légères notes florales\n 🌿 Fond crémeux et légèrement terreux\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🍒 Cerise sucrée\n 🍓 Fruits rouges\n 🍭 Bonbon fruité\n 🍇 Baies\n 🍬 Finale douce et gourmande\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n ✨ Euphorie légère\n 🧠 Esprit détendu\n 🎨 Créativité\n 💬 Moments conviviaux\n 🎶 Musique encore plus immersive\n 🎬 Films & séries plus agréables\n 💆 Relaxation progressive\n 🌙 À dose plus élevée, sensation de détente plus profonde chez certaines personnes\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 🍒 Profil aromatique gourmand rappelant les bonbons à la cerise\n 🍭 Saveurs sucrées et fruitées\n 😊 Effet souvent décrit comme équilibré entre bonne humeur et relaxation\n 🌿 Très appréciée pour son goût intense\n 💎 Variété recherchée par les amateurs de profils fruités\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 🍒 Gourmandise : ⭐⭐⭐⭐⭐\n\n 🍒🔴 “Une variété qui séduit par ses notes intenses de cerise et de fruits rouges, associées à un effet souvent décrit comme joyeux, relaxant et idéal pour un moment de détente.” 🇺🇸🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                },
-                {
-                    id: '🍩❄️ FROSTED DONUTS 🇺🇸🔥',
-                    flag: '🇺🇸',
-                    name: '🍩❄️ FROSTED DONUTS 🇺🇸🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductFD.jpg', 
-                    video: '',
-                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🍩 Pâtisserie sucrée\n 🍦 Vanille crémeuse\n 🍪 Biscuit fraîchement sorti du four\n 🍬 Bonbons gourmands\n 🌸 Légères notes florales\n 🌿 Fond légèrement terreux et gazeux\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🍩 Donut glacé\n 🍦 Vanille\n 🍪 Biscuit beurré\n 🍬 Sucrée et gourmande\n 🥛 Finale crémeuse\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n ✨ Euphorie progressive\n 🧠 Esprit calme\n 💆 Détente physique agréable\n 🎮 Moment chill\n 🎶 Musique encore plus immersive\n 🎬 Films & séries plus captivants\n 😌 Sensation de relaxation durable\n 🌙 À dose plus élevée, elle peut favoriser une profonde détente et le repos.\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 🍩 Saveur dessert très gourmande\n 🍦 Profil crémeux et sucré\n ❄️ Fleurs généralement très résineuses\n 😊 Effet souvent décrit comme relaxant tout en conservant une sensation de bien-être\n 🌿 Idéale pour une soirée détente\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 🍩 Gourmandise : ⭐⭐⭐⭐⭐\n\n 🍩❄️ “Une variété appréciée pour son profil dessert ultra gourmand, ses notes de vanille et de pâtisserie, ainsi que sa relaxation progressive idéale pour un moment cocooning.” 🇺🇸🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                },
-                {
-                    id: '🔫⚡ LASER GUN 🇺🇸🔥',
-                    flag: '🇺🇸',
-                    name: '🔫⚡ LASER GUN 🇺🇸🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductLG.jpg', 
-                    video: '',
-                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n ⛽ Diesel\n 🍋 Agrumes\n 🌲 Pin frais\n 🍬 Légère touche sucrée\n 🌿 Notes terreuses\n 🧄 Nuances épicées et légèrement « funky »\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n ⛽ Gazeuse\n 🍋 Citronnée\n 🌲 Boisée\n 🌿 Terreuse\n 🍬 Douce en fin de bouche\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n ⚡ Montée rapide\n 😄 Bonne humeur\n 🧠 Esprit clair\n 🎨 Créativité\n 💬 Envie de discuter\n 🎶 Musique encore plus immersive\n 🎮 Moments chill\n 💆 Relaxation progressive du corps\n 🌙 À dose plus élevée, sensation de détente plus profonde chez certaines personnes\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n ⛽ Profil “gas” très apprécié\n 🍋 Notes d’agrumes rafraîchissantes\n 🌿 Effet souvent décrit comme équilibré entre stimulation mentale et relaxation\n 😊 Convient aussi bien à un moment convivial qu’à une soirée détente\n 💎 Variété appréciée des amateurs de génétiques modernes\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐☆\n 😊 Bien-être : ⭐⭐⭐⭐☆\n ⛽ Intensité : ⭐⭐⭐⭐⭐\n\n 🔫⚡ “Une variété moderne réputée pour son profil gazeux relevé d’agrumes et de pin, avec un effet souvent décrit comme énergisant au départ puis progressivement relaxant.” 🇺🇸🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                },
-                {
-                    id: '🍬🌌 MEGA Z DARK 🇺🇸🔥',
-                    flag: '🇺🇸',
-                    name: '🍬🌌 MEGA Z DARK 🇺🇸🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductMZD.jpg', 
-                    video: '',
-                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🍭 Bonbons sucrés\n 🍇 Raisin\n 🫐 Baies sauvages\n 🍬 Fruits confits\n 🌸 Légères notes florales\n ⛽ Subtiles touches gazeuses en fond\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🍬 Très sucrée\n 🍇 Raisin mûr\n 🫐 Fruits des bois\n 🍭 Bonbon fruité\n 🌿 Finale crémeuse avec une légère touche gazeuse\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n ✨ Euphorie progressive\n 🧠 Esprit détendu\n 🎨 Créativité\n 💬 Moments conviviaux\n 🎶 Musique encore plus immersive\n 🎮 Session chill\n 💆 Relaxation corporelle agréable\n 🌙 À dose plus élevée, sensation de détente plus profonde chez certaines personnes\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 🍬 Profil aromatique ultra gourmand\n 🍇 Saveurs riches en fruits et bonbons\n 🌿 Effet souvent décrit comme équilibré entre euphorie et relaxation\n 😊 Idéale pour une soirée détente ou un moment entre amis\n 💎 Variété appréciée pour son profil terpénique moderne\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 🍭 Gourmandise : ⭐⭐⭐⭐⭐\n\n 🍬🌌 “Une variété moderne réputée pour son profil très sucré, ses notes de fruits rouges et de bonbons, ainsi que son effet souvent décrit comme joyeux, relaxant et parfait pour une session chill.” 🇺🇸🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                }, */
-    /* {
-                    id: 'Pech sherbet 🍨',
-                    flag: '🇺🇸',
-                    name: 'Pech sherbet 🍨',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductPS.jpg', 
-                    images:['ProductPSS.jpg'],
-                    video: '',
-                    description: '',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'GlueBerry 🧴',
-                    flag: '🇺🇸',
-                    name: 'GlueBerry 🧴',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'productGL.jpg', 
-                    images:['ProductGLL.jpg'],
-                    video: '',
-                    description: '',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'ROCKET 🚀🔥',
-                    flag: '🇺🇸',
-                    name: 'ROCKET 🚀🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductROCK.jpg', 
-                    images:['ProductROCKK.jpg'],
-                    video: '',
-                    description: 'Une strain qui porte parfaitement son nom. Rocket envoie une vraie montée puissante avec un profil moderne ultra terpy, mélangeant gaz, fruits sucrés et notes crémeuses pour une fumée lourde et premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça explose avec une odeur gazeuse bien forte ⛽️ accompagnée de touches fruitées et sucrées. On retrouve aussi un fond creamy/kush qui donne beaucoup de profondeur au profil.\n\n 👅 Goût :\n En bouche, c’est intense : mélange de candy fruité 🍬, gaz lourd et légère touche tropicale qui reste longtemps après la taffe. La fumée est épaisse, propre et ultra savoureuse.\n\n 💨 Effet :\n Montée rapide et puissante 🚀 avec un gros effet euphorique au début avant une détente physique bien lourde. Une vraie frappe pour les amateurs de strains qui tapent fort.\n\n 🌿 Buds bien résineux, full terpènes et qualité premium.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },
-                {
-                    id: '⛽🔥 E85 ',
-                    flag: '🇺🇸',
-                    name: '⛽🔥 E85',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'Product85.jpg', 
-                    images:['Product855.jpg'],
-                    video: '',
-                    description: 'Une strain au caractère brutal, inspirée par les profils fuel/gas modernes. La E85 est connue pour son mélange intense entre douceur sucrée et puissance “diesel”, avec une vraie identité lourde et marquante.\n\n 👃 Aromatique :\n Dès l’ouverture, t’as un gros hit gazeux ⛽, avec des notes diesel bien présentes. Derrière, ça s’équilibre avec une touche sucrée et crémeuse 🍬, parfois légèrement fruitée, qui rappelle certaines génétiques type Gelato/Runtz.\n Un fond terreux et kushy vient renforcer le côté profond et “sale”.\n\n 👅 Goût :\n En bouche, c’est puissant et complexe :\n * Attaque : gazeuse et intense ⛽\n * Milieu : mélange sucré/crémeux qui adoucit le profil 🤤\n * Finale : une lourde note diesel qui reste longtemps en bouche\n Le rendu est lourd, épais et très persistant, parfait pour ceux qui aiment les profils gas bien marqués.\n\n 👀 Aspect :\n Buds denses, bien compactes, avec une grosse couche de trichomes ✨, souvent avec des nuances vert foncé et parfois violettes.\n\n 💥 Effets :\n Puissants et rapides : une montée cérébrale forte, suivie d’un effet relaxant lourd, typique des strains bien gas.\n\n 🔥 Une strain pour les amateurs de fuel pur, entre douceur moderne et puissance brute.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                }, */
-    /*  {
-                    id: '🍇💜 GRAPE SODA 💜🍇',
-                    flag: '🇺🇸',
-                    name: '🍇💜 GRAPE SODA 💜🍇',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductGrp.png', 
-                    video: 'VideoGrp.mp4',
-                    description: '🔥 Une variété qui ne cherche pas à en faire trop : elle mise sur un profil terpénique riche et une détente profonde. Très appréciée des connaisseurs pour son identité marquée autour du raisin et son effet relaxant qui s’installe progressivement. 🔥\n\n ✨ Ce qu’elle apporte\n 😌 Relaxation physique prononcée\n 🧠 Apaisement mental sans agitation\n 😊 Sensation de bien-être durable\n 🌙 Effet qui invite naturellement à ralentir le rythme\n 🍽️ Peut ouvrir l’appétit en fin de session\n\n 👃 Profil aromatique\n 🍇 Raisin mûr dominant\n 🍬 Notes de bonbon au raisin\n 🌲 Fond légèrement terreux et résineux\n 🍋 Pointe d’agrumes qui apporte de la fraîcheur\n\n 💨 L’expérience\n L’effet débute généralement par une sensation de confort mental et de bonne humeur avant de laisser place à une détente corporelle plus marquée. Une variété souvent recherchée pour les moments calmes, lorsque l’objectif est simplement de profiter de la session sans être bousculé.\n\n ⭐ Pourquoi les amateurs l’apprécient ?\n 💜 Terpènes très reconnaissables\n ❄️ Têtes souvent très résineuses\n 😌 Relaxation propre et agréable\n 🍇 Signature raisin difficile à confondre\n 🔥 Un classique pour ceux qui aiment les profils sucrés et profonds sans sacrifier la puissance.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, */
-    /*  {
-                    id: '🌴🔥 CALI MIAMI 🔥🌴',
-                    flag: '🇺🇸',
-                    name: '🌴🔥 CALI MIAMI 🔥🌴',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductCM.png', 
-                    video: 'VideoCM.mp4',
-                    description: '💎 Une variété inspirée de l’univers californien et de l’ambiance tropicale de Miami. Bien que son pedigree puisse varier selon les breeders, elle est généralement appréciée pour son profil aromatique gourmand et exotique. 💎\n\n ✨ Au nez :\n 🍊 Notes d’agrumes sucrés\n 🥭 Touches de fruits tropicaux (mangue, ananas)\n 🍬 Fond légèrement candy et crémeux\n ⛽ Une pointe gazeuse typique des génétiques modernes\n\n ✨ À la dégustation :\n 💨 Fumée douce et savoureuse\n 🍭 Saveurs fruitées persistantes\n 🌴 Mélange équilibré entre fraîcheur exotique et gourmandise\n\n ✨ Effets généralement recherchés :\n 😌 Sensation de bien-être et de détente\n 😊 Humeur positive et euphorique\n 🧠 Esprit léger et créatif\n 🛋️ Relaxation progressive sans être trop écrasante\n\n 👑 Une variété qui plaît particulièrement aux amateurs de profils fruités modernes, avec des terpènes expressifs et une fumée agréable du début à la fin. Un choix souvent apprécié par ceux qui recherchent un compromis entre puissance, saveur et confort de dégustation. 🔥🌴🍬💨',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, 
-                 {
-                    id: '🍰⛽ Cali Gascake ⛽🍰',
-                    flag: '🇺🇸',
-                    name: '🍰⛽ Cali Gascake ⛽🍰',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductCG.png', 
-                    video: 'VideoCG.mp4',
-                    description: '💎 Une variété très appréciée des amateurs de profils gassy/cake, mélangeant des notes de carburant, de vanille crémeuse et de pâtisserie sucrée. Les génétiques les plus souvent associées à Gas Cake proviennent du croisement High Octane × Jungle Cake, ce qui lui donne un profil puissant et très résineux.  \n\n ✨ Effets généralement recherchés :\n 😌 Relaxation profonde du corps\n 😊 Sensation de bien-être et d’euphorie\n 🧠 Esprit détendu sans être complètement assommé au départ\n 🍕 Ouverture de l’appétit\n 😴 Peut devenir très relaxante en fin de session  \n\n 👃 Profil aromatique :\n ⛽ Diesel / essence prononcé\n 🍰 Vanille crémeuse\n 🍬 Notes pâtissières et sucrées\n 🌿 Fond terreux et légèrement épicé  \n\n 🔥 Pour les connaisseurs :\n La Cali Gascake est souvent recherchée pour son équilibre entre la gourmandise des variétés « Cake » et la puissance terpènique des lignées « Gas ». Elle offre généralement une fumée riche, grasse et très parfumée, avec une détente marquée qui plaît aux amateurs de fleurs ou de hash haut de gamme.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },  */
-    /*   {
-                    id: '💜👑 JEALOUSY 👑💜',
-                    flag: '🇺🇸',
-                    name: '💜👑 JEALOUSY 👑💜',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductGJ.png', 
-                    video: 'VideoGJ.mp4',
-                    description: '🔥 Une variété qui s’est imposée parmi les références modernes grâce à son mélange de puissance, d’élégance et de complexité aromatique. Récompensée à plusieurs reprises, elle est devenue un incontournable pour les amateurs de génétiques haut de gamme. 🔥\n ✨ Ce qu’elle apporte\n\n 😄 Euphorie intense et agréable\n 🧠 Montée cérébrale stimulante\n 😌 Relaxation corporelle progressive\n 🎯 Sensation de bien-être durable\n 🌙 Effet puissant qui peut devenir très relaxant en fin de session\n\n 👃 Profil aromatique\n\n ⛽ Notes gazy et funky\n 🍬 Douceur sucrée caractéristique\n 🍋 Touches d’agrumes et de fruits mûrs\n 🌲 Fond terreux et légèrement épicé\n 💜 Un profil complexe qui évolue tout au long de la dégustation\n\n 💨 L’expérience\n ealousy offre généralement une montée rapide qui apporte bonne humeur, confiance et confort mental. Progressivement, le corps se détend sans forcément provoquer un effet “couch-lock” immédiat. Son équilibre entre intensité mentale et détente physique en fait une variété très appréciée aussi bien en journée qu’en soirée selon la tolérance de chacun.\n\n ⭐ Pourquoi les connaisseurs l’apprécient ?\n\n 👑 Génétique devenue une référence moderne\n ❄️ Têtes souvent très résineuses et colorées\n ⛽ Profil terpénique riche et sophistiqué\n 🔥 Puissance souvent au rendez-vous\n 💎 Une variété reconnue pour son équilibre entre saveur, caractère et effets, capable de satisfaire aussi bien les amateurs de profils sucrés que les passionnés de notes plus gazy et complexes. 💜✨',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, 
-                {
-                    id: '🥣🥛 CEREAL MILK 🥛🥣',
-                    flag: '🇺🇸',
-                    name: '🥣🥛 CEREAL MILK 🥛🥣',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductGSM.png', 
-                    video: 'VideoGSM.mp4',
-                    description: '🔥 Une variété devenue incontournable grâce à son profil terpénique unique, à mi-chemin entre les céréales sucrées, le lait crémeux et une puissance moderne parfaitement maîtrisée. Très appréciée des amateurs de génétiques américaines pour son équilibre entre saveur et effet. 🔥\n ✨ Ce qu’elle apporte\n\n 😄 Euphorie propre et immédiate\n 🧠 Esprit léger et positif\n 🎯 Bonne clarté mentale\n 😌 Relaxation progressive sans lourdeur excessive\n 💨 Effet équilibré qui peut accompagner aussi bien une discussion qu’un moment de détente\n\n 👃 Profil aromatique\n\n 🥣 Céréales sucrées\n 🥛 Lait crémeux\n 🍦 Notes vanillées et gourmandes\n 🍬 Fond sucré rappelant parfois les marshmallows\n 🍋 Légère touche fruitée et citronnée selon les phénotypes\n\n 💨 L’expérience\n\n Dès les premières bouffées, Cereal Milk se distingue par sa douceur et son côté gourmand. L’effet démarre souvent par une montée euphorique et agréable qui améliore l’humeur, avant d’évoluer vers une détente confortable sans écraser l’esprit. C’est cette combinaison entre puissance, saveurs et équilibre qui lui a valu sa réputation.\n ⭐ Pourquoi les connaisseurs l’apprécient ?\n\n 🥛 Terpènes ultra gourmands et reconnaissables\n ❄️ Production de résine souvent impressionnante\n 🧠 Effet à la fois lucide et relaxant\n 🍦 Profil moderne très recherché dans les génétiques américaines\n 🔥 Une variété qui a marqué toute une génération de cultivars “dessert” et qui reste aujourd’hui une référence du haut de gamme. 💎✨',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, 
-                {
-                    id: '🍇💜 GRAPE SODA 💜🍇',
-                    flag: '🇺🇸',
-                    name: '🍇💜 GRAPE SODA 💜🍇',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductGS.png', 
-                    video: 'VideoGS.mp4',
-                    description: '🔥 Une variété qui ne cherche pas à en faire trop : elle mise sur un profil terpénique riche et une détente profonde. Très appréciée des connaisseurs pour son identité marquée autour du raisin et son effet relaxant qui s’installe progressivement. 🔥\n ✨ Ce qu’elle apporte\n\n 😌 Relaxation physique prononcée\n 🧠 Apaisement mental sans agitation\n 😊 Sensation de bien-être durable\n 🌙 Effet qui invite naturellement à ralentir le rythme\n 🍽️ Peut ouvrir l’appétit en fin de session\n\n 👃 Profil aromatique\n\n 🍇 Raisin mûr dominant\n 🍬 Notes de bonbon au raisin\n 🌲 Fond légèrement terreux et résineux\n 🍋 Pointe d’agrumes qui apporte de la fraîcheur\n\n 💨 L’expérience\n L’effet débute généralement par une sensation de confort mental et de bonne humeur avant de laisser place à une détente corporelle plus marquée. Une variété souvent recherchée pour les moments calmes, lorsque l’objectif est simplement de profiter de la session sans être bousculé.\n\n ⭐ Pourquoi les amateurs l’apprécient ?\n\n 💜 Terpènes très reconnaissables\n ❄️ Têtes souvent très résineuses\n 😌 Relaxation propre et agréable\n 🍇 Signature raisin difficile à confondre\n 🔥 Un classique pour ceux qui aiment les profils sucrés et profonds sans sacrifier la puissance.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, 
-                {
-                    id: '🍨🌿 GELATO #33 🌿🍨',
-                    flag: '🇺🇸',
-                    name: '🍨🌿 GELATO #33 🌿🍨',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductG3.png', 
-                    video: 'VideoG3.mp4',
-                    description: '💎🔥 Une des variétés les plus célèbres de la famille Gelato, réputée pour son équilibre entre puissance, saveurs gourmandes et effets agréables. 🔥💎\n\n ✨ Origines\n Gelato #33 est issue du croisement entre la variété Sunset Sherbet et Thin Mint GSC (Girl Scout Cookies). Cette génétique lui a permis de devenir une référence mondiale dans l’univers du cannabis.  \n\n 🌈 Aspect\n\n • Têtes denses et compactes 🟣🟢\n • Couleurs vert foncé à violettes ✨\n • Couvertes d’une épaisse couche de résine givrée ❄️\n • Pistils orange vif 🧡  \n\n 👃 Arômes & Saveurs\n\n 🍦 Crémeux et gourmand\n 🍓 Notes de fruits rouges et d’agrumes\n 🍪 Fond biscuité et légèrement mentholé\n 🍋 Touches sucrées et citronnées  \n\n ⚡ Effets recherchés\n\n 😄 Euphorie et bonne humeur\n 🧠 Sensation de bien-être mental\n 🎨 Créativité et sociabilité\n 😌 Relaxation corporelle sans forcément être assommante\n 🌙 À dose plus élevée, elle peut devenir très relaxante et favoriser le repos  \n\n 🎯 Profil général\n\n • Hybride équilibrée (légère dominance indica selon les phénotypes)\n • THC souvent situé entre 20 % et 29 % 🔥\n • Adaptée aussi bien pour se détendre que pour profiter d’une activité calme ou entre amis.  \n\n ⭐ En résumé\n Gelato #33 est souvent appréciée pour son mélange de détente physique et d’euphorie mentale. Elle procure généralement un effet heureux, relaxant et agréable, accompagné d’un profil aromatique crémeux et sucré qui a fait sa réputation. 🍨✨',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },  */
-    /*  {
-                    id: 'Lemon cherry 🇺🇸 🍋🔥',
-                    flag: '🇺🇸',
-                    name: 'Lemon cherry 🇺🇸 🍋🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductLCR.png', 
-                    video: 'VideoLCR.mov',
-                    description: 'Une strain qui se démarque direct par son profil lourd et original.Lemon mélange parfaitement le côté sucré crémeux avec une petite touche gazeuse et épicée qui lui donne un vrai caractère premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça dégage une odeur puissante : notes fruitées sucrées, crème légère, avec un fond kush/gaz bien présent. Un profil complexe qui rappelle les grosses génétiques US modernes 🇺🇸\n\n 👅 Goût :\n En bouche, la Lemon est ultra savoureuse : mélange de fruits sucrés 🍬, cream douce et petite finition terreuse/gazeuse qui reste longtemps après la taffe. La fumée est épaisse, propre et très agréable.\n\n 💨 Effet :\n Bonne montée euphorique au début avant de laisser place à une détente lourde et relaxante. Une vraie strain pour les amateurs de goût et de grosse frappe 🔥\n\n 🌿 Têtes bien résineuses, terpènes puissants et qualité premium',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },  */
-    /*   {
-                    id: 'Larry bird 🍬⛽️🔥',
-                    flag: '🇺🇸',
-                    name: 'Larry bird 🍬⛽️🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductLB.png', 
-                    video: 'VideoLB.mov',
-                    description: 'Une vraie pépite pour les amateurs de grosses génétiques US. Larry bird  mélange parfaitement le côté candy ultra sucré des avec un fond gazeux et crémeux qui donne une fumée lourde et premium.\n\n 👃 Aromatique :\n Une explosion de bonbon fruité dès l’ouverture 🍭🍓 avec des notes tropicales, crémeuses et un léger fond diesel/kush qui apporte beaucoup de profondeur au profil. \n\n 👅 Goût :\n En bouche, c’est ultra gourmand : candy sucré, fruits exotiques, crème vanillée et petite touche gaz qui reste collée au palais. Une fumée dense, douce et pleine de terpènes.\n\n 💨 Effet :\n Montée rapide avec un gros mood euphorique 😮‍💨 puis une détente progressive bien lourde. La frappe est puissante mais le smoke reste super agréable.\n\n 🌿 Têtes compactes, ultra résineuses, full terpènes avec un vrai profil  premium 🇺🇸🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },  */
-    /*  {
-                    id: 'ROCKET 🚀🔥',
-                    flag: '🇺🇸',
-                    name: 'ROCKET 🚀🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductRC.png', 
-                    video: 'VideoRC.mov',
-                    description: 'Une strain qui porte parfaitement son nom. Rocket envoie une vraie montée puissante avec un profil moderne ultra terpy, mélangeant gaz, fruits sucrés et notes crémeuses pour une fumée lourde et premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça explose avec une odeur gazeuse bien forte ⛽️ accompagnée de touches fruitées et sucrées. On retrouve aussi un fond creamy/kush qui donne beaucoup de profondeur au profil.\n\n 👅 Goût :\n En bouche, c’est intense : mélange de candy fruité 🍬, gaz lourd et légère touche tropicale qui reste longtemps après la taffe. La fumée est épaisse, propre et ultra savoureuse.\n\n 💨 Effet :\n Montée rapide et puissante 🚀 avec un gros effet euphorique au début avant une détente physique bien lourde. Une vraie frappe pour les amateurs de strains qui tapent fort.\n\n 🌿 Buds bien résineux, full terpènes et qualité premium.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, */
-    /*  {
-                    id: 'SHARPEI 🐶🔥',
-                    flag: '🇺🇸',
-                    name: 'SHARPEI 🐶🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductSH.png', 
-                    video: 'VideoSH.mov',
-                    description: 'Une strain qui se démarque direct par son profil lourd et original. Sharpei mélange parfaitement le côté sucré crémeux avec une petite touche gazeuse et épicée qui lui donne un vrai caractère premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça dégage une odeur puissante : notes fruitées sucrées, crème légère, avec un fond kush/gaz bien présent. Un profil complexe qui rappelle les grosses génétiques US modernes 🇺🇸\n\n 👅 Goût :\n En bouche, la Sharpei est ultra savoureuse : mélange de fruits sucrés 🍬, cream douce et petite finition terreuse/gazeuse qui reste longtemps après la taffe. La fumée est épaisse, propre et très agréable.\n\n 💨 Effet :\n Bonne montée euphorique au début avant de laisser place à une détente lourde et relaxante. Une vraie strain pour les amateurs de goût et de grosse frappe 🔥\n\n 🌿 Têtes bien résineuses, terpènes puissants et qualité premium',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, */
-    /*     {
-                    id: 'ARCHIVE RUNTZ 🍬⛽️🔥',
-                    flag: '🇺🇸',
-                    name: 'ARCHIVE RUNTZ 🍬⛽️🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductAR.png', 
-                    video: 'VideoAR.mov',
-                    description: 'Une vraie pépite pour les amateurs de grosses génétiques US. Archive Runtz mélange parfaitement le côté candy ultra sucré des Runtz avec un fond gazeux et crémeux qui donne une fumée lourde et premium.\n\n 👃 Aromatique :\n Une explosion de bonbon fruité dès l’ouverture 🍭🍓 avec des notes tropicales, crémeuses et un léger fond diesel/kush qui apporte beaucoup de profondeur au profil.\n\n 👅 Goût :\n En bouche, c’est ultra gourmand : candy sucré, fruits exotiques, crème vanillée et petite touche gaz qui reste collée au palais. Une fumée dense, douce et pleine de terpènes.\n\n 💨 Effet :\n Montée rapide avec un gros mood euphorique 😮‍💨 puis une détente progressive bien lourde. La frappe est puissante mais le smoke reste super agréable.\n\n 🌿 Têtes compactes, ultra résineuses, full terpènes avec un vrai profil Runtz premium 🇺🇸🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, */
-    /*  {
-                    id: '⛽🔥 E85 ',
-                    flag: '🇺🇸',
-                    name: '⛽🔥 E85',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'Product85.png', 
-                    video: 'Video85.mov',
-                    description: 'Une strain au caractère brutal, inspirée par les profils fuel/gas modernes. La E85 est connue pour son mélange intense entre douceur sucrée et puissance “diesel”, avec une vraie identité lourde et marquante.\n\n 👃 Aromatique :\n Dès l’ouverture, t’as un gros hit gazeux ⛽, avec des notes diesel bien présentes. Derrière, ça s’équilibre avec une touche sucrée et crémeuse 🍬, parfois légèrement fruitée, qui rappelle certaines génétiques type Gelato/Runtz.\n Un fond terreux et kushy vient renforcer le côté profond et “sale”.\n\n 👅 Goût :\n En bouche, c’est puissant et complexe :\n * Attaque : gazeuse et intense ⛽\n * Milieu : mélange sucré/crémeux qui adoucit le profil 🤤\n * Finale : une lourde note diesel qui reste longtemps en bouche\n Le rendu est lourd, épais et très persistant, parfait pour ceux qui aiment les profils gas bien marqués.\n\n 👀 Aspect :\n Buds denses, bien compactes, avec une grosse couche de trichomes ✨, souvent avec des nuances vert foncé et parfois violettes.\n\n 💥 Effets :\n Puissants et rapides : une montée cérébrale forte, suivie d’un effet relaxant lourd, typique des strains bien gas.\n\n 🔥 Une strain pour les amateurs de fuel pur, entre douceur moderne et puissance brute.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /*   {
-                    id: '🫐🍓 SOUR BERRY BLUE 🇺🇸',
-                    flag: '🇺🇸',
-                    name: '🫐🍓 SOUR BERRY BLUE 🇺🇸',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductSBB.png', 
-                    video: 'VideoSBB.mp4',
-                    description: 'Une variété qui mélange parfaitement fraîcheur acidulée et gourmandise fruitée. La Sour Berry Blue se distingue par un profil aromatique vif, dominé par les fruits rouges et les notes “sour” bien marquées.\n\n 👃 Aromatique :\n Dès l’ouverture, t’as une explosion de baies sucrées 🫐🍓 (myrtille, fraise), accompagnées d’une acidité citronnée 🍋 qui donne ce côté “sour” bien présent.\n En fond, on retrouve une légère note terreuse et musquée, avec parfois une touche diesel qui apporte du caractère.\n\n 👅 Goût :\n En bouche, c’est ultra expressif :\n * Attaque : acidulée et fruitée, très fraîche 🤤\n * Milieu : dominance de myrtille + fruits rouges bien sucrés\n * Finale : une pointe sour/diesel qui reste en bouche et donne de la profondeur\n Le goût est équilibré entre sucré et acide, avec une belle longueur et une vraie intensité.\n\n 👀 Aspect :\n Buds compactes, bien résineuses, avec des nuances allant du vert au violet, souvent recouvertes de trichomes brillants ✨.\n\n 💥 Effets :\n Montée énergisante et euphorique, parfaite pour booster l’humeur, suivie d’un relâchement léger sans te clouer.\n\n 🔥 Une strain fraîche et punchy, idéale pour les amateurs de profils sour et fruités avec du caractère.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /* {
-                    id: '🌈🍬 RAINBOW BELTS 🇺🇸',
-                    flag: '🇺🇸',
-                    name: '🌈🍬 RAINBOW BELTS 🇺🇸',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductRBS.png', 
-                    video: 'VideoRBS.mp4',
-                    description: 'Une strain devenue incontournable dans les profils candy modernes. La Rainbow Belts est connue pour son mélange explosif de saveurs sucrées et acidulées, avec une vraie signature “bonbon fruité” ultra addictive.\n\n 👃 Aromatique :\n Dès l’ouverture, ça sent le bonbon acidulé 🍬🍋, avec un mix de fruits tropicaux, agrumes et une légère touche de fruits rouges.\n On retrouve aussi un fond crémeux et légèrement terreux, qui apporte de la profondeur et équilibre le côté sucré.\n\n 👅 Goût :\n En bouche, c’est une vraie explosion de saveurs :\n * Attaque : sucrée et acidulée, très candy 🤤\n * Milieu : notes de fruits tropicaux + agrumes bien marquées\n * Finale : une touche légèrement crémeuse et sucrée qui reste longtemps\n Le goût est intense, vif et persistant, avec un équilibre parfait entre sucre et acidité.\n\n 👀 Aspect :\n Buds compactes et bien résineuses, avec des teintes vertes parfois mélangées à des reflets violets, le tout recouvert d’une belle couche de trichomes brillants ✨.\n\n 💥 Effets :\n Effet équilibré : une montée euphorique et énergisante, suivie d’un relâchement progressif. Idéal pour chiller avec une bonne vibe.\n\n 🔥 Une strain ultra candy, moderne et addictive, parfaite pour les amateurs de profils fruités puissants.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /*   {
-                    id: '🍬🌈 RUNTZ BUTTONZ 🇺🇸',
-                    flag: '🇺🇸',
-                    name: '🍬🌈 RUNTZ BUTTONZ 🇺🇸',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductRBZ.png', 
-                    video: 'VideoRBZ.mov',
-                    description: 'Une déclinaison moderne de la famille Runtz, la Runtz Buttonz se distingue par un profil ultra gourmand et sucré, avec une vraie touche candy qui la rend immédiatement reconnaissable.\n\n 👃 Aromatique :\n Dès l’ouverture, ça tape sur des notes sucrées et fruitées 🍓🍬, très bonbon, avec un mélange de fruits rouges, de fruits tropicaux et une légère touche acidulée.\n On retrouve aussi un fond crémeux et légèrement gazeux/diesel, typique des génétiques Runtz, qui apporte de la profondeur et évite le côté trop sucré.\n\n 👅 Goût :\n En bouche, c’est une vraie explosion :\n v* Attaque : sucrée, candy, très fruitée 🤤\n * Milieu : mélange fruits rouges + tropical avec une texture douce et crémeuse\n * Finale : une légère note gazeuse et sucrée qui reste bien en bouche\n e goût est intense, propre et très persistant, parfait pour les amateurs de strains modernes à forte identité.\n\n 👀 Aspect :\n Des buds bien compactes, résineuses, avec des couleurs allant du vert clair au violet, recouvertes de trichomes brillants ✨. Un visuel très attractif, typique des variétés premium.\n\n 💥 Effets :\n Équilibrés et efficaces : une montée euphorique et stimulante suivie d’un relâchement progressif du corps. Idéal pour chiller tout en restant actif.\n 🔥 Une Runtz revisitée, ultra candy et moderne, qui combine goût, puissance et bag appeal.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /*    {
-                    id: '🌿 BX1 x LCG',
-                    flag: '🇺🇸',
-                    name: '🌿 BX1 x LCG',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductBXL.png', 
-                    video: 'VideoBXL.mov',
-                    description: '— Croisement d’exception\n Une génétique ultra travaillée qui mélange la stabilité du BX1 🔁 avec la puissance aromatique de la Lemon Cherry Gelato 🍋🍒. Résultat : une weed premium, propre, dense, faite pour les vrais connaisseurs.\n\n 👃 Arômes & saveurs :\n À l’ouverture, ça frappe direct — citrons frais 🍋, cerise sucrée 🍒, avec une touche crémeuse 🍦 et un fond gazeux/kush ⛽ bien présent. En bouche, c’est smooth, riche, avec une finale légèrement candy 🍬 qui reste longtemps.\n\n 👁️ Aspect :\n Buds bien compacts et résineux 💎, avec des teintes violettes foncées 💜, vert profond 🌲 et une couche de trichomes brillants ✨. Ultra collant — qualité visible direct.\n\n 💨 Effets :\n Montée rapide ⚡ avec un effet euphorique et créatif 🧠🔥, puis une descente progressive vers un côté chill et relax 😌 sans te clouer direct. Parfait équilibre entre mental et physique.\n\n ⚖️ Profil :\n Hybride équilibré ⚖️ (léger indica)\n Puissance élevée 💪 — réservé aux habitués\n\n 🏆 Verdict :\n Un croisement qui coche toutes les cases : goût, puissance, visuel 🔥. La signature LCG est bien là, boostée par un BX1 solide. Une vraie frappe premium 🚀',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /*  {
-                    id: '🍬 White Sugar Runtz',
-                    flag: '🇺🇸',
-                    name: '🍬 White Sugar Runtz',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductWSR.png', 
-                    video: 'VideoWSR.mov',
-                    description: '— La douceur qui frappe fort\n Une version ultra gourmande de la famille Runtz, avec un profil sucré poussé à l’extrême 🍭 et une puissance bien maîtrisée. Une strain qui allie plaisir gustatif et effet solide.\n\n 👃 Arômes & saveurs :\n Dès l’ouverture, c’est une vague de sucre blanc 🍬, bonbons fruités 🍓🍇 et une touche crémeuse/vanillée 🍦. En bouche, c’est doux, rond, presque dessert, avec un léger fond gazeux ⛽ qui équilibre parfaitement.\n\n 👁️ Aspect :\n Têtes bien givrées ❄️, couvertes de trichomes blancs ✨ (d’où le “White Sugar”), avec des nuances vert clair 🌿 et parfois des reflets violets 💜. Dense, collant, visuellement très propre.\n\n 💨 Effets :\n High rapide ⚡ avec une montée euphorique 😄, suivie d’un effet relaxant 😌 qui détend sans éteindre. Parfait pour chiller tout en restant actif.\n\n ⚖️ Profil :\n Hybride équilibré ⚖️\n Puissance moyenne à élevée 💪\n\n 🏆 Verdict :\n Une Runtz version ultra sucrée et raffinée 🍬🔥, idéale pour ceux qui cherchent un goût dessert sans négliger les effets. Un vrai bonbon premium.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /*  {
-                    id: '🔁 BX1',
-                    flag: '🇺🇸',
-                    name: '🔁 BX1',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductBX.png', 
-                    video: 'VideoBX.mov',
-                    description: '— La base solide, version backcross\n\n BX1 (Backcross 1) c’est pas juste une strain, c’est une génétique retravaillée 🔬 pour revenir au meilleur phéno d’origine et le renforcer. Résultat : une weed stable, puissante et ultra propre.\n\n 👃 Arômes & saveurs :\n Profil bien marqué avec un mélange de terre kush 🌲, notes gazeuses ⛽, et une légère touche épicée/boisée 🌿. Selon le cut, tu peux aussi sentir un fond crémeux ou sucré 🍦 qui arrondit le tout. Goût profond, authentique, pas de chichi.\n\n 👁️ Aspect :\n Buds denses et compacts 💎, souvent bien verts avec parfois des reflets plus foncés 🌑. Couche de résine brillante ✨, texture collante — ça annonce direct la qualité.\n\n 💨 Effets :\n High solide 💥, plutôt physique et relaxant 😌, avec une montée qui peut être un peu lourde derrière les yeux 👀. Ça détend bien le corps tout en gardant un minimum de clarté mentale.\n\n ⚖️ Profil :\n Dominance indica 🌙\n Puissance élevée 💪\n\n 🏆 Verdict :\n Une génétique fiable et travaillée 🔁🔥, parfaite pour ceux qui cherchent un effet authentique, puissant et une vraie base kush. BX1, c’est le sérieux, sans compromis',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /*  {
-                    id: '🍍🍬 TROPICAL CANDY 🌴',
-                    flag: '🇺🇸',
-                    name: '🍍🍬 TROPICAL CANDY 🌴',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductTropicc.png', 
-                    video: 'VideoTropicc.mov',
-                    description: '🔥 Description \n Tropical Candy, c’est une vraie vague exotique. Dès que t’ouvres, t’as une explosion d’arômes tropicaux : ananas, mangue, fruits de la passion… mélangés à un côté bonbon sucré bien prononcé. Une strain ultra gourmande, fraîche et addictive, avec parfois une légère touche creamy/gazzy en fond.  \n\n 🌿 Aspect  \n Des buds bien colorés, vert clair avec parfois des reflets dorés ou violets. Bien denses, recouverts de trichomes brillants qui donnent un effet givré. Pistils orange flashy — visuellement très attractif.  \n\n 😶‍🌫️ Effet  \n Un high énergisant au début : \n ➡️ boost mental, bonne humeur, créativité \n ➡️ puis une détente légère du corps sans t’alourdir  \n  Parfaite en journée ou en soirée chill, sans te mettre KO.  \n\n 🍭 Saveur  \n Tropical / sweet / fruity candy  \n Un vrai goût de cocktail exotique sucré, avec une sensation bonbon bien smooth en bouche.     \n\n ⚖️ Type  \n Hybride à tendance sativa      \n\n 💎 Conclusion  \n  Tropical Candy, c’est le délire vacances en version weed. Ultra parfumée, easy à fumer et super agréable — parfaite pour ceux qui aiment les profils fruités et sucrés bien marqués 🍍🔥🍬',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /*  {
-                    id: '🍋 LCG 🍒🍦',
-                    flag: '🇺🇸',
-                    name: '🍋 LCG 🍒🍦',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductChery.png', 
-                    video: 'VideoChery.mov',
-                    description: '🍋 Lemon Cherry Gelato 🍒🍦\n\n 🔥 Description\n La LCG (Lemon Cherry Gelato), c’est une des strains les plus demandées en ce moment. Un vrai mélange entre fraîcheur citrus et gourmandise sucrée. À l’ouverture, t’as direct un parfum complexe : citron acidulé, cerise sucrée et une base crémeuse typique des Gelato, avec un petit fond gazzy qui donne du caractère.\n\n 🌿 Aspect\n Des buds bien compacts, ultra résineux, souvent avec des reflets violets et vert foncé. Blindés de trichomes bien blancs, ça brille fort — qualité visuelle premium directe.\n\n 😶‍🌫️ Effet\n  Un high puissant et propre :\n ➡️ montée rapide euphorique, boost mental\n ➡️ puis une détente progressive du corps sans t’endormir\n   Parfaite pour rester focus mais détendu, ou pour chill sans être KO.\n\n  🍬 Saveur\n  Citrus / cherry / creamy / gas\n  Un mix unique entre acidité citronnée et douceur fruitée, avec une touche dessert en fin de bouche.\n\n  ⚖️ Type\n Hybride équilibrée (légère tendance indica)\n\n  💎 Conclusion\n La LCG, c’est une vraie star : goût signature, effet clean et look premium. Une des strains les plus complètes du moment — validée par tous les amateurs de cali 🔥🍋🍒',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /*   {
-                    id: '🍬 CANDY GELATO 🍦',
-                    flag: '🇺🇸',
-                    name: '🍬 CANDY GELATO 🍦',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductCGR.png', 
-                    video: 'VideoCGR.mov',
-                    description: '🍬 (Gelato x Candy genetics) 🍦\n\n 🔥 Description  \n Candy Gelato, c’est la rencontre parfaite entre la puissance de la famille Gelato et un côté bonbon ultra sucré. Dès que t’ouvres le pot, t’es frappé par une odeur gourmande de candy, fruits sucrés et crème vanillée, avec un fond légèrement gazzy qui rappelle les meilleures cali.    \n\n 🌿 Aspect  \n Des têtes bien denses et résineuses, avec des nuances vert clair parfois tirant vers le violet. Blindées de trichomes brillants qui collent aux doigts, avec des pistils orange vif — visuellement c’est très propre, très premium.\n\n 😶‍🌫️ Effet  \n Un high équilibré mais bien présent : \n  ➡️ montée euphorique et mentale au début \n ➡️ puis relaxation du corps progressive \n Ça te met bien sans te casser, parfait pour chill, social ou même après l’entraînement pour relâcher la pression.  \n\n 🍭 Saveur  \n Ultra sweet / candy / creamy \n Un vrai goût de bonbon fruité avec une touche gelato bien crémeuse, légèrement gazeuse en fin de bouche.  \n\n  ⚖️ Type  \n Hybride (légère dominance indica)  \n\n  💎 Conclusion  \n Candy Gelato, c’est une valeur sûre : grosse saveur, belle puissance et un rendu clean. Parfaite pour ceux qui aiment les strains sucrées avec du caractère 🍬🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /* {
-                    id: '🌸 MOCHI 🍡',
-                    flag: '🇺🇸',
-                    name: '🌸 MOCHI 🍡',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductMoch.png', 
-                    video: 'VideoMoch.mov',
-                    description: '🌸 (Gelato 47 x Mochi Gelato) 🍡\n\n 🔥 Description \n La Mochi, c’est une vraie pépite californienne, issue de la famille Gelato. Elle se démarque direct avec un profil ultra gourmand et raffiné. À l’ouverture, t’as une explosion de notes sucrées et crémeuses, avec un mélange subtil de vanille, fruits rouges et une touche légèrement terreuse qui vient équilibrer le tout.  \n\n 🌿 Aspect  \n Des buds bien compacts, denses comme il faut, avec des teintes vert clair à violet, recouvertes d’une couche épaisse de trichomes bien blancs. Les pistils orangés ressortent fort, signe d’une qualité bien travaillée.  \n\n 😶‍🌫️ Effet  \n Un high smooth mais puissant : ça commence par une montée euphorique, légère dans la tête, puis ça glisse vers une détente corporelle bien chill. Parfait pour se poser sans être complètement éclaté. Idéal fin de journée ou après un gros training.  \n\n  🍬 Saveur  \n  Sucré / creamy / dessert vibes \n Un vrai goût de mochi japonais avec une touche gelato — doux, légèrement fruité, et super agréable en bouche.  \n\n ⚖️ Type  \n Hybride équilibrée (légère dominance indica)  \n\n  💎 Conclusion  \n  La Mochi, c’est clairement une strain premium pour les amateurs de saveurs fines et de high clean. Pas la plus violente, mais une des plus agréables à fumer. Un vrai délire gourmand 🍡🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },  */
-    /*   {
-                    id: '🌸 PINK RUNTZ 💎',
-                    flag: '🇺🇸',
-                    name: '🌸 PINK RUNTZ 💎',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductPK.png', 
-                    video: 'VideoPK.mov',
-                    description: 'Une des strains les plus reconnues de la nouvelle génération, célèbre pour son profil candy ultra gourmand et son équilibre parfait. \n\n 🍭 Profil aromatique \n La Pink Runtz offre une explosion de saveurs sucrées et fruitées, avec des notes de bonbon, fruits tropicaux et une légère touche crémeuse. En bouche, c’est rond, doux et très persistant, avec une vraie signature “candy” qui reste longtemps 🍓🍍\n\n 🌿 Aspect\n Des buds bien denses et givrés, recouverts de trichomes brillants, avec des nuances de vert clair et parfois rosées, accompagnées de pistils orangés.\n\n 😮‍💨 Effet\n Un high équilibré et agréable, qui commence par une sensation euphorique et légère avant de s’installer progressivement dans un état de détente sans être trop lourd.\n\n 💎 Signature\n Une strain moderne incontournable, parfaite pour ceux qui recherchent le goût avant tout, avec une qualité aromatique marquée et reconnaissable.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 700.00 },
-                    ]
-                },  */
-
-    /*    {
-                    id: '🖤 BLACK RUNTZ 🍬',
-                    flag: '🇺🇸',
-                    name: '🖤 BLACK RUNTZ 🍬',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductBlackR.png', 
-                    video: 'VideoBlackR.mp4',
-                    description: '🎱 EXCLUSIVITÉ SOMBRE • CALI CANDY 🇺🇸 \n\n Le phénotype le plus obscur et recherché de la famille Runtz. La Black Runtz se distingue par ses teintes ténébreuses et son profil terpénique explosif, bien plus profond et lourd que la Runtz classique. \n\n 👀 Aspect : Buds compacts, violet très foncé (presque noir), contrastant avec des pistils orange fluo et une résine brillante.\n 👃 Arômes : Bonbon acidulé, fruits des bois, avec un fond terreux et gazeux très prononcé.\n 👅 Goût : Frappe fruitée Zkittlez en première ligne, finition lourde et crémeuse Gelato.\n 🧠 Effets : Montée euphorique rapide (High clair) qui bascule rapidement vers un body-high profond et apaisant. Puissance validée.',                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },              
-                */
-
     {
       id: "FROZEN",
       name: "FROZEN 🇲🇦🍯",
@@ -2058,46 +489,50 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategFrozen.png", // Ton image de catégorie Weed
 
       products: [
-       /*   {
-          id: "🍋 Limez x Cake 🎂",
+         {
+          id: "YellowGaz",
           flag: "🇺🇸",
-          name: "🍋 Limez x Cake 🎂",
+          name: "YellowGaz 👑",
           farm: "🌾 No Farm 🌾",
           promoEligible: true,
-          type: "FROZEN",
-          image: "ProductLCC.png",
-          video: "VideoLCC.mov",
+          type: "Weed",
+          image: "ProductYG.png",
+          video: "VideoYG.mov",
           description:
-                "🍋🎂 LIMEZ x CAKE — FROZEN PREMIUM 🎂🍋\n\nUne sélection Frozen au profil gourmand, citronné et ultra soigné. Limez x Cake mélange la fraîcheur vive des agrumes avec une belle rondeur pâtissière, pour un résultat à la fois raffiné, moderne et très aromatique. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🎂 Notes de gâteau sucré\n🍦 Fond crémeux et vanillé\n🍬 Petite touche candy discrète\n🌿 Finition propre et élégante\n\n👅 Goût :\nEn bouche, Limez x Cake développe une attaque fraîche et citronnée, rapidement adoucie par des notes plus crémeuses et gourmandes. Le profil reste bien équilibré, avec une finale dessert légère et persistante particulièrement agréable. 😮‍💨🍋🎂\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement travaillé\n🤲 Texture propre et agréable à manipuler\n🌈 Belle conservation des arômes\n☁️ Dégustation dense et savoureuse\n🔥 Profil gourmand et premium\n\n🏆 Le verdict :\nUne Frozen élégante et gourmande, parfaite pour ceux qui aiment les profils citronnés, crémeux et dessert. Limez x Cake combine fraîcheur, douceur et vraie identité premium dans une sélection qui se démarque clairement. 🍋🎂❄️🔥",
-                tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ],
-        }, */
-         /* {
-          id: "FROZEN ❄️",
-          flag: "🇲🇦",
-          name: "FROZEN ❄️",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Frozen",
-          image: "ProductF.jpg",
-          video: "VideoF.mp4",
-          description:
-              "",
-          variantTitle: "Saveurs Frozen ❄️ :",
-          jars: [
-            /* { name: "yellowgas", emoji: "🍯", colorClass: "style-brown" }, 
-            { name: "tropcherry", emoji: "🍇", colorClass: "style-red" },
-            { name: "pink limez", emoji: "🍋", colorClass: "style-yellow" },
-          ],
+              "👑⛽ YELLOWGAZ — CALI PREMIUM ⛽👑\n\nUne sélection au profil jaune, crémeux et gassy, pensée pour les amateurs de saveurs riches et modernes. YellowGaz se distingue par une belle rondeur aromatique, une odeur marquée et une finition propre qui lui donne une vraie identité premium. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes gazeuses bien présentes\n🍯 Fond doux et légèrement sucré\n🍦 Rondeur crémeuse\n🍋 Petite touche citronnée\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, YellowGaz développe une attaque douce et crémeuse, rapidement accompagnée par une note gassy plus marquée. Le profil reste rond, savoureux et long en bouche, avec une finale propre et légèrement sucrée. 😮‍💨👑\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n🔥 Profil jaune/gaz bien équilibré\n☁️ Fumée dense et agréable\n✨ Arômes propres et expressifs\n👑 Belle finition haut de gamme\n\n🏆 Le verdict :\nUne valeur sûre pour ceux qui aiment les profils crémeux, jaunes et gassy. YellowGaz combine douceur, puissance aromatique et vraie finition premium dans une sélection très propre. 👑⛽🔥",
           tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 90.0 },
+            { weight: "25G", price: 200.0 },
+            { weight: "50G", price: 350.0 },
+            { weight: "100G", price: 680.0 },
           ],
-        }, */
+        },
+        {
+          id: "🧊 Frozen 🧊",
+          flag: "🇺🇸",
+          name: "🧊 Frozen 🧊",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductFro.png",
+          video: "VideoFro.mov",
+          description:
+              "🧊❄️ FROZEN — SÉLECTION PREMIUM ❄️🧊\n\nUne sélection Frozen au profil frais, gourmand et bien travaillé. Cette gamme met en avant deux strains au caractère différent, avec une belle richesse aromatique et une texture soignée pour les amateurs de produits propres et expressifs. 🇺🇸🔥\n\n👃 Strains disponibles :\n🥵 MIMOSA : profil agrumes, orange sucrée, fraîcheur fruitée et petite touche acidulée\n🍑🍯 ICC X LCG : mélange crémeux, fruité et dessert, avec des notes citronnées, cherry et douceur sucrée\n\n👅 Goût :\nEn bouche, Frozen développe une dégustation fraîche et aromatique. MIMOSA apporte un côté fruité, vif et citronné, tandis que ICC X LCG donne une rondeur plus crémeuse, sucrée et gourmande. Le profil reste propre, agréable et bien équilibré. 😮‍💨🧊\n\n❄️ Texture & qualité :\n💎 Sélection premium bien travaillée\n🤲 Texture propre et agréable\n🌈 Deux profils aromatiques différents\n☁️ Fumée douce et parfumée\n🔥 Belle intensité en bouche\n\n🏆 Le verdict :\nUne sélection Frozen polyvalente et gourmande, parfaite pour ceux qui veulent choisir entre fraîcheur fruitée et profil dessert crémeux. Une gamme propre, aromatique et efficace. 🧊❄️🔥",
+              // 👇 NOUVELLE STRUCTURE
+                         variantTitle: 'Choisis ta strain 🥣 :',
+                         jars: [
+                             { name: 'MIMOSA', emoji: '🥵', colorClass: 'style-passion' },
+                             { name: 'ICC X LCG', emoji: '🍑🍯', colorClass: 'style-orange' }
+                         ],
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 90.0 },
+            { weight: "25G", price: 200.0 },
+            { weight: "50G", price: 350.0 },
+            { weight: "100G", price: 680.0 },
+          ],
+        },
         {
           id: "OLIVE",
           flag: "🇲🇦",
@@ -2111,39 +546,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "🫒🍯 OLIVE — FROZEN PREMIUM 🍯🫒\n\nUne sélection Frozen originale et gourmande, pensée pour les amateurs de résines riches, fondantes et pleines de caractère. Olive se distingue par son format atypique, sa texture travaillée et son profil aromatique profond, mêlant douceur sucrée, notes résineuses et belle rondeur en bouche. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍫 Notes chocolatées et gourmandes\n🍯 Douceur miellée\n🌰 Touches de fruits à coque\n🌿 Fond végétal et résineux\n🔥 Légère finition terreuse élégante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et gourmande, portée par des notes chocolatées et une rondeur sucrée très agréable. Le profil évolue ensuite vers quelque chose de plus résineux et légèrement terreux, avec une finale propre, riche et persistante. 😮‍💨🫒\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement travaillé\n🤲 Texture souple, dense et agréable à manipuler\n🌈 Bonne conservation des arômes\n☁️ Fumée épaisse et savoureuse\n🔥 Profil équilibré et régulier\n\n🏆 Le verdict :\nUne Frozen gourmande et pleine de caractère, idéale pour ceux qui recherchent une résine originale, fondante et bien travaillée. Olive combine douceur, profondeur aromatique et vraie identité premium dans un format qui ne passe pas inaperçu. 🫒🍯🍫🔥",
           tarifs: [{ weight: "1 Olive", price: 120.0 }],
         },
-        /*     {
-          id: "G.M.O 🧬",
-          flag: "🇺🇸",
-          name: "G.M.O 🧬",
-          farm: "⛰️ Mountain Brothers ⛰️",
-          promoEligible: true,
-          type: "FROZEN",
-          image: "ProductGmo.jpg",
-          video: "",
-          description:
-              "🧬❄️ G.M.O — MOUNTAIN BROTHERS ❄️🧬\n\nUne sélection Frozen premium au profil terpénique puissant et très reconnaissable. G.M.O se distingue par son caractère profond, résineux et aromatique, avec une identité bien marquée destinée aux vrais connaisseurs. 🇺🇸🔥\n\n👃 Profil aromatique :\n🧄 Notes gassy et épicées\n🍄 Touches terreuses et boisées\n🌿 Fond végétal naturel\n🧈 Légère rondeur crémeuse\n⛽ Finition intense et persistante\n\n👅 Goût :\nEn bouche, G.M.O développe une attaque riche et profonde, avec des notes terreuses, épicées et légèrement crémeuses. Le profil reste long en bouche, avec une finition gassy très appréciée des amateurs de saveurs marquées. 😮‍💨🧬\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement sélectionné\n🤲 Texture souple et agréable à travailler\n🌈 Belle conservation des terpènes\n🔥 Profil aromatique intense\n☁️ Fumée dense et savoureuse\n\n🏔️ Le verdict :\nUne Frozen de caractère signée Mountain Brothers, pensée pour ceux qui aiment les profils puissants, terreux et gassy. G.M.O combine intensité aromatique, texture premium et vraie identité de connaisseur. 🧬❄️⛰️🔥",
-                tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ],
-        }, */
-        /*  {
-                    id: 'L\'Etoile ✨',
-                    flag: '🇺🇸',
-                    name: 'L\'Etoile ✨',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductEti.jpg', 
-                    video: '',
-                    description: '✨❄️ L’ÉTOILE ❄️✨\n\n Une sélection Frozen au profil élégant et lumineux, pensée pour les amateurs de résines modernes riches en terpènes. L’Étoile se distingue par une texture fondante, une belle expression aromatique et un équilibre entre douceur fruitée et caractère résineux. 💎🔥\n\n 👃 Profil aromatique :\n 🍋 Agrumes doux et frais\n 🍬 Notes sucrées de bonbon\n 🌸 Légère touche florale\n 🍦 Fond crémeux\n ⛽ Pointe gazeuse discrète en finition\n\n 👅 Goût :\n En bouche, L’Étoile développe une attaque douce et fruitée, suivie d’une rondeur crémeuse particulièrement agréable. Quelques notes citronnées et florales apportent de la fraîcheur, tandis que la finale légèrement gassy renforce son caractère. ☁️✨\n\n ❄️ Texture et qualité :\n 💎 Résine riche et soigneusement travaillée\n 🤲 Texture souple et fondante\n 🌈 Belle conservation des terpènes\n ☁️ Fumée dense, douce et aromatique\n 🔥 Combustion homogène\n\n 🏆 Le verdict :\n Une Frozen raffinée, gourmande et expressive, qui offre une dégustation équilibrée du premier nez jusqu’à la dernière bouffée. Une véritable étoile destinée aux amateurs de résines premium. ✨❄️💎🔥',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ]
-                }, */
+
         /*  {
                     id: '🫒❄️🔥 OLIVE 🔥❄️🫒',
                     flag: '🇲🇦',
@@ -2180,270 +583,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     tarifs: [
                         { weight: '1 olive', price: 90.00 },
-                    ]
-                }, */
-        /*   {
-                    id: '🍓 SINFUL STRAWBERRY',
-                    flag: '🇲🇦',
-                    name: '🧊🍓 SINFUL STRAWBERRY',
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductSin.png', 
-                    video: 'VideoSin.mp4',
-                    description: '🧊🍓 Sinful Strawberry — Hasbulla Farm\n 🤯🤯🥶💆‍♂️🔥🔥☄️🌪️⭐️💨\n\n 🔥Pour les connaisseurs 🔥\n\n 🧬 Génétique : Stuntz × Strawberry Poptartz\n ⚖️ Hybride équilibrée\n 🍓 Arômes dominants : fraise mûre, fruits rouges\n 🍬 Notes gourmandes de bonbon et de dessert\n 🍦 Fond crémeux avec une légère touche épicée\n\n ✨ Effets mentaux\n\n 😄 Euphorie agréable\n 😊 Bonne humeur durable\n 🗣️ Effet sociable et convivial\n 🎨 Créativité légère à modérée\n 🧠 Relaxation mentale sans lourdeur excessive\n\n 🛋️ Effets physiques\n\n 😌 Détente progressive du corps\n 💆 Sensation de relâchement musculaire\n 🌊 Bien-être général\n\n ⚡ Montée plus rapide\n 🔥 Effets plus concentrés\n 🍓 Saveurs fruitées plus prononcées\n 😌 Relaxation corporelle \n 🌬️ Expérience aromatique plus riche grâce à la concentration des terpènes\n\n Résumé :\n 🍓 + 🍬 + 😄 + 😌 + 🧊\n\n Une variété au profil très gourmand, avec une dominante fraise sucrée, une montée joyeuse et sociable, suivie d’une détente physique confortable sans être excessivement assommante. ✨🌿',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ]
-                }, */
-        /*   {
-                    id: '🥭 FORBIDDEN MANGO',
-                    flag: '🇲🇦',
-                    name: '🥭 FORBIDDEN MANGO',
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductForbi.png', 
-                    video: 'VideoForbi.mov',
-                    description: 'Une pépite glacée qui respire l’exotisme pur. La Forbidden Mango en version frozen dévoile un profil aromatique explosif, dominé par une mangue bien mûre, sucrée et juteuse, accompagnée de notes tropicales intenses et d’une légère touche crémeuse en fond.\n\n Visuellement, on est sur une texture propre, brillante, avec cette finition légèrement collante et sablée typique d’un frozen bien travaillé. La couleur oscille entre un doré clair et des reflets légèrement orangés, signe d’une extraction fraîche et riche en terpènes.\n\n Au niveau du goût, c’est une vraie claque : une entrée sucrée et fruitée, suivie d’un côté plus profond, presque résineux, qui vient équilibrer l’ensemble. La mangue reste dominante du début à la fin, avec une longueur en bouche incroyable.\n\n Les effets sont puissants mais maîtrisés : une montée euphorique et relaxante, idéale pour se poser tout en gardant un esprit léger. Parfait pour les amateurs de profils fruités haut de gamme avec une vraie identité.\n 🔥 Un frozen premium, ultra terpénique, qui met la mangue à l’honneur dans sa version la plus pure.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ]
-                }, */
-        /*      {
-                    id: 'TIRAMISU 🍰☕🍫✨',
-                    flag: '🇲🇦',
-                    name: 'TIRAMISU 🍰☕🍫✨',
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductTir.png', 
-                    video: 'VideoTir.mov',
-                    description: 'Une pièce d’exception dans la gamme. Cette Tiramisu en version frozen se distingue clairement par un niveau supérieur, avec un travail propre et une richesse aromatique rare. On est sur un produit premium, pensé pour les amateurs de profils gourmands puissants et raffinés.\n\n 👃 Aromatique :\n La strain Tiramisu offre une signature unique orientée dessert. Dès l’ouverture, tu retrouves un mélange profond de café doux ☕, cacao intense 🍫 et crème sucrée 🍰.\n À ça s’ajoutent des notes vanillées, légèrement biscuitées, avec parfois une touche subtile de noisette/amande.\n En fond, un léger côté terreux/kush vient équilibrer le côté sucré et apporter de la profondeur. C’est riche, propre et parfaitement maîtrisé.\n\n 👅 Goût :\n Une vraie expérience gustative complète :\n * Attaque : crémeuse, douce et sucrée 🤤\n * Milieu : le café et le chocolat prennent le dessus, bien ronds et enveloppants\n * Finale : une note biscuitée/lactée qui reste longtemps en bouche, avec une belle persistance\n\n Le rendu est dense, gourmand et équilibré, jamais écœurant, avec une vraie identité “dessert”.\n\n 👀 Aspect :\n Texture sablée ultra fine ✨, légèrement grasse et brillante, avec une couleur beige clair à doré premium 🟡. Une extraction fraîche, riche en terpènes, typique d’un frozen haut niveau.\n\n💥 Effets :\n Puissants et enveloppants 😮‍💨 : une montée relaxante avec une sensation de bien-être immédiate, idéale pour se poser et profiter.\n\n 🔥 LE PREMIUM DE LA GAMME 💎\n Une strain qui sort clairement du lot par son profil gourmand et sa complexité. La Tiramisu, c’est le dessert version haut de gamme, transformé en expérience complète.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00 },
-                        { weight: '25G', price: 270.00 },
-                    ]
-                }, */
-        /* {
-                    id: '☣️ TOXIC CHERRY',
-                    flag: '🇲🇦',
-                    name: '☣️ TOXIC CHERRY',
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductTox.png', 
-                    video: 'VideoTow.mov',
-                    description: 'Une variété au caractère explosif qui mélange parfaitement gourmandise et agressivité aromatique. La Toxic Cherry propose un profil intense dominé par une cerise noire bien mûre, presque sirupeuse, accompagnée de notes légèrement acidulées et d’un fond “toxic” aux accents chimiques, gazeux et légèrement amers.\n\n Visuellement, on est sur un frozen ultra propre, avec une texture sablée et grasse, brillante, signe d’une extraction fraîche blindée en terpènes. Les teintes varient entre beige doré et reflets légèrement rosés, typiques des profils fruités bien travaillés.\n\n À la dégustation, c’est une vraie claque : une attaque sucrée et fruitée sur la cerise, rapidement rattrapée par une puissance plus brute, presque métallique/gaz, qui donne toute sa signature à la strain. L’équilibre entre le côté candy et le côté “toxique” rend le produit unique.\n\n Les effets sont puissants et rapides : une montée cérébrale marquée, suivie d’un relâchement profond. Idéal pour les amateurs de produits avec du caractère et une vraie intensité.\n 🔥 Un frozen sombre et addictif, entre cerise sucrée et puissance chimique. Réservé aux connaisseurs.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ]
-                }, */
-        /*  {
-                    id: '🧊 SAVAGE LYCHEE',
-                    flag: '🇲🇦',
-                    name: '🧊 SAVAGE LYCHEE',
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductSav.png', 
-                    video: 'VideoSav.mov',
-                    description: 'Une variété rare au profil exotique ultra raffiné. La Savage Lychee se distingue par une signature aromatique unique, dominée par le litchi sucré et floral, accompagné de nuances tropicales légères et d’une touche légèrement acidulée qui vient réveiller l’ensemble.\n\n Visuellement, on est sur un frozen très propre, à la texture sablée et légèrement huileuse, avec des reflets clairs tirant vers le beige doré. Une finition brillante qui témoigne d’une extraction fraîche et d’un produit riche en terpènes.\n\n En bouche, l’expérience est élégante et intense : une attaque douce, sucrée et florale typique du litchi, suivie d’une profondeur plus crémeuse avec une pointe fraîche presque juteuse. Le goût reste longtemps en bouche, avec une signature aromatique vraiment différente des profils classiques.\n\n Les effets sont équilibrés et progressifs : une montée légère et euphorique, accompagnée d’un relâchement du corps sans lourdeur. Parfait pour une dégustation chill avec un produit qui sort du lot.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ]
-                }, */
-        /*   {
-                    id: '🍍 DIRTY PINEAPPLE',
-                    flag: '🇲🇦',
-                    name: '🍍 DIRTY PINEAPPLE',
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductDir.png', 
-                    video: 'VideoDir.mov',
-                    description: 'Une variété au caractère bien marqué qui mélange parfaitement fruité exotique et puissance brute. La Dirty Pineapple propose un profil aromatique intense, dominé par un ananas bien mûr et juteux, accompagné de notes légèrement acidulées et d’un fond plus “dirty” aux accents gazeux et terreux.\n\n Visuellement, on est sur un frozen propre et lumineux, avec une texture sablée légèrement grasse, témoignant d’une extraction fraîche riche en terpènes. Les couleurs tirent vers un beige doré avec des reflets brillants, signe d’une qualité premium.\n\n À la dégustation, l’attaque est vive et fruitée avec une explosion d’ananas sucré, rapidement suivie par un côté plus profond et complexe, presque diesel, qui vient donner toute son identité à la strain. L’équilibre entre le sucré tropical et le côté “sale” fait toute la différence.\n\n Les effets sont puissants et rapides : une montée cérébrale stimulante suivie d’un relâchement progressif du corps. Idéal pour ceux qui cherchent un produit à la fois savoureux et efficace.\n 🔥 Un frozen exotique avec une vraie personnalité, entre fraîcheur tropicale et puissance underground.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ]
-                },
-                {
-                    id: '🍓 SINFUL STRAWBERRY',
-                    flag: '🇲🇦',
-                    name: '🍓 SINFUL STRAWBERRY',
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductSin.png', 
-                    video: 'VideoSin.mov',
-                    description: 'Une sélection frozen ultra gourmande qui met la fraise au centre de tout. La Sinful Strawberry dévoile un profil aromatique riche et séduisant, avec une fraise sucrée bien mûre, presque confiturée, accompagnée de notes candy et d’une légère touche crémeuse en arrière-plan.\n\n Visuellement, on est sur un produit propre et brillant, avec une texture sablée et légèrement grasse, signe d’une extraction fraîche parfaitement maîtrisée. Les teintes vont du beige clair au doré avec des reflets subtils, preuve d’un frozen chargé en terpènes.\n\n À la dégustation, c’est une explosion fruitée : une attaque douce et sucrée qui rappelle la fraise fraîche, suivie d’une profondeur plus ronde et légèrement lactée. Le goût reste intense en bouche avec une belle longueur, typique des produits premium bien travaillés.\n\n Les effets sont équilibrés : une montée relaxante accompagnée d’une sensation de bien-être et de légèreté mentale, parfaite pour chiller sans être trop lourd.\n 🔥 Un frozen sucré et addictif, pensé pour les amateurs de profils fruités et gourmands avec une vraie signature.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ]
-                }, */
-        /* {
-                    id: '🥭 FORBIDDEN MANGO',
-                    flag: '🇲🇦',
-                    name: '🥭 FORBIDDEN MANGO',
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductForbi.png', 
-                    video: 'VideoForbi.mov',
-                    description: 'Une pépite glacée qui respire l’exotisme pur. La Forbidden Mango en version frozen dévoile un profil aromatique explosif, dominé par une mangue bien mûre, sucrée et juteuse, accompagnée de notes tropicales intenses et d’une légère touche crémeuse en fond.\n\n Visuellement, on est sur une texture propre, brillante, avec cette finition légèrement collante et sablée typique d’un frozen bien travaillé. La couleur oscille entre un doré clair et des reflets légèrement orangés, signe d’une extraction fraîche et riche en terpènes.\n\n Au niveau du goût, c’est une vraie claque : une entrée sucrée et fruitée, suivie d’un côté plus profond, presque résineux, qui vient équilibrer l’ensemble. La mangue reste dominante du début à la fin, avec une longueur en bouche incroyable.\n\n Les effets sont puissants mais maîtrisés : une montée euphorique et relaxante, idéale pour se poser tout en gardant un esprit léger. Parfait pour les amateurs de profils fruités haut de gamme avec une vraie identité.\n 🔥 Un frozen premium, ultra terpénique, qui met la mangue à l’honneur dans sa version la plus pure.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'Chocolato 🍪',
-                    flag: '🇲🇦',
-                    name: 'Chocolato 🍪',
-                    farm: 'CaliPlate ⚜️',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductChoco.png', 
-                    video: 'VideoChoco.mov',
-                    description: '🔥 Description\n Le frozen sift Chocolato par CaliPlate, c\'est le summum de l\'exclusivité. Une extraction ultra-premium réservée à l\'élite des connaisseurs. CaliPlate signe ici une véritable masterclass avec un produit d\'une rareté et d\'une pureté phénoménales, justifiant son positionnement top-shelf.\n\n 👃 Arômes & Saveurs\n Un profil terpénique lourd, sombre et incroyablement gourmand. Grosse attaque de cacao brut et de chocolat fondant 🍫, parfaitement adoucie par la rondeur crémeuse et vanillée propre aux génétiques Gelato. Une fumée épaisse et onctueuse qui laisse un goût de dessert luxueux sur le palais.\n\n 👀 Aspect\n Visuel hors norme. Une résine translucide, brillante, qui se rapproche presque d\'une texture cireuse ou de caviar. Le tri des trichomes est millimétré, sans aucun déchet végétal. Ça fond et bulle violemment à la moindre source de chaleur (Full Melt absolu).\n\n 😮‍💨 Effet\n Une frappe dévastatrice. La montée cérébrale est instantanée et te scotche littéralement, suivie très vite d\'un body-stone profond, presque narcotique. Réservé aux tolérances élevées vu la concentration massive en principes actifs.\n\n 💎 Conclusion\n Le Chocolato de CaliPlate, c\'est le caviar du Frozen Sift. Une qualité stratosphérique pour un rendement d\'extraction minuscule. L\'expérience ultime pour les palais les plus exigeants qui ne veulent que le meilleur.',
-                    tarifs: [
-                        { weight: '5G', price: 150.00 },
-                        { weight: '10G', price: 250.00 },
-                    ]
-                }, */
-        /*      {
-                    id: 'Peach Lassi 🍑',
-                    flag: '🇲🇦',
-                    name: 'Peach Lassi 🍑',
-                    farm: 'La Source x Dirham Farm ⚗️',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductPea.png', // ⚠️ A changer
-                    video: 'VideoPea.mov',
-                    description: '🔥 Description \n Un frozen sift premium issu du travail précis de La Source x Dirham Farm. Avec la Peach Lassi, on est sur une génétique ultra gourmande qui mélange douceur fruitée et profondeur crémeuse. \n\n 🌿 Profil aromatique \n Dès l’ouverture, ça frappe avec des notes intenses de pêche mûre, accompagnées d’une touche crémeuse et sucrée qui rappelle la célèbre boisson indienne Lassi. Une terpène profile très dessert / fruit exotique, rond et puissant. \n\n ✨ Texture & aspect \n Une résine claire et sableuse, riche en trichomes, qui devient huileuse et collante sous la chaleur. La qualité du sift montre un travail de filtration propre avec une matière très aromatique. \n\n 😶‍🌫️ Effet \n Un effet relaxant et euphorique, qui commence par une montée douce et joyeuse avant de laisser place à une détente profonde. Parfait pour apprécier toute la richesse des saveurs. \n\n 💎 Conclusion \n  Un frozen sift gourmand et premium, idéal pour les amateurs de hash fruité et crémeux. Une signature terpène peach dessert qui se démarque clairement.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                        { weight: '50G', price: 400.00 },
-                        { weight: '100G', price: 750.00 },
-                    ]
-                }, */
-        /*     {
-                    id: 'Exotic Thai 🌴',
-                    flag: '🇲🇦',
-                    name: 'Exotic Thai 🌴',
-                    farm: 'La Source x Dirham Farm ⚗️',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductExo.png', // ⚠️ A changer
-                    video: 'VideoExo.mov',
-                    description: '🔥 Description \n  Un frozen sift d’exception né de la collaboration entre La Source et Dirham Farm, deux noms qui travaillent la matière avec précision. Cette version issue de la Exotic Thai apporte un profil aromatique rare et très recherché, inspiré des génétiques asiatiques. \n\n 🌿 Profil aromatique \n  Des notes exotiques et tropicales qui explosent dès l’ouverture : mangue mûre, agrumes sucrés et une légère touche florale typique des variétés Thai. En bouche, le hash développe un côté crémeux et légèrement épicé, avec une longueur très propre. \n\n  ✨ Texture & aspect \n Un frozen sift ultra propre, texture sable doré qui devient huileuse à la chaleur. La matière est riche en résine, brillante et très parfumée — signe d’un travail de filtration précis et d’une génétique de qualité. \n\n  😶‍🌫️ Effet \n  Un high clair et euphorique, qui commence par une montée cérébrale énergisante typique des strains Thai, avant de se transformer en une détente douce et agréable. Parfait pour profiter de l’arôme et de l’expérience complète. \n\n 💎 Conclusion \n  Un produit exotic et premium, réservé aux amateurs de résine fine qui recherchent quelque chose de différent du classique gas californien. Ici on est sur une signature aromatique tropicale rare.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                        { weight: '50G', price: 400.00 },
-                        { weight: '100G', price: 750.00 },
-                    ]
-                },  */
-        /*        {
-                    id: '🍋🦞 LEMON LOBSTER',
-                    flag: '🇲🇦',
-                    name: '🍋🦞 LEMON LOBSTER',
-                    farm: 'JCVD Farm 🎹',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductLob.png', // ⚠️ A changer
-                    video: 'VideoLob.mov',
-                    description: '💎 Type : Frozen Sift premium \n 🌿 Farm : JCVD \n 🧬 Strain : Lemon Lobster   \n\n 🔥 Description  \n\n La Lemon Lobster, c’est une frappe ultra propre signée JCVD Farm. \n Dès l’ouverture, ça explose au nez : une vague citronnée puissante, zestée, presque acidulée, avec un fond gaz subtil qui rappelle les meilleures génétiques US.  \n\n On est sur un frozen clair, travaillé proprement, texture sableuse fine, riche en trichomes. Ça colle, ça brille, ça sent fort rien à voir avec du jaune classique.   \n\n 👃 Terpènes & Saveur \n  • 🍋 Citron frais / zeste intense \n  • ⛽ Légère touche gaz en fond \n  • 🌬️ Finale propre, légèrement sucrée  \n\n  En bouche, c’est frais, citronné, avec une petite amertume noble qui reste longtemps. Pas écœurant, pas lourd juste précis et qualitatif.   \n\n  🧠 Effet  \n\n   Effet clean, progressif, qui monte doucement à la tête avant de détendre le corps. \n   Parfait pour ceux qui aiment sentir la puissance sans être assommés direct.  \n\n  ✔️ Bonne clarté mentale \n   ✔️ Relaxation agréable \n  ✔️ High équilibré mais présent   \n\n  🏆 Verdict    \n  La Lemon Lobster JCVD, c’est du frozen travaillé sérieusement.  \n  Profil citron dominant, qualité premium, effet propre.  \n  Un produit pour connaisseurs qui cherchent du goût avant tout',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                        { weight: '50G', price: 400.00 },
-                        { weight: '100G', price: 750.00 },
-                    ]
-                },  */
-
-        /*  {
-                    id: 'GRAPENANA 🍫 🍯',
-                    flag: '🇲🇦',
-                    name: 'GRAPENANA 🍫 🍯',
-                    farm: 'NOUS C’EST LE GOUT 🍝',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductGrapa.png', // ⚠️ A changer
-                    video: 'VideoGrapa.mp4',
-                    description: 'Une signature construite autour du goût 🤤 \n\n Grapenana, c’est une base fruitée profonde qui mêle des nuances de raisin mûr et de banane veloutée, relevée par une touche agrumes gaz qui apporte du relief et une sensation presque pétillante.\n\n L’équilibre 60% indica / 40% sativa donne un caractère posé mais vivant.\n Une structure qui commence ronde et douce, puis qui laisse place à une énergie subtile et maîtrisée.\n\n FROZEN porte bien son nom 🧊 \n  une attaque fraîche, nette, presque glaciale…\n puis une montée aromatique qui s’installe et marque les esprits.\n\n Ici, tout est pensé autour du profil.\n Pas de hasard. Pas de compromis.\n\n FARM : NOUS C’EST LE GOÛT PAR LES CONNAISSEURS POUR LES CONNAISSEURS 🍯',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
-                        { weight: '50G', price: 350.00 },
-                        { weight: '100G', price: 650.00 },
-                    ]
-                },  */
-        /* {
-                    id: '🥵 FROZEN SIFT 🍫',
-                    flag: '🇲🇦',
-                    name: '🥵 FROZEN SIFT 🍫',
-                    farm: 'HLA SOURCE x DHF 💥',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductFroz2.png', // ⚠️ A changer
-                    videos: ['VideoFrozs.mov','VideoFrozs2.mov','VideoFrozs3.mov'],
-                    description: 'Votre meilleur farm du moment plusieurs strains disponible 🍯',
-
-                       // 👇 NOUVELLE STRUCTURE
-                       variantTitle: 'Saveurs Frozen ❄️ :',
-                       jars: [
-                         { name: 'SOUR CHERRY', emoji: '🍒', colorClass: 'style-cherry' }, // <-- Modifié
-                         { name: 'ACAPULCO GOLD', emoji: '💛', colorClass: 'style-gold' },   // <-- Modifié
-                       ],
-
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '50G', price: 400.00 },
-                        { weight: '100G', price: 750.00 },
-                    ]
-                }, */
-        /*   {
-                    id: '🧊 FROZEN',
-                    flag: '🇲🇦',
-                    name: '🧊 FROZEN',
-                    farm: 'HASBULLA FARM 🇲🇦',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductFroz.png', // ⚠️ A changer
-                    video: 'VideoFroz.mp4',
-                    description: 'Votre meilleur farm du moment plusieurs strains disponible 🍯',
-
-                       // 👇 NOUVELLE STRUCTURE
-                       variantTitle: 'Saveurs Frozen ❄️ :',
-                       jars: [
-                           { name: 'Carbon fiber', emoji: '🥵❤️‍🔥', colorClass: 'style-orange' },
-                       ],
-
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '50G', price: 400.00 },
-                        { weight: '100G', price: 750.00 },
                     ]
                 }, */
       ],
@@ -2532,7 +671,25 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         },
-        
+         {
+          id: "Mentos",
+          flag: "🇲🇦",
+          name: "Mentos 🍬",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductMS.png",
+          video: "VideoMSS.mov",
+          description:
+                  "🍬🍫 MENTOS — 3X FILTRE PREMIUM 🍫🍬\n\nUne sélection 3X Filtre au profil frais, sucré et gourmand. Mentos se distingue par une belle douceur aromatique, une texture propre et une identité candy/fraîche qui change des profils classiques. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍬 Notes bonbon sucrées\n🌬️ Fraîcheur légère type mentholée\n🍯 Fond doux et rond\n🌿 Petite touche végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, Mentos développe une attaque douce et fraîche, avec des notes candy bien présentes et une légère rondeur sucrée. La dégustation reste propre, agréable et équilibrée, avec une finale fraîche et gourmande. 😮‍💨🍬\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement travaillé\n🤲 Texture souple et agréable\n🌈 Arômes frais et sucrés\n☁️ Fumée douce et parfumée\n🔥 Profil propre et régulier\n\n🏆 Le verdict :\nUne 3X Filtre originale et gourmande, idéale pour les amateurs de profils sucrés, frais et candy. Mentos combine fraîcheur, douceur et qualité dans une sélection simple mais très efficace. 🍬🍫🔥",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
         {
           id: "FILTRED ⚡",
           flag: "🇲🇦",
@@ -2546,9 +703,9 @@ document.addEventListener("DOMContentLoaded", function () {
               "⚡❄️ FILTRED — SÉLECTION PREMIUM ❄️⚡\n\nUne sélection filtrée au profil gourmand, propre et bien travaillé. FILTRED se distingue par une texture souple, une belle intensité aromatique et plusieurs saveurs bien marquées pour varier les plaisirs. 🇲🇦🔥\n\n👃 Saveurs disponibles : \n🍫 Nutella : profil cacao, noisette et rondeur gourmande \n\n👅 Goût :\nEn bouche, FILTRED développe une attaque douce et aromatique, avec une belle rondeur selon la saveur choisie. Le profil reste propre, agréable et bien équilibré, avec une finale gourmande qui reste présente. 😮‍💨⚡\n\n✨ Texture & qualité :\n💎 Filtré soigneusement sélectionné\n🤲 Texture souple et facile à travailler\n🌈 Saveurs bien distinctes\n☁️ Fumée douce et parfumée\n🔥 Profil propre, régulier et gourmand\n\n🏆 Le verdict :\nUne sélection filtrée efficace et gourmande, parfaite pour ceux qui aiment choisir entre plusieurs profils aromatiques. FILTRED combine qualité, variété et finition propre dans une gamme simple et bien maîtrisée. ⚡❄️🔥",
           variantTitle: "Saveurs Filtrer ❄️ :",
           jars: [
-            /* { name: "Super Caramelo", emoji: "🍮", colorClass: "style-brown" }, */
+            { name: "Super Caramelo", emoji: "🍮", colorClass: "style-brown" },
             { name: "Nutella", emoji: "🍫", colorClass: "style-red" },
-            /* { name: "Fanta", emoji: "🌸", colorClass: "style-yellow" }, */
+            { name: "Fanta", emoji: "🌸", colorClass: "style-yellow" },
           ],
           tarifs: [
             { weight: "5G", price: 50.0 },
@@ -2558,565 +715,6 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         },
-        /* {
-          id: "DO-SI-DOS",
-          flag: "🇲🇦",
-          name: "DO-SI-DOS 🍟",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductDOS.png",
-          video: "VideoDOS.mp4",
-          description:
-            "🍟🍫 DO-SI-DOS — 3X FILTRE PREMIUM 🍫🍟\n\nUne sélection 3X Filtre au profil gourmand, profond et bien travaillé. DO-SI-DOS se distingue par une belle rondeur aromatique, une texture propre et un mélange de notes sucrées, terreuses et légèrement crémeuses. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍪 Notes biscuitées et gourmandes\n🌰 Touches de fruits à coque\n🍯 Fond doux et légèrement sucré\n🌿 Notes terreuses propres\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, DO-SI-DOS développe une attaque douce et gourmande, avec des notes biscuitées et une légère touche crémeuse. Le profil devient ensuite plus profond, avec une finale terreuse et résineuse qui reste bien présente. 😮‍💨🍟\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement sélectionné\n🤲 Texture souple et agréable à travailler\n🌈 Arômes bien conservés\n☁️ Fumée dense et parfumée\n🔥 Profil propre, rond et régulier\n\n🏆 Le verdict :\nUne 3X Filtre gourmande et équilibrée, parfaite pour les amateurs de profils doux, biscuités et résineux. DO-SI-DOS combine rondeur, caractère et finition premium dans une sélection très propre. 🍟🍫🔥",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        }, */
-       /*  {
-          id: "Peach Tsunami 🌊",
-          flag: "🇲🇦",
-          name: "Peach Tsunami 🌊",
-          farm: "👨‍🌾 DHF Farmz 👨‍🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductPT.jpg",
-          video: "",
-          description:
-            "💨🔥 Une énorme vague fruitée signée DHF Farmz 🔥💨\n 🍑🌊 120U PREMIUM – Peach Tsunami 🌊🍑\n\n ✨ Profil aromatique ✨\n Peach Tsunami porte parfaitement son nom : dès l’ouverture, une vague puissante de pêche mûre et juteuse 🍑 envahit instantanément les sens 🌊. Elle est accompagnée de notes de bonbon fruité 🍬, de sorbet à la pêche 🍨 et d’agrumes légèrement acidulés 🍊. Une touche crémeuse et florale vient arrondir le profil et lui apporter beaucoup de finesse.\n\n 😮‍💨🍑 Goût\n En bouche, l’attaque est intensément fruitée, rappelant une pêche blanche bien mûre et un nectar frais 🍑🥤. Une douceur candy apparaît ensuite, accompagnée d’une légère fraîcheur acidulée. Grâce à la sélection 120U Premium, la fumée reste propre, dense et particulièrement expressive ☁️✨. La finale laisse une longue saveur de pêche sucrée sur le palais.\n\n 💎 Texture & qualité\n ✨ Sélection premium en 120 microns\n 🤲 Texture fine, souple et homogène\n 🍑 Profil fruité très marqué\n ☁️ Fumée douce et persistante\n 🔥 Travail précis signé DHF Farmz\n\n 🏆🌊 Le verdict\n Peach Tsunami est une véritable vague de saveurs pour les amateurs de profils fruités, sucrés et rafraîchissants. Un 120U Premium gourmand avec une signature pêche particulièrement intense. 🍑🌊🍬💎",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        }, */
-        /*   {
-          id: "GMO",
-          flag: "🇲🇦",
-          name: "GMO 🎗",g
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductGMOO.jpg",
-          video: "",
-          description:
-                "🎗🍫 GMO — 3X FILTRE PREMIUM 🍫🎗\n\nUne sélection 3X Filtre au profil puissant, profond et bien marqué. GMO se distingue par son caractère terreux, résineux et légèrement épicé, avec une vraie identité de connaisseur. 🇲🇦🔥\n\n👃 Profil aromatique :\n🧄 Notes puissantes et épicées\n🌿 Fond végétal propre\n🍄 Touches terreuses\n🧈 Légère rondeur crémeuse\n🔥 Finition résineuse persistante\n\n👅 Goût :\nEn bouche, GMO développe une attaque riche et profonde, avec des notes terreuses et épicées bien présentes. La texture apporte une belle rondeur, tandis que la finale reste intense, propre et longue en bouche. 😮‍💨🎗\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement travaillé\n🤲 Texture souple et agréable\n🌈 Arômes bien conservés\n☁️ Fumée dense et savoureuse\n🔥 Profil premium régulier\n\n🏆 Le verdict :\nUne 3X Filtre de caractère, idéale pour les amateurs de profils profonds, terreux et résineux. GMO offre une vraie signature aromatique, simple, efficace et très propre. 🎗🍫🔥",
-          tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-          ],
-        }, */
-        /* {
-          id: "Weeding Cake",
-          flag: "🇲🇦",
-          name: "Weeding Cake 🎂",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductWC.jpg",
-          video: "",
-          description:
-                "🎂🍫 WEEDING CAKE — 3X FILTRE PREMIUM 🍫🎂\n\nUne sélection 3X Filtre gourmande et crémeuse, inspirée des profils dessert américains. Weeding Cake mélange douceur sucrée, notes pâtissières et rondeur aromatique pour une expérience riche et agréable. 🇲🇦🔥\n\n👃 Profil aromatique :\n🎂 Notes de gâteau sucré\n🍦 Crème vanillée\n🍪 Biscuit et pâte douce\n🍯 Légère touche miellée\n🌿 Fond végétal propre\n\n👅 Goût :\nEn bouche, Weeding Cake offre une attaque douce et gourmande, avec des notes de crème, de biscuit et de dessert sucré. La dégustation reste ronde, propre et bien équilibrée, avec une finale douce qui reste agréablement en bouche. 😮‍💨🎂\n\n✨ Texture & qualité :\n💎 3X Filtre premium\n🤲 Texture souple et homogène\n🌈 Profil gourmand bien présent\n☁️ Fumée douce et aromatique\n🔥 Finition propre et régulière\n\n🏆 Le verdict :\nUne 3X Filtre parfaite pour les amateurs de profils sucrés, crémeux et pâtissiers. Weeding Cake combine gourmandise, douceur et qualité dans une sélection très agréable. 🎂🍫🔥",
-          tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-          ],
-        }, */
-        /*  {
-          id: "Cereal Milk",
-          flag: "🇲🇦",
-          name: "Cereal Milk 🥣",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductCM.jpg",
-          video: "",
-          description:
-                "🥣🍫 CEREAL MILK — 3X FILTRE PREMIUM 🍫🥣\n\nUne sélection 3X Filtre au profil ultra gourmand, crémeux et sucré. Cereal Milk rappelle les notes douces d’un bol de céréales sucrées avec un fond lacté et vanillé très agréable. 🇲🇦🔥\n\n👃 Profil aromatique :\n🥣 Céréales sucrées\n🥛 Notes lactées et crémeuses\n🍦 Vanille douce\n🍪 Biscuit léger\n🍬 Fond candy gourmand\n\n👅 Goût :\nEn bouche, Cereal Milk développe une attaque douce et crémeuse, avec des notes de céréales sucrées, de vanille et de biscuit. Le profil reste rond, gourmand et très agréable, avec une finale sucrée qui reste bien présente. 😮‍💨🥣\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement sélectionné\n🤲 Texture souple et facile à travailler\n🌈 Arômes gourmands bien conservés\n☁️ Fumée douce et parfumée\n🔥 Profil propre et équilibré\n\n🏆 Le verdict :\nUne 3X Filtre gourmande et moderne, parfaite pour les amateurs de profils crémeux, sucrés et dessert. Cereal Milk est une valeur sûre pour ceux qui aiment les saveurs douces et bien rondes. 🥣🍫🔥",
-          tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-          ],
-        }, */
-        /* {
-          id: "€ 4️⃣1️⃣",
-          flag: "🇲🇦",
-          name: "€ 4️⃣1️⃣",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "Product41.jpg",
-          video: "",
-          description:
-            "🍫🔥 € 4️⃣1️⃣ — 3X FILTRE PREMIUM 🔥🍫\n\nUne sélection 3X Filtre Premium au profil riche, propre et particulièrement agréable. € 4️⃣1️⃣ se distingue par une texture soignée, une belle intensité aromatique et un équilibre réussi entre gourmandise, rondeur et caractère. 🇲🇦💎\n\n👃 Profil aromatique :\n🍫 Notes chocolatées et gourmandes\n🌰 Touches de fruits à coque\n🍯 Fond doux et légèrement sucré\n🌿 Petite note végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, € 4️⃣1️⃣ développe une attaque douce et gourmande, marquée par des notes chocolatées et une légère rondeur sucrée. Le profil reste harmonieux tout au long de la dégustation, avec une finale plus résineuse et persistante très agréable. 😮‍💨🍫\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement travaillé\n🤲 Texture souple et facile à manipuler\n🌈 Belle conservation des arômes\n☁️ Fumée dense et agréable\n🔥 Profil propre et régulier\n\n🏆 Le verdict :\nUne 3X Filtre Premium gourmande et bien équilibrée, parfaite pour les amateurs de profils doux, chocolatés et résineux. € 4️⃣1️⃣ combine qualité, caractère et plaisir de dégustation dans une sélection très propre. 🍫🔥💎",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        }, */
-        /*  {
-                    id: 'Banana Limonade 🍹',
-                    flag: '🇲🇦',
-                    name: 'Banana Limonade 🍹',
-                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductBL.jpg', 
-                    video: '',
-                    description: '💨🔥 Une sélection fruitée et pétillante signée DHF Farmz 🔥💨\n 🍌🍋 120U PREMIUM – Banana Limonade 🍋🍌\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Banana Limonade dévoile un profil terpénique frais et ultra-gourmand 🤤🍹. Une vague de banane mûre et crémeuse 🍌 envahit les sens, rapidement accompagnée de notes de citron pressé 🍋, de soda acidulé 🥤 et de bonbon fruité 🍬. En arrière-plan, une légère touche tropicale et gazeuse apporte du relief et équilibre parfaitement la douceur de l’ensemble ✨.\n\n 😮‍💨🍹 Goût\n En bouche, l’attaque est douce et crémeuse, dominée par la banane sucrée 🍌. Une fraîcheur citronnée apparaît ensuite, rappelant une limonade artisanale bien glacée 🍋🧊. La sélection 120U Premium offre une fumée dense, propre et particulièrement savoureuse ☁️✨. La finale reste longtemps sur le palais avec un mélange de fruits tropicaux, de citron candy et de crème légère.\n\n 💎 Texture & qualité\n ✨ Sélection 120 microns premium\n 🤲 Texture souple et homogène\n 🌈 Belle conservation du profil aromatique\n ☁️ Fumée douce et parfumée\n 🔥 Finition propre et soigneusement travaillée\n\n 🏆🍌 Le verdict\n Banana Limonade est une référence gourmande pour les amateurs de profils fruités, frais et légèrement acidulés. DHF Farmz propose ici un 120U Premium original, équilibré et rempli de saveurs tropicales. 🍌🍋🍹💎',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'Pineapple Juice 🍍',
-                    flag: '🇲🇦',
-                    name: 'Pineapple Juice 🍍',
-                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductPJ.jpg', 
-                    video: '',
-                    description: '💨🔥 Une vague tropicale ultra-fraîche signée DHF Farmz 🔥💨\n 🍍🥤 120U PREMIUM – Pineapple Juice 🥤🍍\n\n ✨ Profil aromatique ✨\n Pineapple Juice libère dès l’ouverture un parfum tropical particulièrement intense 🌴🔥. L’ananas mûr et juteux 🍍 domine largement le profil, accompagné de notes d’agrumes sucrés 🍊, de jus de fruits frais 🥤 et d’une légère touche candy 🍬. En fond, une nuance crémeuse et discrètement gazeuse apporte davantage de profondeur à l’ensemble.\n\n 😮‍💨🍍 Goût\n À la dégustation, l’attaque rappelle un véritable jus d’ananas fraîchement pressé 🍍🥤. Les saveurs sont douces, sucrées et légèrement acidulées, avec une petite touche tropicale qui reste longtemps sur le palais. La sélection 120U Premium apporte une fumée dense, soyeuse et particulièrement riche en arômes ☁️✨.\n\n 💎 Texture & qualité\n ✨ Sélection premium en 120 microns\n 🤲 Matière fine, souple et homogène\n 🌴 Profil tropical très expressif\n ☁️ Fumée douce et aromatique\n 🔥 Travail propre signé DHF Farmz\n\n 🏆🍍 Le verdict\n Pineapple Juice s’adresse aux amateurs de profils exotiques, fruités et rafraîchissants. Un 120U Premium gourmand qui restitue parfaitement la douceur et l’acidité d’un ananas bien mûr. 🍍🌴🥤💎',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                 {
-                    id: 'Black Papaya ♣️',
-                    flag: '🇲🇦',
-                    name: 'Black Papaya ♣️',
-                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductBP.jpg', 
-                    video: '',
-                    description: '💨🔥 Une sélection exotique, sombre et raffinée signée DHF Farmz 🔥💨\n ♣️🥭 120U PREMIUM – Black Papaya 🥭♣️\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Black Papaya impose un profil profond et particulièrement complexe 😮‍💨🔥. Des notes de papaye mûre 🥭, de fruits tropicaux et de mangue sucrée se mélangent à une base plus sombre, légèrement terreuse et épicée 🌿. Une touche crémeuse ainsi qu’un fond gazeux discret apportent du caractère à cette sélection premium.\n\n 😮‍💨🥭 Goût\n En bouche, l’attaque est fruitée et généreuse, dominée par la papaye et les fruits exotiques bien mûrs 🥭🌴. Elle évolue ensuite vers des saveurs plus profondes, mêlant terre douce, épices légères et crème tropicale. La fumée issue de la sélection 120U Premium est dense, ronde et persistante ☁️✨.\n\n 💎 Texture & qualité\n ✨ Sélection de trichomes en 120 microns\n 🤲 Texture souple et riche\n 🌈 Profil aromatique complexe\n ☁️ Fumée épaisse et savoureuse\n 🔥 Finition premium et homogène\n\n 🏆♣️ Le verdict\n Black Papaya offre un équilibre original entre gourmandise tropicale et profondeur aromatique. Une pièce 120U Premium destinée aux amateurs de profils fruités, crémeux et légèrement terreux. ♣️🥭🌴💎',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                 {
-                    id: 'Peach Tsunami 🌊',
-                    flag: '🇲🇦',
-                    name: 'Peach Tsunami 🌊',
-                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductPT.jpg', 
-                    video: '',
-                    description: '💨🔥 Une énorme vague fruitée signée DHF Farmz 🔥💨\n 🍑🌊 120U PREMIUM – Peach Tsunami 🌊🍑\n\n ✨ Profil aromatique ✨\n Peach Tsunami porte parfaitement son nom : dès l’ouverture, une vague puissante de pêche mûre et juteuse 🍑 envahit instantanément les sens 🌊. Elle est accompagnée de notes de bonbon fruité 🍬, de sorbet à la pêche 🍨 et d’agrumes légèrement acidulés 🍊. Une touche crémeuse et florale vient arrondir le profil et lui apporter beaucoup de finesse.\n\n 😮‍💨🍑 Goût\n En bouche, l’attaque est intensément fruitée, rappelant une pêche blanche bien mûre et un nectar frais 🍑🥤. Une douceur candy apparaît ensuite, accompagnée d’une légère fraîcheur acidulée. Grâce à la sélection 120U Premium, la fumée reste propre, dense et particulièrement expressive ☁️✨. La finale laisse une longue saveur de pêche sucrée sur le palais.\n\n 💎 Texture & qualité\n ✨ Sélection premium en 120 microns\n 🤲 Texture fine, souple et homogène\n 🍑 Profil fruité très marqué\n ☁️ Fumée douce et persistante\n 🔥 Travail précis signé DHF Farmz\n\n 🏆🌊 Le verdict\n Peach Tsunami est une véritable vague de saveurs pour les amateurs de profils fruités, sucrés et rafraîchissants. Un 120U Premium gourmand avec une signature pêche particulièrement intense. 🍑🌊🍬💎',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                 {
-                    id: 'Tropicana Glue 🍼',
-                    flag: '🇲🇦',
-                    name: 'Tropicana Glue 🍼',
-                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductTG.jpg', 
-                    video: '',
-                    description: '💨🔥 Une combinaison fruitée et résineuse signée DHF Farmz 🔥💨\n 🍊🍼 120U PREMIUM – Tropicana Glue 🍼🍊\n\n ✨ Profil aromatique ✨\n Tropicana Glue combine la fraîcheur explosive des agrumes avec le caractère plus profond et résineux des profils Glue 🔥. Dès l’ouverture, des notes d’orange sanguine 🍊, de mandarine sucrée et de fruits tropicaux envahissent les sens. Elles sont accompagnées d’un fond terreux, crémeux et légèrement gazeux qui apporte une vraie complexité aromatique.\n\n 😮‍💨🍊 Goût\n En bouche, l’attaque est fraîche et citronnée, dominée par l’orange sucrée et les agrumes zestés 🍊🍋. Le profil évolue ensuite vers des notes plus rondes, résineuses et crémeuses, avec une finition légèrement terreuse et gassy. La sélection 120U Premium offre une fumée dense, propre et riche en saveurs ☁️✨.\n\n 💎 Texture & qualité\n ✨ Sélection de qualité en 120 microns\n 🤲 Texture souple et homogène\n 🍊 Belle intensité aromatique\n ☁️ Fumée dense et savoureuse\n 🔥 Équilibre entre fraîcheur et profondeur\n\n 🏆🍼 Le verdict\n Tropicana Glue propose un équilibre réussi entre agrumes tropicaux, douceur crémeuse et caractère résineux. Un 120U Premium moderne, expressif et particulièrement complet signé DHF Farmz. 🍊🍼⛽💎',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'KitKat 🌰',
-                    flag: '🇲🇦',
-                    name: 'KitKat 🌰',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductKit.jpg', 
-                    video: '',
-                    description: '💨🔥 Une véritable gourmandise pour les amateurs de filtré premium 🔥💨\n 🍫🍪 120U – KitKat 🍪🍫\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, KitKat dévoile un profil terpénique ultra-gourmand 💥🍫. Une vague de chocolat au lait envahit instantanément les sens, dominée par le cacao doux 🍫, le biscuit croquant 🍪 et une pointe de noisette torréfiée 🌰. En arrière-plan, des notes sucrées et lactées rappellent la célèbre barre chocolatée, accompagnées d’un fond terreux discret typique des bonnes résines 🌱✨.\n\n 😮‍💨🍫 Goût\n En bouche, c’est une véritable explosion chocolatée 💥🍫. L’attaque est douce et sucrée ⚡, rapidement équilibrée par une rondeur biscuitée rappelant une gaufrette croustillante 🍪🤤. La fumée est dense, propre et particulièrement savoureuse grâce à la triple filtration ☁️✨. La finale laisse une persistance longue et gourmande, avec des notes de cacao qui restent agréablement sur le palais 😋.\n\n ⚡🧠 Effets\n KitKat offre une montée chaleureuse et réconfortante 🚀✨.\n\n 😁 Sensation de bien-être immédiate\n 🌞 Effet positif et chill\n 🧠 Esprit apaisé et détendu\n ✨ Sensation de douceur mentale\n 😌 Relaxation progressive du corps\n 🌙 Parfait pour une fin de journée gourmande\n\n 🏆🍫 Le verdict\n KitKat s’impose comme une évidence pour les amateurs de profils chocolatés et de filtrés premium 🔥🍫. Son bouquet aromatique intense, sa fumée propre et son goût ultra-gourmand en font une variété qui marque les esprits dès les premières bouffées 💨✨.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*   {
-                    id: 'Snickers 🧸',
-                    flag: '🇲🇦',
-                    name: 'Snickers 🧸',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductSni.jpg', 
-                    video: '',
-                    description: '💨🔥 Une frappe lourde et ultra-gourmande pour les puristes du filtré 🔥💨\n 🥜🍫 120U – Snickers 🍫🥜\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Snickers dévoile un profil terpénique lourd et complexe 💥🥜. Une vague de caramel fondant envahit instantanément les sens, dominée par la cacahuète grillée 🥜, le chocolat noir 🍫 et le nougat sucré 🍬. En arrière-plan, des notes terreuses et crémeuses rappellent un dessert riche, accompagnées d’un fond kush bien prononcé 🌱✨.\n\n 😮‍💨🥜 Goût\n En bouche, c’est une véritable explosion de saveurs denses 💥🍫. L’attaque est riche et caramélisée ⚡, rapidement équilibrée par une profondeur de fruits à coque rappelant la célèbre barre gourmande 🥜🤤. La fumée est épaisse, propre et particulièrement savoureuse grâce au processus 3X Filtré ☁️✨. La finale laisse une persistance longue et terreuse, avec des notes de caramel salé qui restent agréablement sur le palais 😋.\n\n ⚡🧠 Effets\n Snickers offre une montée puissante et enveloppante 🚀✨.\n\n 😁 Sensation d\'euphorie immédiate\n 🌞 Effet lourd et profondément stimulant\n 🧠 Esprit déconnecté des tensions\n ✨ Sensation de lourdeur agréable\n 😌 Relaxation totale et rapide du corps\n 🌙 Idéal pour s\'écraser dans le canapé après une grosse journée\n\n 🏆🥜 Le verdict\n Snickers s’impose comme un poids lourd pour les amateurs de profils denses, caramélisés et de filtrés premium 🔥🥜. Son bouquet aromatique complexe, sa fumée épaisse et son goût ultra-réconfortant en font une variété qui marque les esprits dès les premières bouffées 💨✨.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'LEMON SORBET ❄️',
-                    flag: '🇲🇦',
-                    name: 'LEMON SORBET ❄️',
-                    farm: 'Est Side Cartel 🥷',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductLemon.jpg', 
-                    video: 'VideoLemon.mp4',
-                    description: '💨🔥 Une vraie grosse frappe pour les amateurs de filtré premium 🔥💨\n 🍋🍨 120U – Lemon Sorbet 🍨🍋\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Lemon Sorbet dévoile un profil terpénique explosif 💥🍋. Une vague d’agrumes ultra-fraîche envahit instantanément les sens, dominée par le citron jaune 🍋, le citron confit 🍬 et le zeste d’agrumes fraîchement râpé 🌿. En arrière-plan, des notes sucrées et crémeuses rappellent un sorbet citron artisanal 🍨, accompagnées d’une légère touche florale et d’un fond kush discret 🌱✨.\n\n 😮‍💨🍋 Goût\n En bouche, c’est une véritable explosion citronnée 💥🍋. L’attaque est vive et acidulée ⚡, rapidement équilibrée par une douceur crémeuse rappelant une glace au citron artisanale 🍨🤤. La fumée est dense, propre et particulièrement savoureuse grâce à la sélection 120U ☁️✨. La finale laisse une persistance longue et fraîche, avec des notes d’agrumes qui restent agréablement sur le palais 😋.\n\n ⚡🧠 Effets\n Lemon Sorbet offre une montée rapide et agréable 🚀✨.\n\n 😁 Sensation de bonne humeur immédiate\n 🌞 Effet positif et stimulant\n 🧠 Esprit léger et détendu\n ✨ Sensation de clarté mentale\n 😌 Relaxation progressive du corps\n 🌙 Équilibre idéal entre détente et plaisir gustatif\n\n 🏆🍋 Le verdict\n Lemon Sorbet s’impose comme une référence pour les amateurs de profils citronnés puissants et de filtrés premium 🔥🍋. Son bouquet aromatique intense, sa fumée propre et son goût gourmand en font une variété qui marque les esprits dès les premières bouffées 💨✨.',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
-                        { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 280.00 },
-                        { weight: '100G', price: 450.00 },
-                    ]
-                }, */
-        /*  {
-                    id: '🍋⛰️🇲🇦 Lemon’s',
-                    flag: '🇲🇦',
-                    name: '🍋⛰️🇲🇦 Lemon’s',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductL.png', 
-                    video: 'VideoL.mov',
-                    description: '🍋⛰️🇲🇦 Filtre X3 – Dry Sift 90u \n Le Filtre X3 90u Lemon’s est généralement considéré comme un hash marocain moderne de bonne qualité, obtenu par trois filtrations successives afin d’éliminer un maximum d’impuretés végétales et de conserver principalement les têtes de trichomes. Le grade 90 microns (90u) est souvent recherché car il correspond à une taille de résine réputée pour offrir un bon équilibre entre puissance, pureté et richesse aromatique.  \n\n 🍋 Profil aromatique\n La variété Lemon’s est connue pour développer des notes : \n • Citron frais 🍋 \n • Zestes d’agrumes 🍊 \n • Léger côté sucré et crémeux 🍬 \n • Fond terreux typique du hash marocain 🇲🇦\n\n ✨ Texture\n • Souple et grasse à température ambiante 🤤\n  • Peut devenir très malléable lorsqu’il est légèrement chauffé 🔥 \n • Couleur souvent blonde à dorée selon le lot 🌟\n\n 😌 Effets généralement recherchés\n  • Montée cérébrale agréable 🧠\n  • Sensation de bien-être et de détente 😌\n  • Humeur positive et légère euphorie 😊\n  • Relaxation progressive sans être trop assommante 🌙\n\n 💎 Pour les connaisseurs\n Le Filtre X3 90u se situe souvent au-dessus d’un dry classique ou d’une mousse commerciale grâce à son nettoyage plus poussé et à sa concentration plus élevée en trichomes.\n\n 🔥 En résumé :\n Un hash marocain moderne, propre et parfumé, dominé par des arômes citronnés intenses, offrant une expérience équilibrée entre saveurs, détente et plaisir aromatique. Idéal pour ceux qui apprécient les profils agrumes et les dry sift bien travaillés. 🍋⛰️🇲🇦',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                {
-                    id: '🍒🔥 Local River Cherries 🔥🍒',
-                    flag: '🇲🇦',
-                    name: '🍒🔥 Local River Cherries 🔥🍒',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductLRC.png', 
-                    video: 'VideoLRC.mov',
-                    description: '🍒🔥 Dry-Sift 90u  🔥🍒\n 💎 Le Local River Cherries 90u est un dry-sift haut de gamme élaboré à partir d’une génétique orientée cerise sucrée, souvent accompagnée de notes fruitées et légèrement crémeuses. Le tamisage en 90 microns (90u) permet de récupérer une grande quantité de têtes de trichomes matures, recherchées pour leur richesse en terpènes et leur pureté.  \n\n ✨ Ce qui le distingue : \n • 🍒 Arômes dominants de cerise mûre et fruits rouges. \n • 🍬 Fond légèrement sucré rappelant parfois le bonbon ou la pâtisserie. \n • 🧈 Texture grasse et malléable lorsqu’il est bien conservé. \n • 💨 Fumée douce et savoureuse, appréciée des amateurs de résines modernes. \n • 🌿 Profil terpénique très présent grâce à la sélection 90u.  \n\n ⚡ Effets généralement recherchés : \n • 😄 Euphorie agréable et bonne humeur.\n  • 🧠 Sensation de détente mentale sans être trop lourde.\n  • 🤤 Moment de relaxation idéal en fin de journée.\n  • 🛋️ Effet physique progressif, confortable et relaxant.  \n\n 🏆 Pour les connaisseurs, un 90u bien travaillé est souvent considéré comme l’un des meilleurs compromis entre puissance, richesse aromatique et qualité de combustion. Les plages comprises entre 73u et 120u sont d’ailleurs souvent citées parmi les plus intéressantes pour obtenir les têtes de trichomes les plus qualitatives.  \n 🍒💨 Local River Cherries 90u s’adresse avant tout aux amateurs de résines fruitées qui recherchent une expérience savoureuse, propre et riche en terpènes.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'El Mero  💥💥',
-                    flag: '🇲🇦',
-                    name: 'El Mero 🌰',
-                    farm: '🇨🇭 SUISSE FARMZ',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductEM.png', 
-                    video: 'VideoEM.mov',
-                    description: '☕️🤍🔥 Nouvelle Récolte 2026 – Suisse Farm 🔥🤍☕️\n 🇨🇭💎 Une sélection ultra gourmande tout droit venue de Suisse Farm, pensée pour les amateurs de filtrés premium et de profils riches en terpènes. 💎🇨🇭\n 🌿✨ 3x Filtré 45u – El Mero ✨🌿\n\n ✨ Profil aromatique ✨\n El Mero dévoile un profil particulièrement gourmand et raffiné 🤤🔥. Dès l’ouverture, une vague d’arômes crémeux et pâtissiers 🍪🥛 envahit les sens, accompagnée de notes de café fraîchement torréfié ☕, de caramel fondant 🍮 et de fruits à coque grillés 🌰. En fond, une touche kush légèrement terreuse 🌿 apporte équilibre et profondeur à l’ensemble.\n\n 😮‍💨🍬 Goût\n À la dégustation, El Mero confirme tout son potentiel gourmand 🤍🔥. L’attaque est douce, ronde et crémeuse ☁️, portée par des saveurs de café latte ☕🥛 et de biscuit caramélisé 🍪. Des notes de noisette grillée 🌰 et de vanille 🍦 viennent ensuite enrichir le palais avant de laisser place à une finale longue, onctueuse et légèrement épicée 🌿✨.\n\n ⚡🧠 Effets\n Une expérience harmonieuse et réconfortante 😌💨.\n\n 😁 Sensation de bien-être rapide\n ✨ Humeur positive et apaisée\n 🧘 Relaxation mentale progressive\n 💆 Détente corporelle confortable\n ☁️ Effet enveloppant et chaleureux\n 🌙 Parfait pour les fins de journée et les moments de détente\n\n 🏆🇨🇭 Le verdict\n Avec cette Nouvelle Récolte 2026 signée Suisse Farm, El Mero s’impose comme une référence pour les amateurs de résines gourmandes et soigneusement travaillées 💎🔥. Son profil café-caramel ultra réconfortant, sa fumée soyeuse et sa belle richesse aromatique en font une pièce de choix dans la catégorie des 45u premium.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'Freakshow 💥💥',
-                    flag: '🇲🇦',
-                    name: 'Freakshow 💥💥',
-                    farm: '🇨🇭 SUISSE FARMZ',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductFK.png', 
-                    video: 'VideoFK.mov',
-                    description: '☕️🤍🔥 Nouvelle Récolte 2026 – Suisse Farm 🔥🤍☕️\n 🇨🇭💎 Une sélection originale et haut de gamme venue de Suisse Farm, destinée aux amateurs de filtrés premium et de profils terpéniques hors du commun. 💎🇨🇭\n 🌿👽 3x Filtré 45u – Freakshow 👽🌿\n\n ✨ Profil aromatique ✨\n Freakshow se distingue par un profil aromatique atypique et captivant 🤤🔥. Dès l’ouverture, des notes d’agrumes frais 🍋, de pin résineux 🌲 et d’herbes sauvages 🌿 prennent le dessus. Rapidement, des nuances fruitées 🍏🍈 et légèrement épicées 🌶️ viennent enrichir l’ensemble, offrant une palette complexe et surprenante qui ne ressemble à aucune autre.\n 👃💨 Arômes dominants\n\n 😮‍💨🍃 Goût\n À la dégustation, Freakshow dévoile toute sa singularité 💨✨. L’attaque est vive et fraîche, dominée par les agrumes 🍋 et les notes résineuses 🌲. En milieu de bouche, des saveurs végétales nobles 🌿 se mélangent à des touches fruitées 🍏, avant de laisser place à une finale longue, fraîche et légèrement épicée 😮‍💨🔥.\n\n ⚡🧠 Effets\n Une expérience équilibrée et agréable 😌✨.\n\n 😁 Sensation de bien-être rapide\n 🌈 Humeur positive et légère\n 🧠 Esprit détendu et confortable\n ✨ Sensation de clarté agréable\n 💆‍♂️ Relaxation progressive du corps\n 🌙 Idéal pour apprécier un moment de calme\n\n 🏆🇨🇭 Le verdict\n Avec cette Freakshow 45u 3x filtrée, Suisse Farm propose une résine qui sort des sentiers battus 💎🔥. Son profil frais, résineux et fruité séduira les amateurs de saveurs originales à la recherche d’une expérience différente des classiques profils sucrés ou kush.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'Black Truffle 🌑',
-                    flag: '🇲🇦',
-                    name: 'Black Truffle 🌑',
-                    farm: '🇨🇭 SUISSE FARMZ',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductBT.png', 
-                    video: 'VideoBT.mov',
-                    description: '🖤🍄🔥 Nouvelle Récolte 2026 – Suisse Farm 🔥🍄🖤\n 🇨🇭💎 Une génétique de caractère réservée aux amateurs de profils profonds, complexes et intensément gourmands. Avec Black Truffle, Suisse Farm signe une résine aussi élégante que puissante sur le plan aromatique. 💎🇨🇭\n 🖤✨ 3x Filtré 45u – Black Truffle ✨🖤\n 🌌 Une immersion dans les saveurs sombres et raffinées 🌌\n Dès l’ouverture, Black Truffle impose sa signature unique 😮‍💨🔥. Un mélange riche de cacao noir 🍫, de truffe fraîche 🍄 et de bois noble 🌳 s’échappe instantanément. Derrière cette première impression intense apparaissent des notes de noisette torréfiée 🌰, de café corsé ☕ et une subtile touche de terre humide après la pluie 🌧️🌿.\n\n 😮‍💨🖤 Goût\n En bouche, Black Truffle joue dans une autre catégorie 🎩✨. La fumée est épaisse, soyeuse et particulièrement persistante ☁️. Les saveurs oscillent entre le chocolat noir amer 🍫, le café torréfié ☕ et des notes terreuses nobles 🍄🌿. Une légère touche crémeuse vient adoucir l’ensemble avant une finale longue, élégante et profondément aromatique.\n\n ⚡🌙 Effets\n Black Truffle offre une expérience enveloppante et sophistiquée 😌💨.\n\n 🧘‍♂️ Relaxation progressive et profonde\n 😁 Sensation de confort et de sérénité\n ☁️ Effet chaleureux et apaisant\n 🌌 Déconnexion douce du quotidien\n 💆‍♂️ Relâchement physique agréable\n 🌙 Parfaite pour les soirées calmes et les moments de détente\n\n 🏆🇨🇭 Le verdict\n Black Truffle n’est pas une variété qui cherche à plaire à tout le monde… et c’est précisément ce qui fait sa force 👑🔥. Son profil sombre, boisé et gourmand séduira les amateurs de résines raffinées à la recherche de quelque chose de différent et de mémorable.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'Zkittles ☕️🤍',
-                    flag: '🇲🇦',
-                    name: 'Zkittles 🎀',
-                    farm: '🇨🇭 SUISSE FARMZ',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductZKS.png', 
-                    video: 'VideoZKS.mov',
-                    description: '🌈🍬🔥 Nouvelle Récolte 2026 – Suisse Farm 🔥🍬🌈\n 🇨🇭💎 Une véritable explosion de terpènes fruités signée Suisse Farm. Une sélection pensée pour les amoureux des profils sucrés, exotiques et ultra parfumés. 💎🇨🇭\n 🍭✨ 3x Filtré 45u – Zkittlez ✨🍭\n 🌈 Le bonbon qui a conquis le monde du hash 🌈\n Dès l’ouverture, Zkittlez dévoile un bouquet aromatique exceptionnel 🤤💨. Une avalanche de fruits tropicaux 🥭🍍, d’agrumes sucrés 🍊🍋 et de bonbons fruités 🍬 envahit instantanément les sens. Son profil gourmand est accompagné de légères notes florales 🌸 et d’une touche crémeuse qui apporte beaucoup de rondeur à l’ensemble.\n\n 😮‍💨🍭 Goût\n En bouche, c’est une véritable confiserie artisanale 🍬🤍. L’attaque est intensément fruitée avec des saveurs de fruits exotiques 🥭🍍 et de bonbons acidulés 🍭. La fumée est douce, crémeuse et particulièrement savoureuse ☁️✨. La finale laisse une persistance sucrée impressionnante avec des notes de fruits mûrs qui restent longtemps sur le palais 😋🔥.\n\n ⚡🧠 Effets\n Une expérience agréable et équilibrée qui accompagne parfaitement les moments de détente 😌✨.\n\n 😁 Bonne humeur instantanée\n 🌈 Sensation de légèreté et de confort\n ✨ Esprit détendu et positif\n 💆‍♂️ Relaxation progressive du corps\n ☁️ Effet doux et enveloppant\n 🌙 Idéal pour profiter d’un moment tranquille\n\n 🏆🇨🇭 Le verdict\n Avec cette Zkittlez 45u 3x filtrée, Suisse Farm propose un classique incontournable revisité avec soin 💎🔥. Un profil explosif, une richesse aromatique impressionnante et une gourmandise rare qui séduira immédiatement les amateurs de résines fruitées.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*  {
-                    id: 'PURPLE STORM 😈',
-                    flag: '🇲🇦',
-                    name: 'PURPLE STORM 😈',
-                    farm: '🦊 KGF FARM',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductPS.png', 
-                    video: 'VideoPS.mp4',
-                    description: '💨🔥 Une nouvelle bombe signée KGF FARM 🔥💨\n 🌪️🍇 3x Filtré 45u – Purple Storm 🍇🌪️\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Purple Storm libère une vague de terpènes gourmands et envoûtants 🤤💜. Un mélange intense de raisin sucré 🍇, de fruits rouges 🍓, de mûre et de myrtille 🫐 envahit les sens. En fond, des notes florales délicates 🌸🌿 rappellent la violette et la lavande, tandis qu’une touche terreuse et kush 🌲🍂 apporte profondeur et caractère.\n\n 😮‍💨🍬 Goût\n À la dégustation, c’est une véritable explosion fruitée 💥🍇. L’attaque est douce, sucrée et crémeuse 🍯, portée par des saveurs de raisin et de baies sauvages 🫐🍓. La filtration 45u apporte une fumée particulièrement propre et onctueuse ☁️✨. En fin de bouche, les notes florales 🌸 se mêlent à un léger côté kush 🌿 qui reste longtemps sur le palais 😋.\n\n ⚡🧠 Effets\n Purple Storm propose une montée progressive et agréable 🚀✨.\n\n 😁 Humeur positive et sensation de bien-être\n 🌈 Léger effet euphorique et relaxant\n 🧘‍♂️ Apaisement mental sans lourdeur excessive\n 💆‍♂️ Détente corporelle progressive\n 😌 Sensation cocooning et réconfortante\n 🌙 Idéal pour décompresser en soirée\n\n 🔥💜 Le verdict\n Purple Storm est une vraie pépite pour les amateurs de profils fruités et floraux 🍇🫐🌸. Son 3x filtré 45u offre une fumée douce ☁️, des saveurs gourmandes 🍬 et une relaxation parfaitement équilibrée ⚖️😮‍💨',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'WHITE MOCHA ',
-                    flag: '🇲🇦',
-                    name: 'WHITE MOCHA ☕️🤍',
-                    farm: '🦊 KGF FARM',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductMoc.png', 
-                    video: 'VideoMoc.mp4',
-                    description: '💨🔥 Une nouvelle pépite signée KGF FARM 🔥💨\n 🤍☕ 3x Filtré 45u – White Mocha ☕🤍\n\n ✨ Profil aromatique ✨\n White Mocha séduit dès les premiers instants par un profil riche, crémeux et gourmand 🤤🍨. Cette variété développe un mélange raffiné de café torréfié ☕, de chocolat blanc 🍫🤍 et de notes lactées 🥛, le tout sublimé par une touche sucrée rappelant les pâtisseries et la vanille 🍪🍦. En arrière-plan, on retrouve une base légèrement terreuse et boisée 🌿🌲 qui équilibre parfaitement l’ensemble.\n\n 😮‍💨🍬 Goût\n À la dégustation, White Mocha offre une fumée particulièrement ronde et veloutée ☁️✨. L’attaque dévoile des saveurs de café latte ☕🥛 accompagnées d’une douceur sucrée évoquant le chocolat blanc 🍫🤍 et la vanille 🍦. La finale est longue, crémeuse et légèrement épicée 🌿, laissant une agréable sensation gourmande en bouche 😋.\n\n ⚡🧠 Effets\n White Mocha propose une expérience équilibrée entre confort mental et relaxation physique 😌✨.\n\n 😁 Sensation de bien-être immédiate\n 🌈 Humeur positive et esprit léger\n 🧘‍♂️ Relaxation mentale progressive\n 💆‍♂️ Détente corporelle douce et agréable\n ☁️ Effet enveloppant sans être trop lourd\n 🌙 Parfait pour les moments de calme et de détente\n\n 🔥🤍 Le verdict\n hite Mocha est un véritable dessert version hash 🍰☕. Son profil gourmand, mêlant café, chocolat blanc et vanille, en fait une variété particulièrement appréciée des amateurs de saveurs riches et crémeuses 🤤💨.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'MELONATTA 🍈 🍯 ',
-                    flag: '🇲🇦',
-                    name: 'MELONATTA 🍈🍯',
-                    farm: '🦊 KGF FARM',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductMel.png', 
-                    video: 'VideoMel.mp4',
-                    description: 'Une vraie pépite signée KGF FARM pour cette nouvelle récolte 2026 🔥\n Ce 3x filtré 45u sur la strain Melonatta envoie un profil ultra fruité, crémeux et exotique, avec une texture propre et fondante digne des grosses sélections premium.\n\n 👃 Profil aromatique :\n Dès l’ouverture, ça explose sur des notes de melon sucré bien mûr 🍈, accompagnées d’une touche citronnée et tropicale qui rappelle les bonbons fruités premium. Derrière, on retrouve un léger côté creamy/gazeux avec une finition fraîche et terpénée très raffinée.  \n\n 👅 Goût :\n En bouche, c’est ultra doux et savoureux : melon, agrumes sucrés, fruits exotiques et une petite pointe acidulée parfaitement équilibrée. La fumée est grasse, propre et laisse un goût fruité longtemps après la taffe 🤤🍈\n\n 💥 Effets :\n Une frappe euphorique et motivante qui monte progressivement avec un bon mood énergique et relax à la fois. Parfait pour ceux qui aiment les profils fruités modernes avec une vraie puissance derrière ⚡️😮‍💨  \n\n ✨ Nouvelle récolte 2026 — qualité premium KGF FARM\n Le genre de filtré qui part vite chez les connaisseurs.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'LEMON SORBET ❄️',
-                    flag: '🇲🇦',
-                    name: 'LEMON SORBET ❄️',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductLemon.png', 
-                    video: 'VideoLemon.mp4',
-                    description: '💨🔥 Une vraie grosse frappe pour les amateurs de filtré premium 🔥💨\n 🍋🍨 120U – Lemon Sorbet 🍨🍋\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Lemon Sorbet dévoile un profil terpénique explosif 💥🍋. Une vague d’agrumes ultra-fraîche envahit instantanément les sens, dominée par le citron jaune 🍋, le citron confit 🍬 et le zeste d’agrumes fraîchement râpé 🌿. En arrière-plan, des notes sucrées et crémeuses rappellent un sorbet citron artisanal 🍨, accompagnées d’une légère touche florale et d’un fond kush discret 🌱✨.\n\n 😮‍💨🍋 Goût\n En bouche, c’est une véritable explosion citronnée 💥🍋. L’attaque est vive et acidulée ⚡, rapidement équilibrée par une douceur crémeuse rappelant une glace au citron artisanale 🍨🤤. La fumée est dense, propre et particulièrement savoureuse grâce à la sélection 120U ☁️✨. La finale laisse une persistance longue et fraîche, avec des notes d’agrumes qui restent agréablement sur le palais 😋.\n\n ⚡🧠 Effets\n Lemon Sorbet offre une montée rapide et agréable 🚀✨.\n\n 😁 Sensation de bonne humeur immédiate\n 🌞 Effet positif et stimulant\n 🧠 Esprit léger et détendu\n ✨ Sensation de clarté mentale\n 😌 Relaxation progressive du corps\n 🌙 Équilibre idéal entre détente et plaisir gustatif\n\n 🏆🍋 Le verdict\n Lemon Sorbet s’impose comme une référence pour les amateurs de profils citronnés puissants et de filtrés premium 🔥🍋. Son bouquet aromatique intense, sa fumée propre et son goût gourmand en font une variété qui marque les esprits dès les premières bouffées 💨✨.',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
-                        { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 280.00 },
-                        { weight: '100G', price: 450.00 },
-                    ]
-                }, */
-        /*  {
-                    id: '🍯 FRITTER LICKER 🔥',
-                    flag: '🇲🇦',
-                    name: '🍯 FRITTER LICKER 🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductLicker.png', 
-                    video: 'VideoLicker.mov',
-                    description: '💎 Description\n\n Fritter Licker, c’est du très lourd pour les connaisseurs. Un produit 3x filtré ultra propre, travaillé avec précision pour garder uniquement la crème du hash. Dès l’ouverture, ça dégage une odeur intense mêlant notes sucrées de pâtisserie, touche crémeuse et fond légèrement gaz qui rappelle les meilleures génétiques modernes.  \n\n 🌿 Texture & Aspect\n\n Une texture grasse, souple et brillante, signe d’un filtrage maîtrisé. La matière est homogène, facile à travailler, avec une couleur claire et dorée qui annonce direct la qualité. À chaud, ça bulle et fond parfaitement, preuve d’un produit bien sélectionné.\n\n 😶‍🌫️ Effet\n\n Un high profond et enveloppant, qui commence par une montée mentale relaxante avant de poser un effet lourd et agréable dans le corps. Parfait pour se détendre, se poser entre amis ou savourer un moment chill avec une vraie frappe.\n\n 🔥 Signature\n  Un 3x filtré premium, riche en goût et en puissance — le genre de produit qui se reconnaît dès la première taffe.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*  {
-                    id: '🍓 TWIX STRAWBERRY GUMMY 🍫',
-                    flag: '🇲🇦',
-                    name: '🍓 TWIX STRAWBERRY GUMMY 🍫',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductTSG.png', 
-                    video: 'VideoTSG.mov',
-                    description: '🍓 3x FILTERED 90u 🍫 \n Un profil ultra gourmand et régressif. Ce 3x filtré 90 microns TWIX STRAWBERRY GUMMY combine des notes sucrées de fraise candy, de chocolat doux et une touche biscuitée crémeuse, rappelant une confiserie fondante et addictive.\n Grâce au triple filtrage, la matière est extrêmement propre, avec une texture grasse, souple et fondante. La combustion est nette, la fumée douce et savoureuse, laissant une longueur en bouche sucrée et fruitée parfaitement maîtrisée.\n\n 🔥 Points forts :\n  • Arômes fraise gummy, chocolat et biscuit\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM  \n\n Un hash premium, intensément gourmand, pensé pour les amateurs de saveurs sucrées, candy et ultra clean. 🍬💎',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*    {
-                    id: '🍭 RUNTZ 💎',
-                    flag: '🇲🇦',
-                    name: '🍭 RUNTZ 💎',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductRT.png', 
-                    video: 'VideoRT.mp4',
-                    description: '🍭 3x FILTERED 90u 💎 \n Une sélection triple filtrée en 90 microns, offrant une matière pure et une restitution aromatique précise, fidèle à l’identité de la strain.   \n\n 🍬 Profil aromatique \n La Runtz est une vraie signature candy : des notes sucrées, fruitées et bonbon, avec une touche légèrement crémeuse et exotique. En bouche, c’est gourmand, rond et ultra agréable, avec une longueur sucrée qui reste bien présente.   \n\n 🔥 Texture \n Fine, homogène et parfaitement travaillée, avec une propreté visible et une finition maîtrisée.   \n\n 😮‍💨 Rendu \n Une expérience douce et équilibrée, avec une sensation smooth et un profil accessible mais marqué, typique des variétés candy modernes.   \n\n 💎 Signature \n Un classique revisité en version filtrée premium, mettant en avant toute la richesse sucrée et addictive de la Runtz.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-                {
-                    id: '🍓 ZKITTLEZ 💎',
-                    flag: '🇲🇦',
-                    name: '🍓 ZKITTLEZ 💎',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductZK.png', 
-                    video: 'VideoZK.mov',
-                    description: '🍓 3x FILTERED 90u 💎\n Une sélection triple filtrée en 90 microns, conçue pour capturer toute la richesse aromatique de la strain avec une pureté optimale. \n\n 🍭 Profil aromatique\n La Zkittlez offre une explosion de saveurs fruitées et sucrées, rappelant un mélange de bonbons tropicaux 🍬🍍. On retrouve des notes de fruits rouges, agrumes et touches exotiques, avec une douceur naturelle qui enrobe parfaitement le palais. \n\n 🔥 Texture\n Fine, propre et homogène, avec une finition soignée qui met en valeur un travail de filtration précis.     \n\n 😮‍💨 Rendu \n Un profil smooth et ultra agréable, avec une sensation légère et une expression aromatique qui ressort pleinement à chaque utilisation.   \n\n 💎 Signature \n Une strain iconique dans sa version la plus propre, où le goût fruité prend le dessus avec une intensité maîtrisée et une vraie longueur en bouche.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-        /*   {
-                    id: '🌊 SUPER SOAKER 💎',
-                    flag: '🇲🇦',
-                    name: '🌊 SUPER SOAKER 💎',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductSoak.png', 
-                    video: 'VideoSoak.mov',
-                    description: '🌊 3x FILTERED 90u 💎\n Une sélection triple filtrée en 90 microns, pensée pour offrir une matière d’une pureté remarquable et une expression aromatique nette. \n\n 🍬 Profil aromatique\n La Super Soaker dévoile un mélange intense de fruits sucrés et tropicaux, accompagné d’une légère touche crémeuse et gassy. En bouche, c’est rond, riche et persistant, avec une vraie profondeur de saveur qui reste longtemps. \n\n  🔥 Texture \n Fine, propre et homogène, avec une finition soignée qui reflète un travail précis sur la filtration.  \n\n 😮‍💨 Rendu \n Une expérience smooth et équilibrée, avec une montée progressive et un ressenti clair, sans lourdeur.  \n\n  💎 Signature \n  Un produit moderne, axé sur le goût et la propreté, qui met en avant toute la richesse aromatique de la strain Super Soaker.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
-
-        /* ,
-                {
-                    id: 'PremiumDur',
-                    flag: '🇲🇦',
-                    name: 'PREMIUM DUR CASSANT 🍯',
-                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductPremiumDur.png',
-                    videos: [
-                        'VideoUni.mp4',
-                        'VideoCandy.mp4',
-                        'VideoHead.mp4'
-                                        ],
-                    description: '🏺 L’ART DU DUR CASSANT BY DHF 🏺 \n\n Oubliez le mou commercial. Ici on parle de "Glassy Tech" : un hash dur comme de la pierre à froid, qui devient une crème bulleuse au contact de la flamme. \n\n 🔥 Pourquoi le choisir ?\n • Conservation des terpènes maximale (coque protectrice)\n • Défonce lucide et puissante (High Clean)\n • 5 Variétés certifiées (Pas de mélange)\n\n 👅 Les Saveurs :\n Du fruité (Unicornz) au Gazeux (Head Banger) en passant par le Crémeux (Purple/Zushi). \n\n ⚠️ Conseil : À travailler au couteau ou à effriter finement pour une combustion parfaite.',
-                    variantTitle: 'Saveurs Premium ❄️ :',
-                    jars: [
-                        { name: 'UNICORNZ ÉLITE', emoji: '🟠', colorClass: 'style-brown' },
-                        { name: 'CANDY CANE', emoji: '🔴', colorClass: 'style-red' },
-                        { name: 'HEAD BANGER', emoji: '🟡', colorClass: 'style-yellow' },
-                
-                    ],
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
-                        { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
-                    ]
-                } */
       ],
     },
     {
@@ -3127,6 +725,23 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategHash.png", // Ton image de catégorie Weed
 
       products: [
+         {
+          id: "AZILA",
+          flag: "🇲🇦",
+          name: "AZILA ⚽",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductAZ.jpg",
+          video: "",
+          description:
+  "⚽🍯 AZILA — JAUNE CRÉMEUX PREMIUM 🍯⚽\n\nUne sélection jaune crémeuse au profil doux, gourmand et bien travaillé. AZILA se distingue par une texture mousseuse, une belle rondeur aromatique et une identité propre, pensée pour les amateurs de produits simples, efficaces et agréables à découvrir. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍯 Notes douces et légèrement miellées\n🍫 Petite touche chocolatée\n🌰 Fond gourmand et rond\n🌿 Nuance végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, AZILA développe une attaque douce et crémeuse, avec des notes sucrées et légèrement gourmandes. Le profil reste propre, rond et agréable, avec une finale discrètement résineuse qui reste bien présente. 😮‍💨⚽\n\n💛 Texture & qualité :\n☁️ Jaune mousseux et crémeux\n🤲 Texture souple et facile à travailler\n✨ Arômes bien équilibrés\n🔥 Profil propre et régulier\n💎 Sélection simple mais efficace\n\n🏆 Le verdict :\nUne valeur sûre pour ceux qui aiment les profils jaunes, crémeux et gourmands. AZILA combine douceur, texture propre et belle rondeur aromatique dans une sélection agréable au quotidien. ⚽🍯🔥",          tarifs: [
+            { weight: "10g", price: 50.0 },
+            { weight: "25g", price: 110.0 },
+            { weight: "50g", price: 180.0 },
+            { weight: "100g", price: 310.0 },
+          ],
+        },
          {
           id: "NumberOne",
           flag: "🇲🇦",
@@ -3145,162 +760,126 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100g", price: 310.0 },
           ],
         },
-         /* {
-          id: "ucky Charms 🍇",
-          flag: "🇲🇦",
-          name: "Lucky Charms 🍇",
-          farm: "🍀 FRUITY 🍀",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductLC.png",
-          video: "VideoLC.mov",
-          description:
-              "",          
-          tarifs: [
-            { weight: "10g", price: 50.0 },
-            { weight: "25g", price: 110.0 },
-            { weight: "50g", price: 180.0 },
-            { weight: "100g", price: 310.0 },
+      ],
+    },
+    {
+      id: "EXTRA",
+      name: "EXTRA 🧠",
+      type: "EXTRA",
+      quality: "EXTRA 🧠",
+      image: "CategExtra.png", // Ton image de catégorie Weed
+  // 👇 Sous-catégories de EXTRA
+      farms: [
+        {
+          id: "COKE",
+          name: "COKE 🥚",
+          image: "",
+          badgeText: "",
+          products: [
+            {
+              id: "La Colombienne",
+              flag: "🇨🇴",
+              name: "La Colombienne 🇨🇴",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              /* clickable: false, */
+              type: "Weed",
+              image: "Product777.png",
+              video: "Video777.mp4",
+              description: "94% de pureter ",
+              tarifs: [
+                { weight: "1g", price: 60.0 },
+                { weight: "2g", price: 100.0 },
+                { weight: "5g", price: 200.0 },
+                { weight: "10g", price: 370.0 },
+              ],
+            },
+            {
+              id: "Fish Scales 🐟",
+              flag: "🇱🇧",
+              name: "Fish Scales 🐟",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              type: "Weed",
+              image: "ProductFish.png",
+              video: "VideoFish.mp4",
+              description: "100% de pureter ",
+              tarifs: [
+                { weight: "1g", price: 70.0 },
+                { weight: "2g", price: 130.0 },
+                { weight: "5g", price: 300.0 },
+                { weight: "10g", price: 550.0 },
+              ],
+            },
+            {
+              id: "Pink Scales 🪸",
+              flag: "🇱🇧",
+              name: "Pink Scales 🪸",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              type: "Weed",
+              image: "ProductPink.png",
+              video: "VideoPink.mp4",
+              description: "100% de pureter ",
+              tarifs: [
+                { weight: "1g", price: 80.0 },
+                { weight: "2g", price: 140.0 },
+                { weight: "5g", price: 320.0 },
+                { weight: "10g", price: 600.0 },
+              ],
+            },
           ],
         },
-         {
-          id: "AZILA",
-          flag: "🇲🇦",
-          name: "AZILA ⚽",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductAZ.jpg",
-          video: "",
-          description:
-              "⚽🍯 AZILA — JAUNE CRÉMEUX PREMIUM 🍯⚽\n\nUne sélection jaune crémeuse au profil doux, gourmand et bien travaillé. AZILA se distingue par une texture mousseuse, une belle rondeur aromatique et une identité propre, pensée pour les amateurs de produits simples, efficaces et agréables à découvrir. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍯 Notes douces et légèrement miellées\n🍫 Petite touche chocolatée\n🌰 Fond gourmand et rond\n🌿 Nuance végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, AZILA développe une attaque douce et crémeuse, avec des notes sucrées et légèrement gourmandes. Le profil reste propre, rond et agréable, avec une finale discrètement résineuse qui reste bien présente. 😮‍💨⚽\n\n💛 Texture & qualité :\n☁️ Jaune mousseux et crémeux\n🤲 Texture souple et facile à travailler\n✨ Arômes bien équilibrés\n🔥 Profil propre et régulier\n💎 Sélection simple mais efficace\n\n🏆 Le verdict :\nUne valeur sûre pour ceux qui aiment les profils jaunes, crémeux et gourmands. AZILA combine douceur, texture propre et belle rondeur aromatique dans une sélection agréable au quotidien. ⚽🍯🔥",          
-          tarifs: [
-            { weight: "10g", price: 50.0 },
-            { weight: "25g", price: 110.0 },
-            { weight: "50g", price: 180.0 },
-            { weight: "100g", price: 310.0 },
+
+        {
+          id: "extasy",
+          name: "extasy 🍬",
+          image: "",
+          badgeText: "",
+          products: [
+            {
+              id: "Rolex 280mg",
+              flag: "💎",
+              name: "Rolex 280mg ",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              type: "Weed",
+              image: "ProductRolex.jpg",
+              video: "VideoPink.mp4",
+              description: "",
+              tarifs: [
+                { weight: "1", price: 10.0 },
+                { weight: "5", price: 30.0 },
+                { weight: "10", price: 50.0 },
+              ],
+            },
           ],
-        }, */
-       /*  {
-          id: "Mario 🍄",
-          flag: "🇲🇦",
-          name: "Mario 🍄",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductWaza.jpg",
-          video: "",
-          description:
-            "🍄⭐ MARIO ⭐🍄\n\n Une sélection au profil gourmand et bien équilibré, inspirée de l’univers emblématique de Mario. Cette variété se distingue par ses notes fruitées, sucrées et légèrement terreuses, avec une belle intensité aromatique dès l’ouverture. 🔥💎\n\n 👃 Profil aromatique :\n 🍓 Fruits rouges sucrés\n 🍄 Notes terreuses légères\n 🍬 Bonbon fruité\n 🍋 Petite touche d’agrumes\n 🌿 Fond végétal doux et naturel\n\n 👅 Goût :\n En bouche, Mario développe une attaque fruitée et sucrée, suivie de notes plus rondes et légèrement terreuses. La fumée reste douce, agréable et laisse un arrière-goût gourmand avec une petite fraîcheur citronnée. 😮‍💨🍄\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur et euphorie\n 🧠 Esprit léger et détendu\n 🎮 Sensation agréable et conviviale\n 💆 Relaxation corporelle progressive\n 🌙 Parfaite pour se poser tranquillement\n\n 🏆 Le verdict :\n Une variété originale, fruitée et facile à apprécier, idéale pour les amateurs de profils sucrés avec une légère touche terreuse. Mario combine gourmandise, équilibre et bonne vibe dans une sélection pleine de caractère. 🍄⭐🔥💎",
-          tarifs: [
-            { weight: "10g", price: 50.0 },
-            { weight: "25g", price: 110.0 },
-            { weight: "50g", price: 180.0 },
-            { weight: "100g", price: 310.0 },
+        },
+        {
+          id: "ketamine",
+          name: "ketamine 🔥",
+          image: "",
+          badgeText: "",
+          products: [
+            {
+              id: "Needles 💠",
+              flag: "💎",
+              name: "Needles 💠",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              type: "Weed",
+              image: "ProductNeed.jpg",
+              video: "VideoNeed.mp4",
+              description: "",
+              tarifs: [
+                { weight: "1g", price: 20.0 },
+                { weight: "2g", price: 30.0 },
+                { weight: "5g", price: 50.0 },
+                { weight: "10g", price: 90.0 },
+              ],
+            },
           ],
-        }, */
-        /* {
-                    id: 'Banana Candy 🍌',
-                    flag: '🇲🇦',
-                    name: 'Banana Candy 🍌',
-                    farm: '🧪 Kilogrammes Farm',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductBCY.png', 
-                    video: 'VideoBCY.mov',
-                    description: '🌕🍌🍬 SUPER MOUSSEUX 🍬🍌🌕\n 🦊🔥 Une vraie pépite signée KGF 🔥🦊\n 💛✨ Un jaune ultra mousseux qui attire l’œil dès le premier regard et qui promet une expérience aussi gourmande que généreuse. ✨💛\n 🍌🍭 Strain : Banana Candy 🍭🍌\n\n 🌴✨ Profil aromatique ✨\n Banana Candy porte parfaitement son nom 🤤🔥. Dès l’ouverture, une vague de banane mûre 🍌 envahit les sens, accompagnée d’un mélange de bonbons fruités 🍬, de crème vanillée 🍦 et d’une légère touche tropicale 🥭. En arrière-plan, quelques nuances sucrées rappelant le caramel tendre 🍯 viennent compléter un profil particulièrement gourmand.\n\n 😮‍💨🍌 Goût\n À la dégustation, Banana Candy offre une fumée particulièrement douce et savoureuse ☁️✨. La banane est omniprésente dès les premières bouffées 🍌🔥, rapidement accompagnée par des notes de confiserie fruitée 🍬 et de crème sucrée 🍦. La texture mousseuse apporte une sensation fondante agréable, tandis que la finale laisse une empreinte gourmande et légèrement exotique sur le palais 😋💨.\n\n 💛☁️ Texture\n 🌕 Aspect jaune doré éclatant\n ☁️ Texture très mousseuse et aérée\n 🤲 Souple et facile à travailler\n ✨ Belle richesse en résine\n 🔥 Combustion homogène et agréable\n\n ⚡🌈 Ambiance\n Banana Candy séduit avant tout par son profil ultra gourmand et sa douceur de dégustation 😌✨.\n 😁 Sensation de confort immédiat\n 🍭 Expérience axée sur le plaisir aromatique\n 🌴 Atmosphère détendue et agréable\n ☁️ Moment de dégustation tout en douceur\n 🌙 Idéal pour les amateurs de profils dessert et fruités\n\n 🏆🦊 Le verdict\n 🌕🍌🍬 Un nuage de banane crémeuse et de bonbons fruités, porté par une texture ultra mousseuse qui fait toute la différence. Une vraie gourmandise signée KGF. 🦊🔥💨👑💛✨',
-                    tarifs: [
-                        { weight: '10g', price: 60.00 },
-                        { weight: '20g', price: 100.00 },
-                        { weight: '50g', price: 200.00 },
-                        { weight: '100g', price: 330.00 },
-                    ]
-                },
-                {
-                    id: 'Cherry Soda 🍒',
-                    flag: '🇲🇦',
-                    name: 'Cherry Soda 🍒',
-                    farm: '🧪 Kilogrammes Farm',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductCSA.png', 
-                    video: 'VideoCSA.mov',
-                    description: '🌕🍒🥤 SUPER MOUSSEUX 🥤🍒🌕\n 🦊🔥 Une vraie pépite signée KGF 🔥🦊\n 💛✨ Un jaune ultra mousseux à la texture aérienne et fondante, associé à une génétique qui ne passe jamais inaperçue. Une sélection qui mise autant sur le plaisir visuel que sur la richesse aromatique. ✨💛\n 🍒🥤 Strain : Cherry Soda 🥤🍒\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Cherry Soda dévoile un bouquet explosif et terriblement gourmand 🤤💨. Les premières notes rappellent une limonade à la cerise fraîche 🍒🥤, accompagnée d’un côté sucré évoquant les bonbons acidulés 🍬. À mesure que les arômes se développent, on découvre des touches de fruits rouges mûrs 🍓, de sirop de cerise 🍒 et une légère fraîcheur pétillante qui fait toute l’originalité de cette variété. \n\n 😮‍💨🍒 Goût\n À la dégustation, Cherry Soda offre une expérience particulièrement savoureuse ☁️✨. L’attaque est dominée par une cerise sucrée et juteuse 🍒, rapidement rejointe par des notes de soda fruité 🥤 et de confiserie acidulée 🍬. La fumée est douce, ronde et agréable, tandis que la finale laisse une sensation fruitée persistante avec un léger côté pétillant caractéristique de la variété 😋🔥.\n\n 💛☁️ Texture\n 🌕 Belle couleur jaune dorée\n ☁️ Texture ultra mousseuse et légère\n 🤲 Facile à travailler et à effriter\n ✨ Aspect résineux particulièrement attractif\n 🔥 Consommation homogène et agréable\n\n ⚡🌈 Ambiance\n 🍒 Bonne humeur et plaisir aromatique au rendez-vous\n ✨ Expérience douce et gourmande\n 😌 Moment de détente agréable\n ☁️ Sensation légère et réconfortante\n 🌙 Idéal pour les amateurs de profils fruités et sucrés\n\n 🏆🦊 Le verdict\n 🌕🍒🥤 Une explosion de cerise sucrée, de bonbons acidulés et de fraîcheur pétillante dans une texture jaune ultra mousseuse. Une vraie gourmandise signée KGF. 🦊🔥💨👑✨🍬🍓💛',
-                    tarifs: [
-                        { weight: '10g', price: 60.00 },
-                        { weight: '20g', price: 100.00 },
-                        { weight: '50g', price: 200.00 },
-                        { weight: '100g', price: 330.00 },
-                    ]
-                }, */
-        /* {
-                    id: 'MANGO',
-                    flag: '🇲🇦',
-                    name: 'MANGO 🥭',
-                    farm: '🧪 Kilogrammes Farm',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductMan.png', 
-                    video: 'VideoMan.mov',
-                    description: '🌕🥭🔥 SUPER MOUSSEUX 🔥🥭🌕\n 🦊💎 Une vraie pépite signée KGF 💎🦊\n 💛✨ Ce jaune ultra mousseux attire immédiatement l’attention avec sa texture aérienne, sa couleur dorée éclatante et son profil tropical débordant de gourmandise. ✨💛\n 🥭🌴 Strain : Mango 🌴🥭\n\n ✨ Profil aromatique ✨\n Préparez-vous à une véritable escapade sous les tropiques 🌞🏝️. Dès l’ouverture, Mango libère un parfum intense de mangue bien mûre 🥭, accompagné de notes exotiques sucrées 🍍 et d’une légère touche d’agrumes 🍊. Son profil riche et ensoleillé est complété par des nuances crémeuses et fruitées qui rappellent un smoothie tropical fraîchement préparé 🥤🤤.\n\n 😮‍💨🥭 Goût\n À la dégustation, Mango dévoile toute sa richesse aromatique 💨✨. L’attaque est dominée par une mangue charnue et sucrée 🥭🔥, suivie de notes exotiques rappelant l’ananas et les fruits tropicaux 🍍🌴. La fumée est douce, crémeuse et particulièrement agréable ☁️🤍. La finale laisse une sensation fruitée persistante avec une belle longueur en bouche 😋💛.\n\n 💛☁️ Texture\n 🌕 Couleur jaune dorée lumineuse\n ☁️ Texture ultra mousseuse et fondante\n 🤲 Très souple et agréable à manipuler\n ✨ Aspect résineux premium\n 🔥 Belle homogénéité à la dégustation\n\n ⚡🌴 Ambiance\n 😁 Sensation de plaisir immédiat\n 🌞 Profil lumineux et gourmand\n ✨ Moment de détente agréable\n 🥭 Explosion tropicale à chaque bouffée\n ☁️ Expérience douce et savoureuse\n 🌙 Idéal pour les amateurs de variétés fruitées et exotiques\n\n 🏆🦊 Le verdict\n 🌕🥭🍍 Une vague de mangue sucrée, de fruits exotiques et de douceur tropicale dans un jaune super mousseux qui risque de faire fondre les amateurs de saveurs fruitées. 🦊💛🔥💨👑🌴✨🍯☀️',
-                    tarifs: [
-                        { weight: '10g', price: 60.00 },
-                        { weight: '20g', price: 100.00 },
-                        { weight: '50g', price: 200.00 },
-                        { weight: '100g', price: 330.00 },
-                    ]
-                },
-                {
-                    id: '💥 Berry w7 💥',
-                    flag: '🇲🇦',
-                    name: '💥 Berry w7 💥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductB7.png', 
-                    video: 'VideoB7.mov',
-                    description: '🌕 SUPER MOUSSEUX 🌕 \n\n Récolte 2026\n Une vraie pépite signée Berry W7\n Ce jaune super mousseux sur la strain envoie un profil ultra gourmand et fruité, avec une texture bien grasse et mousseuse comme les amateurs aiment 🔥\n\n 👃 Aromatique :\n À l’ouverture, ça dégage direct une grosse odeur , \n\n Derrière, t’as une légère touche creamy/gazeuse avec un fond un peu tropical qui reste longtemps au nez. Une strain connue pour son profil dessert fruité ultra propre.  \n\n 👅 Goût :\n En bouche c’est super doux et bien terpy 😮‍💨 mûr, fruits exotiques et candy sucré avec une finition légèrement crémeuse. La fumée est épaisse, propre et ultra savoureuse du début à la fin.\n\n 💨 Effets :\n Bonne grosse détente mentale et physique, montée euphorique puis relaxation bien lourde 🫠\n Parfait pour les amateurs de hash premium avec une vraie identité gustative.\n\n ✨ Texture mousseuse\n ✨ Full terpènes\n ✨ Très propre à la combustion\n ✨ Grosse frappe 2026\n\n Berry w7 produit tres demander = du très très lourd',
-                    tarifs: [
-                        { weight: '10g', price: 60.00 },
-                        { weight: '20g', price: 100.00 },
-                        { weight: '50g', price: 200.00 },
-                        { weight: '100g', price: 330.00 },
-                    ]
-                }, */
-        /*  {
-                    id: '🌕🍈 SUPER MOUSSEUX 🍈🌕',
-                    flag: '🇲🇦',
-                    name: '🌕🍈 Moon Melon 🍈🌕',
-                    farm: '🧪 Kilogrammes Farm',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductMoo.png', 
-                    video: 'VideoMoo.mov',
-                    description: '🌕🍈🚀 SUPER MOUSSEUX 🚀🍈🌕\n\n 🦊🔥 Une vraie pépite signée KGF 🔥🦊\n 💛✨ Ce jaune super mousseux se démarque par sa texture fondante et son profil fruité d’une rare gourmandise. Une sélection qui sent bon l’été et les fruits gorgés de soleil. ✨💛\n\n 🍈🌙 Strain : Moon Melon 🌙🍈\n\n ✨ Profil aromatique ✨\n Moon Melon dévoile un univers aromatique aussi doux qu’exotique 🤤💨. Dès l’ouverture, des notes intenses de melon sucré 🍈 envahissent les sens, accompagnées d’une touche de pastèque fraîche 🍉 et de fruits tropicaux juteux 🥭. L’ensemble est sublimé par une légère fraîcheur florale 🌸 et une douceur crémeuse qui rappelle les bonbons aux fruits d’été 🍬☀️.\n 👃💨 Arômes dominants\n\n 😮‍💨🍈 Goût\n À la dégustation, Moon Melon offre une expérience particulièrement douce et savoureuse ☁️✨. L’attaque est dominée par un melon sucré et désaltérant 🍈🔥, rapidement rejoint par des notes de pastèque 🍉 et de fruits tropicaux 🥭. La fumée est ronde, légère et agréable, avec une finale fraîche et fruitée qui reste longtemps en bouche 😋💨.\n\n 💛☁️ Texture\n 🌕 Jaune doré éclatant\n ☁️ Texture ultra mousseuse et aérienne\n 🤲 Souple et facile à travailler\n ✨ Aspect fondant et résineux\n 🔥 Qualité visuelle premium\n\n ⚡🌴 Ambiance\n 😁 Sensation de plaisir immédiat\n 🍈 Profil ultra fruité et gourmand\n ✨ Moment de détente tout en douceur\n ☀️ Saveurs parfaites pour les amateurs de fruits d’été\n ☁️ Expérience légère et savoureuse\n 🌙 Une variété qui invite à la détente et à l’évasion\n\n 🏆🦊 Le verdict\n\n 🌕🍈🍉 Une explosion de melon juteux, de pastèque sucrée et de fruits exotiques dans un jaune super mousseux aussi beau à regarder qu’agréable à déguster. 🦊🔥💨👑💛✨🌴🍬🚀',
-                    tarifs: [
-                        { weight: '10g', price: 60.00 },
-                        { weight: '20g', price: 100.00 },
-                        { weight: '50g', price: 200.00 },
-                        { weight: '100g', price: 330.00 },
-                    ]
-                }, */
-        /* {
-                    id: 'NICOLE KUSH ✨',
-                    flag: '🇺🇸',
-                    name: 'NICOLE KUSH ✨',
-                    farm: '🧪 Kilogrammes Farm',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductNicole.png', 
-                    video: 'VideoNicole.mov',
-                    description: '💛 JAUNE MOUSSEUX \n\n 🇫🇷 Premium France \n 🧪 Travaillé par Kilogrammes Farm  \n\n 🔥 Description  \n\n Oublie le “jaune mousseux” classique. \n Ici on est sur un jaune mousseux premium de très haute qualité, travaillé par Kilogrammes Farm sur la génétique Nicole Kush — un produit qui met tout le monde d’accord dès la première odeur.  \n\n Le goût est propre, rond et puissant : notes kushy bien grasses, touches légèrement sucrées, avec un fond crémeux qui reste longtemps en bouche. Zéro goût chimique, zéro sensation cheap — c’est du vrai jaune mousseux de connaisseur.  \n\n  La texture est bien mousseuse, grasse, fondante, facile à travailler, qui s’effrite parfaitement sans coller. \n À l’odeur, c’est lourd, kush, propre, ça annonce direct le niveau premium.  \n\n 😶‍🌫️ Effet / High  \n\n Grosse montée propre et progressive. \n  High puissant mais clean, mental détendu + corps lourd, parfait pour se poser fort sans être éclaté. \n Tu sens direct que c’est au-dessus du lot.  \n\n 🏆 Pourquoi c’est du haut niveau \n • 🌿 Travaillé par Kilogrammes Farm \n • 🧬 Génétique : Nicole Kush \n • 💛 Jaune mousseux premium (pas du jaune basique) \n • 😮‍💨 Goût lourd, kushy, crémeux \n • 💎 Texture mousseuse grasse \n • 🇫🇷 Clairement dans le top des jaunes premium en France  \n\n  📦 Pour les vrais amateurs de qualité \n Si tu veux du jaune mousseux qui a du goût + du high + du standing, celui-là coche toutes les cases.',
-                    tarifs: [
-                        { weight: '10g', price: 60.00 },
-                        { weight: '20g', price: 100.00 },
-                        { weight: '50g', price: 200.00 },
-                        { weight: '100g', price: 330.00 },
-                    ]
-                },  */
+        },
       ],
     },
 
