@@ -35,31 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const contactLinks = [
     {
       name: "WHATSAPP 📞",
-      url: "",
+      url: "https://wa.me/33751588793",
       id: "whatsapp",
       className: "whatsapp", // Il faudra peut-être ajouter ce CSS (Jaune)
       text: "WHATSAPP 📞",
-    },
-    {
-      name: "CANAL TÉLÉGRAM 💙",
-      url: "",
-      id: "telegram-main",
-      className: "telegram", // Garde le style Bleu Telegram
-      text: "CANAL TÉLÉGRAM 💙",
-    },
-    {
-      name: "POTATO / MENU 🥔",
-      url: "",
-      id: "potato-main",
-      className: "potato", // Garde le style Marron/Doré Potato
-      text: "CANAL POTATO 🥔",
-    },
-    {
-      name: "INSTAGRAM 📸",
-      url: "",
-      id: "instagram",
-      className: "instagram", // Style dégradé Insta
-      text: "INSTAGRAM 📸",
     },
   ];
 
@@ -2841,7 +2820,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Clic sur "Confirmer la commande" (VERSION WHATSAPP DIRECT)
     if (target.closest("#confirm-order-button")) {
       // 1. TON NUMÉRO WHATSAPP (Format international sans le +)
-      const myPhoneNumber = "33745907270";
+      const myPhoneNumber = "33751588793";
 
       // 2. On prépare le message
       let message = formatOrderMessage();
