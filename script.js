@@ -9,6 +9,32 @@ document.addEventListener("DOMContentLoaded", function () {
   const progressBar = document.getElementById("myBar");
   const loader = document.getElementById("page-loader");
 
+  // --- NOTIFICATION PROMO O’COFFEE ---
+const promoPopup = document.getElementById("promo-popup");
+const promoClose = document.getElementById("promo-popup-close");
+let promoPopupTimeout;
+
+function hidePromoPopup() {
+    if (!promoPopup) return;
+
+    promoPopup.classList.remove("show");
+    clearTimeout(promoPopupTimeout);
+}
+
+function showPromoPopup() {
+    if (!promoPopup) return;
+
+    clearTimeout(promoPopupTimeout);
+    promoPopup.classList.add("show");
+
+    // Disparaît automatiquement après 8 secondes
+    promoPopupTimeout = setTimeout(hidePromoPopup, 8000);
+}
+
+if (promoClose) {
+    promoClose.addEventListener("click", hidePromoPopup);
+}
+
   // 1. On lance l'animation de la barre après un tout petit délai
   setTimeout(() => {
     if (progressBar) {
@@ -27,6 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
         loader.classList.remove("active");
         // Affiche la page Home par défaut
         document.getElementById("page-home").classList.add("active");
+        // Affiche l’offre après le chargement
+setTimeout(showPromoPopup, 350);
       }, 500); // Attend la fin du fondu
     }
   }, 2600); // 2600ms = 2.5s d'animation + 0.1s de délai

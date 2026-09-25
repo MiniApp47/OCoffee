@@ -1782,6 +1782,95 @@
             border: 1px solid rgba(215, 183, 92, 0.5);
         }
 
+        /* --- Notification promotion affichée après le chargement --- */
+#promo-popup {
+    position: fixed;
+    z-index: 250;
+    top: calc(env(safe-area-inset-top, 0px) + 14px);
+    left: 50%;
+    width: min(88vw, 360px);
+    transform: translate(-50%, -24px) scale(0.96);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+#promo-popup.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translate(-50%, 0) scale(1);
+}
+
+.promo-popup-card {
+    position: relative;
+    overflow: hidden;
+    padding: 18px 42px 18px 18px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff8e1;
+    background:
+        radial-gradient(circle at 15% 10%, rgba(255, 231, 137, 0.18), transparent 28%),
+        linear-gradient(145deg, rgba(17, 91, 61, 0.98), rgba(7, 44, 28, 0.99));
+    border: 2px solid var(--gold-color);
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45),
+                0 0 20px rgba(215, 183, 92, 0.32);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+.promo-popup-kicker {
+    color: var(--gold-light);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    margin-bottom: 5px;
+}
+
+.promo-popup-title {
+    font-family: Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.promo-popup-title strong {
+    color: var(--gold-light);
+    font-size: 1.35rem;
+}
+
+.promo-popup-gift {
+    margin-top: 7px;
+    font-size: 1.52rem;
+    line-height: 1.15;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.promo-popup-gift span {
+    color: var(--gold-light);
+}
+
+#promo-popup-close {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 240, 184, 0.55);
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff8e1;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+}
+
     </style>
 </head>
 
@@ -2191,6 +2280,24 @@
     </div>
 
     <div id="notification-toast"></div>
+
+    <div id="promo-popup" aria-live="polite" aria-label="Offre O’Coffee">
+    <div class="promo-popup-card">
+        <button id="promo-popup-close" type="button" aria-label="Fermer la promotion">×</button>
+
+        <div class="promo-popup-kicker">
+            🔥 OFFRE O’COFFEE 🔥
+        </div>
+
+        <div class="promo-popup-title">
+            Pour plus de <strong>200€ d’achat</strong>
+        </div>
+
+        <div class="promo-popup-gift">
+            OBTENEZ <span>50€</span> DE CONSOMMATION OFFERTE 🎁
+        </div>
+    </div>
+</div>
     <script src="script.js"></script>
 </body>
 
