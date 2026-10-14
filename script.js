@@ -145,7 +145,7 @@ setTimeout(showPromoPopup, 350);
         }, 
          {
                     id: 'BLUE LOBSTER 🦞💙',
-                    flag: '🇲🇦',
+                    flag: '🇺🇸',
                     name: 'BLUE LOBSTER 🦞💙',
                     farm: '🌾 WEST COAST MOUSSE',
                     promoEligible: true,
