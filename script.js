@@ -108,6 +108,76 @@ setTimeout(showPromoPopup, 350);
 
       products: [
         {
+          id: "BISCOTTI 🍪",
+          flag: "🇺🇸",
+          name: "BISCOTTI 🍪",
+          farm: "🌾 WEST COAST MOUSSE",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductBisco.jpg",
+          video: "VideoBisco.mp4",
+          description:
+            "🍪🔥 BISCOTTI — WEST COAST MOUSSE 🔥🍪\n\n Une mousse gourmande inspirée des meilleurs profils dessert américains. Biscotti développe un mélange riche de biscuit sucré, de crème vanillée et de notes légèrement épicées, accompagné d’un fond kush et gazeux qui lui apporte beaucoup de caractère. 🇺🇸💎\n\n 👃 Profil aromatique :\n 🍪 Biscuit chaud et pâte sucrée\n 🍦 Vanille et crème douce\n 🌰 Amande et noisette grillée\n 🌶️ Légères notes épicées\n ⛽ Fond kush et gazeux\n\n 👅 Goût :\n En bouche, l’attaque rappelle un biscuit tout juste sorti du four, avec des notes de vanille, de caramel et de fruits à coque. Le profil devient ensuite plus profond et légèrement épicé, avant une finale kush et gassy qui reste longtemps sur le palais. 😮‍💨🍪\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et souple\n 🤲 Facile à effriter\n ✨ Profil gourmand très marqué\n 🔥 Fumée dense et crémeuse\n 💎 Finition premium West Coast\n\n 🏆 Le verdict :\n Biscotti est une valeur sûre pour les amateurs de profils pâtissiers, crémeux et gazeux. Une mousse riche et réconfortante avec une véritable identité Cali dessert. 🍪🍦⛽🔥",
+          tarifs: [
+            { weight: "10G", price: 60.0 },
+            { weight: "20G", price: 100.0 },
+            { weight: "50G", price: 220.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
+        {
+          id: "Candy Crush 🍭",
+          flag: "🇺🇸",
+          name: "Candy Crush 🍭",
+          farm: "🌾 WEST COAST MOUSSE",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductUsa3.jpg",
+          video: "VideoCCH.mp4",
+          description:
+            "🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d'une technique \"Dry Sift\" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l'ancienne version. \n\n  🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy. \n\n 🍯 Texture : Jaune mousseux d’exception qui s'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫",
+          tarifs: [
+            { weight: "10G", price: 60.0 },
+            { weight: "20G", price: 100.0 },
+            { weight: "50G", price: 220.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        }, 
+         {
+                    id: 'BLUE LOBSTER 🦞💙',
+                    flag: '🇲🇦',
+                    name: 'BLUE LOBSTER 🦞💙',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductBlueL.png', 
+                    video: 'VideoBlueL.mov',
+                    description: 'Une variété lourde qui mélange parfaitement le côté fruité sucré et le gaz puissant typique des grosses génétiques US 🇺🇸🔥\n Le Blue Lobster en jaune mousseux envoie un profil très riche avec une fumée épaisse et ultra savoureuse 😮‍💨💨\n\n 👃 Profil aromatique :\n Dès l’ouverture, t’as une grosse odeur berry sucrée avec des notes crémeuses et un fond bien gassy ⛽️🫐🍬\n Le tout accompagné d’une petite touche marine/funky typique du Blue Lobster qui lui donne une vraie identité premium.\n\n 👅 Goût :\n En bouche c’est hyper gras et intense 🔥\n Tu sens les fruits bleus sucrés, une crème légère et surtout une finition diesel/gaz qui reste collée au palais longtemps 😵‍💫💨\n Très complexe et très propre à la combustion.\n\n 💥 Effets :\n Défonce lourde et euphorique au début avant de laisser place à une relaxation profonde 🧠💥\n Parfait pour les amateurs de produits qui cognent vraiment fort tout en gardant un goût incroyable.\n⭐️ Texture mousseuse premium\n⭐️ Très gros terps US\n⭐️ Fumée épaisse et savoureuse\n⭐️ Effet puissant et longue durée 🦞🔥',
+                    tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+         {
+                    id: 'White truffle 🍄',
+                    flag: '🇺🇸',
+                    name: 'White truffle 🍄',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductWT.jpg',
+                    video:'VideoWT.mp4',
+                      description: '🍄🤍 WHITE TRUFFLE — WEST COAST MOUSSE 🤍🍄\n\n Une mousse premium au profil profond, crémeux et raffiné. White Truffle se distingue par son mélange de notes terreuses, boisées et légèrement gazeuses, accompagné d’une douceur gourmande qui apporte beaucoup de rondeur à l’ensemble. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍄 Notes terreuses et boisées\n 🌰 Noisette et fruits à coque\n 🍦 Fond crémeux et vanillé\n 🌿 Légère touche végétale\n ⛽ Finition gazeuse discrète\n\n 👅 Goût :\n En bouche, l’attaque est ronde et crémeuse, avec des saveurs de noisette grillée et de sous-bois. Une douceur légèrement vanillée apparaît ensuite, avant de laisser place à une finale plus profonde, terreuse et gassy qui reste longtemps sur le palais. 😮‍💨🍄\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et homogène\n 🤲 Souple et facile à travailler\n ✨ Profil aromatique riche\n 🔥 Fumée dense et savoureuse\n 💎 Finition premium West Coast\n\n 🏆 Le verdict :\n White Truffle est une sélection élégante et pleine de caractère, idéale pour les amateurs de profils crémeux, terreux et légèrement gazeux. Une mousse raffinée qui change des saveurs fruitées classiques. 🍄🤍⛽🔥',
+                      tarifs: [
+                        { weight: '9G', price: 50.00 },
+                        { weight: '25G', price: 120.00 },
+                        { weight: '50G', price: 200.00 },
+                        { weight: '100G', price: 350.00 },
+                    ]
+                },
+        {
           id: "Papaya",
           flag: "🇺🇸",
           name: "PAPAYA 🥭",
@@ -271,6 +341,40 @@ setTimeout(showPromoPopup, 350);
       image: "CategWeed.png", // Ton image de catégorie Weed
 
       products: [
+         {
+                    id: 'La pink',
+                    flag: '🇺🇸',
+                    name: 'La pink 🩷',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLP.png', 
+                    video: 'VideoLP.mp4',
+                    description:  "🩷🍬 LA PINK — CALI PREMIUM 🍬🩷\n\nUne sélection au profil doux, sucré et très gourmand. La Pink se distingue par une belle rondeur aromatique, des notes fruitées/candy bien présentes et une finition propre qui lui donne une vraie identité premium. 🇺🇸🔥\n\n👃 Profil aromatique :\n🩷 Notes candy sucrées\n🍓 Fruits rouges doux\n🍦 Fond crémeux léger\n🌸 Petite touche florale\n🌿 Finition propre et équilibrée\n\n👅 Goût :\nEn bouche, La Pink développe une attaque douce et fruitée, avec une belle présence sucrée et une rondeur très agréable. Le profil reste propre, gourmand et parfumé, avec une finale douce qui reste bien en bouche. 😮‍💨🩷\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil sucré et expressif\n☁️ Dégustation douce et aromatique\n🔥 Belle rondeur en bouche\n🩷 Identité moderne et gourmande\n\n🏆 Le verdict :\nUne variété parfaite pour ceux qui aiment les profils candy, fruités et crémeux. La Pink combine douceur, gourmandise et finition premium dans une sélection très propre. 🩷🍬🔥",                  
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'Kim Tech',
+                    flag: '🇺🇸',
+                    name: 'Kim Tech 🤚',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductKT.png', 
+                    video: 'VideoKT.mp4',
+                    description:   "🤚⛽ KIM TECH — CALI PREMIUM ⛽🤚\n\nUne sélection au profil moderne, aromatique et bien travaillé. Kim Tech se distingue par une belle intensité, un côté légèrement gassy et une rondeur propre qui apporte beaucoup de caractère sans perdre en équilibre. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes gassy discrètes\n🍬 Touche candy légère\n🍦 Fond crémeux et rond\n🌿 Nuance végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, Kim Tech développe une attaque riche et parfumée, avec un mélange de notes sucrées, crémeuses et légèrement gazeuses. Le profil reste propre, long et bien équilibré, avec une finale savoureuse qui marque bien son identité. 😮‍💨🤚\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil moderne et expressif\n☁️ Dégustation dense et parfumée\n🔥 Belle longueur aromatique\n🤚 Produit propre et bien fini\n\n🏆 Le verdict :\nUne variété de caractère, idéale pour ceux qui aiment les profils modernes, légèrement gassy et crémeux. Kim Tech combine intensité aromatique, rondeur et finition premium dans une sélection très solide. 🤚⛽🔥",                    
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
         {
                     id: 'Lemon ad',
                     flag: '🇺🇸',
