@@ -244,6 +244,20 @@ setTimeout(showPromoPopup, 350);
       image: "CategDouble.png", // Ton image de catégorie Weed
 
       products: [
+         {
+                    id: 'OLIVE 🫒',
+                    flag: '🇲🇦',
+                    name: 'OLIVE 🫒',
+                    farm: "🌾 No Farm 🌾",
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductO.png', 
+                    video: 'VideoO.mp4',
+                    description: "🫒🧤 OLIVE — STATIC PREMIUM 🧤🫒\n\nUne sélection Static au format original, propre et bien travaillé. Olive se distingue par une texture soignée, une belle richesse aromatique et un profil rond, résineux et gourmand, pensé pour les amateurs de sélections premium qui sortent du lot. 🇲🇦🔥\n\n👃 Profil aromatique :\n🫒 Notes végétales propres et profondes\n🍯 Douceur légèrement miellée\n🌰 Touches rondes et gourmandes\n🌿 Fond résineux naturel\n🔥 Finition élégante et persistante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et aromatique, avec une belle rondeur dès les premières notes. Le profil devient ensuite plus résineux et profond, avec une finale propre, longue et agréable. 😮‍💨🫒\n\n🧤 Texture & qualité :\n💎 Static soigneusement travaillé\n🤲 Format olive original et premium\n🌈 Belle conservation des arômes\n☁️ Dégustation dense et savoureuse\n🔥 Profil propre, rond et régulier\n\n🏆 Le verdict :\nUne Static originale et pleine de caractère, parfaite pour ceux qui aiment les formats premium et les profils résineux bien équilibrés. Olive combine présentation, qualité et belle intensité aromatique dans une sélection très propre. 🫒🧤🔥",
+                    tarifs: [
+                        { weight: '1 olive', price: 120.00 },
+                    ]
+                },
       ],
     },
     // ============================================================
@@ -257,6 +271,40 @@ setTimeout(showPromoPopup, 350);
       image: "CategWeed.png", // Ton image de catégorie Weed
 
       products: [
+        {
+                    id: 'Lemon ad',
+                    flag: '🇺🇸',
+                    name: 'Lemon ad 🍋',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLA.png', 
+                    video: 'VideoLA.mp4',
+                    description:   "🍋✨ LEMON AD — CALI PREMIUM ✨🍋\n\nUne sélection au profil frais, citronné et très aromatique. Lemon Ad se distingue par une belle vivacité, une touche fruitée bien marquée et une finition propre qui rappelle les meilleurs profils lemon modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍬 Touche candy acidulée\n🌿 Fond végétal propre\n🍯 Légère douceur sucrée\n✨ Finition fraîche et parfumée\n\n👅 Goût :\nEn bouche, Lemon Ad développe une attaque vive et citronnée, rapidement équilibrée par une douceur fruitée légère. Le profil reste frais, propre et agréable, avec une finale zestée qui reste bien présente. 😮‍💨🍋\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil lemon expressif\n☁️ Dégustation douce et parfumée\n🔥 Belle fraîcheur aromatique\n🍋 Identité citronnée bien marquée\n\n🏆 Le verdict :\nUne variété parfaite pour ceux qui aiment les profils frais, citronnés et légèrement candy. Lemon Ad combine vivacité, douceur et finition premium dans une sélection très propre. 🍋✨🔥",                    
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'Purple',
+                    flag: '🇺🇸',
+                    name: 'Purple 🔮',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductP.png', 
+                    video: 'VideoP.mp4',
+                    description:  "🔮🍇 PURPLE — CALI PREMIUM 🍇🔮\n\nUne sélection au profil fruité, profond et gourmand. Purple se distingue par ses notes de fruits violets, sa rondeur sucrée et une identité douce mais bien marquée, pensée pour les amateurs de profils berry et modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍇 Raisin sucré et fruits violets\n🫐 Notes de baies mûres\n🍬 Touche candy légère\n🍦 Fond doux et légèrement crémeux\n🌿 Finition propre et fruitée\n\n👅 Goût :\nEn bouche, Purple développe une attaque fruitée et sucrée, avec une belle présence de raisin et de fruits rouges. Le profil devient ensuite plus rond et gourmand, avec une finale douce, parfumée et légèrement crémeuse. 😮‍💨🔮\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil fruité bien expressif\n☁️ Dégustation douce et aromatique\n🔥 Belle rondeur en bouche\n🔮 Identité purple reconnaissable\n\n🏆 Le verdict :\nUne variété idéale pour ceux qui aiment les profils fruités, sucrés et berry. Purple combine douceur, gourmandise et finition premium dans une sélection très agréable. 🔮🍇🔥",                    
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
         {
           id: "Perm chimera",
           flag: "🇺🇸",
