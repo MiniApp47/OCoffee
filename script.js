@@ -119,10 +119,10 @@ setTimeout(showPromoPopup, 350);
           description:
             "🍪🔥 BISCOTTI — WEST COAST MOUSSE 🔥🍪\n\n Une mousse gourmande inspirée des meilleurs profils dessert américains. Biscotti développe un mélange riche de biscuit sucré, de crème vanillée et de notes légèrement épicées, accompagné d’un fond kush et gazeux qui lui apporte beaucoup de caractère. 🇺🇸💎\n\n 👃 Profil aromatique :\n 🍪 Biscuit chaud et pâte sucrée\n 🍦 Vanille et crème douce\n 🌰 Amande et noisette grillée\n 🌶️ Légères notes épicées\n ⛽ Fond kush et gazeux\n\n 👅 Goût :\n En bouche, l’attaque rappelle un biscuit tout juste sorti du four, avec des notes de vanille, de caramel et de fruits à coque. Le profil devient ensuite plus profond et légèrement épicé, avant une finale kush et gassy qui reste longtemps sur le palais. 😮‍💨🍪\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et souple\n 🤲 Facile à effriter\n ✨ Profil gourmand très marqué\n 🔥 Fumée dense et crémeuse\n 💎 Finition premium West Coast\n\n 🏆 Le verdict :\n Biscotti est une valeur sûre pour les amateurs de profils pâtissiers, crémeux et gazeux. Une mousse riche et réconfortante avec une véritable identité Cali dessert. 🍪🍦⛽🔥",
           tarifs: [
-            { weight: "10G", price: 60.0 },
-            { weight: "20G", price: 100.0 },
-            { weight: "50G", price: 220.0 },
-            { weight: "100G", price: 400.0 },
+            { weight: "9G", price: 50.0 },
+            { weight: "25G", price: 120.0 },
+            { weight: "50G", price: 200.0 },
+            { weight: "100G", price: 350.0 },
           ],
         },
         {
@@ -137,10 +137,10 @@ setTimeout(showPromoPopup, 350);
           description:
             "🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d'une technique \"Dry Sift\" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l'ancienne version. \n\n  🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy. \n\n 🍯 Texture : Jaune mousseux d’exception qui s'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫",
           tarifs: [
-            { weight: "10G", price: 60.0 },
-            { weight: "20G", price: 100.0 },
-            { weight: "50G", price: 220.0 },
-            { weight: "100G", price: 400.0 },
+            { weight: "9G", price: 50.0 },
+            { weight: "25G", price: 120.0 },
+            { weight: "50G", price: 200.0 },
+            { weight: "100G", price: 350.0 },
           ],
         }, 
          {
@@ -154,10 +154,10 @@ setTimeout(showPromoPopup, 350);
                     video: 'VideoBlueL.mov',
                     description: 'Une variété lourde qui mélange parfaitement le côté fruité sucré et le gaz puissant typique des grosses génétiques US 🇺🇸🔥\n Le Blue Lobster en jaune mousseux envoie un profil très riche avec une fumée épaisse et ultra savoureuse 😮‍💨💨\n\n 👃 Profil aromatique :\n Dès l’ouverture, t’as une grosse odeur berry sucrée avec des notes crémeuses et un fond bien gassy ⛽️🫐🍬\n Le tout accompagné d’une petite touche marine/funky typique du Blue Lobster qui lui donne une vraie identité premium.\n\n 👅 Goût :\n En bouche c’est hyper gras et intense 🔥\n Tu sens les fruits bleus sucrés, une crème légère et surtout une finition diesel/gaz qui reste collée au palais longtemps 😵‍💫💨\n Très complexe et très propre à la combustion.\n\n 💥 Effets :\n Défonce lourde et euphorique au début avant de laisser place à une relaxation profonde 🧠💥\n Parfait pour les amateurs de produits qui cognent vraiment fort tout en gardant un goût incroyable.\n⭐️ Texture mousseuse premium\n⭐️ Très gros terps US\n⭐️ Fumée épaisse et savoureuse\n⭐️ Effet puissant et longue durée 🦞🔥',
                     tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
+                        { weight: '9G', price: 50.00 },
+                        { weight: '25G', price: 120.00 },
+                        { weight: '50G', price: 200.00 },
+                        { weight: '100G', price: 350.00 },
                     ]
                 },
          {
@@ -325,7 +325,7 @@ setTimeout(showPromoPopup, 350);
                     video: 'VideoO.mp4',
                     description: "🫒🧤 OLIVE — STATIC PREMIUM 🧤🫒\n\nUne sélection Static au format original, propre et bien travaillé. Olive se distingue par une texture soignée, une belle richesse aromatique et un profil rond, résineux et gourmand, pensé pour les amateurs de sélections premium qui sortent du lot. 🇲🇦🔥\n\n👃 Profil aromatique :\n🫒 Notes végétales propres et profondes\n🍯 Douceur légèrement miellée\n🌰 Touches rondes et gourmandes\n🌿 Fond résineux naturel\n🔥 Finition élégante et persistante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et aromatique, avec une belle rondeur dès les premières notes. Le profil devient ensuite plus résineux et profond, avec une finale propre, longue et agréable. 😮‍💨🫒\n\n🧤 Texture & qualité :\n💎 Static soigneusement travaillé\n🤲 Format olive original et premium\n🌈 Belle conservation des arômes\n☁️ Dégustation dense et savoureuse\n🔥 Profil propre, rond et régulier\n\n🏆 Le verdict :\nUne Static originale et pleine de caractère, parfaite pour ceux qui aiment les formats premium et les profils résineux bien équilibrés. Olive combine présentation, qualité et belle intensité aromatique dans une sélection très propre. 🫒🧤🔥",
                     tarifs: [
-                        { weight: '1 olive', price: 120.00 },
+                        { weight: '1 olive', price: 110.00 },
                     ]
                 },
       ],
@@ -352,10 +352,10 @@ setTimeout(showPromoPopup, 350);
                     video: 'VideoLP.mp4',
                     description:  "🩷🍬 LA PINK — CALI PREMIUM 🍬🩷\n\nUne sélection au profil doux, sucré et très gourmand. La Pink se distingue par une belle rondeur aromatique, des notes fruitées/candy bien présentes et une finition propre qui lui donne une vraie identité premium. 🇺🇸🔥\n\n👃 Profil aromatique :\n🩷 Notes candy sucrées\n🍓 Fruits rouges doux\n🍦 Fond crémeux léger\n🌸 Petite touche florale\n🌿 Finition propre et équilibrée\n\n👅 Goût :\nEn bouche, La Pink développe une attaque douce et fruitée, avec une belle présence sucrée et une rondeur très agréable. Le profil reste propre, gourmand et parfumé, avec une finale douce qui reste bien en bouche. 😮‍💨🩷\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil sucré et expressif\n☁️ Dégustation douce et aromatique\n🔥 Belle rondeur en bouche\n🩷 Identité moderne et gourmande\n\n🏆 Le verdict :\nUne variété parfaite pour ceux qui aiment les profils candy, fruités et crémeux. La Pink combine douceur, gourmandise et finition premium dans une sélection très propre. 🩷🍬🔥",                  
                     tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
+                        { weight: '5g', price: 50.00 },
+                        { weight: '10g', price: 90.00 },
+                        { weight: '25g', price: 200.00 },
+                        { weight: '50g', price: 350.00 },
                     ]
                 }, 
         {
@@ -369,10 +369,10 @@ setTimeout(showPromoPopup, 350);
                     video: 'VideoKT.mp4',
                     description:   "🤚⛽ KIM TECH — CALI PREMIUM ⛽🤚\n\nUne sélection au profil moderne, aromatique et bien travaillé. Kim Tech se distingue par une belle intensité, un côté légèrement gassy et une rondeur propre qui apporte beaucoup de caractère sans perdre en équilibre. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes gassy discrètes\n🍬 Touche candy légère\n🍦 Fond crémeux et rond\n🌿 Nuance végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, Kim Tech développe une attaque riche et parfumée, avec un mélange de notes sucrées, crémeuses et légèrement gazeuses. Le profil reste propre, long et bien équilibré, avec une finale savoureuse qui marque bien son identité. 😮‍💨🤚\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil moderne et expressif\n☁️ Dégustation dense et parfumée\n🔥 Belle longueur aromatique\n🤚 Produit propre et bien fini\n\n🏆 Le verdict :\nUne variété de caractère, idéale pour ceux qui aiment les profils modernes, légèrement gassy et crémeux. Kim Tech combine intensité aromatique, rondeur et finition premium dans une sélection très solide. 🤚⛽🔥",                    
                     tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
+            { weight: "5g", price: 50.0 },
+            { weight: "10g", price: 90.0 },
+            { weight: "25g", price: 200.0 },
+            { weight: "50g", price: 350.0 },
                     ]
                 }, 
         {
@@ -386,10 +386,10 @@ setTimeout(showPromoPopup, 350);
                     video: 'VideoLA.mp4',
                     description:   "🍋✨ LEMON AD — CALI PREMIUM ✨🍋\n\nUne sélection au profil frais, citronné et très aromatique. Lemon Ad se distingue par une belle vivacité, une touche fruitée bien marquée et une finition propre qui rappelle les meilleurs profils lemon modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍬 Touche candy acidulée\n🌿 Fond végétal propre\n🍯 Légère douceur sucrée\n✨ Finition fraîche et parfumée\n\n👅 Goût :\nEn bouche, Lemon Ad développe une attaque vive et citronnée, rapidement équilibrée par une douceur fruitée légère. Le profil reste frais, propre et agréable, avec une finale zestée qui reste bien présente. 😮‍💨🍋\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil lemon expressif\n☁️ Dégustation douce et parfumée\n🔥 Belle fraîcheur aromatique\n🍋 Identité citronnée bien marquée\n\n🏆 Le verdict :\nUne variété parfaite pour ceux qui aiment les profils frais, citronnés et légèrement candy. Lemon Ad combine vivacité, douceur et finition premium dans une sélection très propre. 🍋✨🔥",                    
                     tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
+            { weight: "5g", price: 50.0 },
+            { weight: "10g", price: 90.0 },
+            { weight: "25g", price: 200.0 },
+            { weight: "50g", price: 350.0 },
                     ]
                 }, 
         {
@@ -403,10 +403,10 @@ setTimeout(showPromoPopup, 350);
                     video: 'VideoP.mp4',
                     description:  "🔮🍇 PURPLE — CALI PREMIUM 🍇🔮\n\nUne sélection au profil fruité, profond et gourmand. Purple se distingue par ses notes de fruits violets, sa rondeur sucrée et une identité douce mais bien marquée, pensée pour les amateurs de profils berry et modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍇 Raisin sucré et fruits violets\n🫐 Notes de baies mûres\n🍬 Touche candy légère\n🍦 Fond doux et légèrement crémeux\n🌿 Finition propre et fruitée\n\n👅 Goût :\nEn bouche, Purple développe une attaque fruitée et sucrée, avec une belle présence de raisin et de fruits rouges. Le profil devient ensuite plus rond et gourmand, avec une finale douce, parfumée et légèrement crémeuse. 😮‍💨🔮\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil fruité bien expressif\n☁️ Dégustation douce et aromatique\n🔥 Belle rondeur en bouche\n🔮 Identité purple reconnaissable\n\n🏆 Le verdict :\nUne variété idéale pour ceux qui aiment les profils fruités, sucrés et berry. Purple combine douceur, gourmandise et finition premium dans une sélection très agréable. 🔮🍇🔥",                    
                     tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
+            { weight: "5g", price: 50.0 },
+            { weight: "10g", price: 90.0 },
+            { weight: "25g", price: 200.0 },
+            { weight: "50g", price: 350.0 },
                     ]
                 }, 
         {
@@ -421,10 +421,10 @@ setTimeout(showPromoPopup, 350);
           description:
              "🎄⛽ PERM CHIMERA — CALI PREMIUM ⛽🎄\n\nUne sélection au profil puissant en arômes, profond et très expressif. Perm Chimera mélange des notes gassy, crémeuses et légèrement fruitées, avec une identité moderne et bien marquée. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes gassy bien présentes\n🍦 Fond crémeux et rond\n🍬 Touche candy discrète\n🌿 Nuances végétales propres\n🔥 Finition résineuse intense\n\n👅 Goût :\nEn bouche, Perm Chimera développe une attaque riche et aromatique, avec une belle présence gassy dès le départ. Le profil devient ensuite plus rond, légèrement sucré et crémeux, avec une finale longue et bien marquée. 😮‍💨🎄\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Arômes profonds et expressifs\n☁️ Dégustation dense et savoureuse\n🔥 Profil moderne et travaillé\n🎄 Belle identité de connaisseur\n\n🏆 Le verdict :\nUne variété de caractère, parfaite pour les amateurs de profils gassy, crémeux et bien marqués. Perm Chimera combine profondeur aromatique, rondeur et finition premium. 🎄⛽🔥",
           tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
+            { weight: "5g", price: 50.0 },
+            { weight: "10g", price: 90.0 },
+            { weight: "25g", price: 200.0 },
+            { weight: "50g", price: 350.0 },
           ],
         },
         {
@@ -439,10 +439,10 @@ setTimeout(showPromoPopup, 350);
           description:
             "📊🔥 TRADE — CALI PREMIUM 🔥📊\n\nUne sélection moderne au profil propre, équilibré et bien travaillé. Trade se distingue par une identité aromatique ronde, légèrement sucrée et résineuse, avec une belle présence dès l’ouverture. 🇺🇸💎\n\n👃 Profil aromatique :\n🍬 Notes sucrées légères\n🌿 Fond végétal propre\n⛽ Petite touche gassy\n🍦 Rondeur crémeuse discrète\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, Trade développe une attaque douce et aromatique, avec un mélange équilibré entre notes sucrées, résineuses et légèrement crémeuses. La dégustation reste propre, agréable et régulière, avec une finale bien présente. 😮‍💨📊\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil aromatique équilibré\n☁️ Fumée douce et dense\n🔥 Bonne régularité\n📊 Produit simple, propre et efficace\n\n🏆 Le verdict :\nUne sélection fiable et équilibrée, parfaite pour ceux qui recherchent un profil propre, doux et légèrement gassy. Trade mise sur la régularité, la qualité et une belle rondeur aromatique. 📊🔥🇺🇸",
           tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
+            { weight: "5g", price: 50.0 },
+            { weight: "10g", price: 90.0 },
+            { weight: "25g", price: 200.0 },
+            { weight: "50g", price: 350.0 },
           ],
         },
         {
@@ -457,10 +457,10 @@ setTimeout(showPromoPopup, 350);
           description:
             "🌀🫐 BLUEBERRY — CALI PREMIUM 🫐🌀\n\nUne sélection fruitée et douce, centrée sur un profil myrtille sucrée, baies mûres et rondeur crémeuse. Blueberry est une valeur sûre pour les amateurs de saveurs fruitées, simples et efficaces. 🇺🇸🔥\n\n👃 Profil aromatique :\n🫐 Myrtille sucrée\n🍓 Fruits rouges mûrs\n🍬 Douceur candy légère\n🍦 Fond crémeux discret\n🌿 Petite touche végétale propre\n\n👅 Goût :\nEn bouche, Blueberry développe une attaque douce et fruitée, avec des notes de myrtille et de fruits rouges bien présentes. La dégustation reste ronde, agréable et parfumée, avec une finale sucrée qui reste longtemps sur le palais. 😮‍💨🫐\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil fruité expressif\n☁️ Fumée douce et aromatique\n🔥 Saveur claire et régulière\n🌀 Identité fruitée reconnaissable\n\n🏆 Le verdict :\nUne variété fruitée, douce et efficace, parfaite pour ceux qui aiment les profils berry, sucrés et crémeux. Blueberry combine gourmandise, fraîcheur et simplicité dans une sélection très agréable. 🌀🫐🔥",
           tarifs: [
-            { weight: "5g", price: 60.0 },
-            { weight: "10g", price: 100.0 },
-            { weight: "25g", price: 220.0 },
-            { weight: "50g", price: 400.0 },
+            { weight: "5g", price: 50.0 },
+            { weight: "10g", price: 90.0 },
+            { weight: "25g", price: 200.0 },
+            { weight: "50g", price: 350.0 },
           ],
         },
 
@@ -487,9 +487,9 @@ setTimeout(showPromoPopup, 350);
           description:
             "",
           tarifs: [
-              { weight: '5G', price: 70.00 },
-              { weight: '10G', price: 120.00 },
-              { weight: '25G', price: 250.00 },
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 90.0 },
+            { weight: "25G", price: 200.0 },
                   ],
         },
          {
@@ -504,9 +504,9 @@ setTimeout(showPromoPopup, 350);
           description:
             "🥭❄️ CHAMPAYA — FROZEN 160/73U ❄️🥭\n\nUne sélection Frozen premium au profil fruité, doux et très aromatique. Champaya se distingue par une belle expression tropicale, une texture soignée et une identité gourmande pensée pour les amateurs de profils frais et sucrés. 🇺🇸🔥\n\n👃 Profil aromatique :\n🥭 Notes tropicales et fruitées\n🍑 Fruits jaunes bien mûrs\n🍯 Fond doux légèrement miellé\n🍬 Petite touche candy\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, Champaya développe une attaque douce et fruitée, avec des notes exotiques bien présentes. Le profil reste rond, agréable et parfumé, avec une finale sucrée et fraîche qui reste longtemps en bouche. 😮‍💨🥭\n\n❄️ Texture & qualité :\n💎 Frozen 160/73u soigneusement travaillé\n🤲 Texture propre et agréable à manipuler\n🌈 Belle conservation des arômes\n☁️ Dégustation douce et savoureuse\n🔥 Profil fruité, propre et premium\n\n🏆 Le verdict :\nUne Frozen gourmande et tropicale, parfaite pour ceux qui aiment les profils fruités, doux et expressifs. Champaya combine fraîcheur, rondeur et finition premium dans une sélection très agréable. 🥭❄️🔥",
           tarifs: [
-              { weight: '5G', price: 70.00 },
-              { weight: '10G', price: 120.00 },
-              { weight: '25G', price: 250.00 },
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 90.0 },
+            { weight: "25G", price: 200.0 },
                   ],
         },
          {
@@ -521,9 +521,9 @@ setTimeout(showPromoPopup, 350);
           description:
                   "⛽❄️ FROSTY DIESEL — FROZEN 160/73U ❄️⛽\n\nUne sélection Frozen premium au profil gassy, frais et puissant en arômes. Frosty Diesel se distingue par une identité diesel bien marquée, une texture soignée et une belle profondeur aromatique destinée aux amateurs de profils plus lourds et caractériels. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes diesel et gassy bien présentes\n🍋 Petite touche citronnée fraîche\n🌿 Fond végétal propre\n🔥 Finition résineuse intense\n❄️ Fraîcheur aromatique marquée\n\n👅 Goût :\nEn bouche, Frosty Diesel développe une attaque riche et aromatique, dominée par des notes gassy et légèrement citronnées. Le profil reste profond, propre et long en bouche, avec une finale résineuse qui apporte beaucoup de caractère. 😮‍💨⛽\n\n❄️ Texture & qualité :\n💎 Frozen 160/73u soigneusement sélectionné\n🤲 Texture propre et agréable à travailler\n🌈 Arômes bien conservés\n☁️ Dégustation dense et savoureuse\n🔥 Profil gassy, frais et premium\n\n🏆 Le verdict :\nUne Frozen de caractère, idéale pour ceux qui aiment les profils diesel, résineux et bien marqués. Frosty Diesel combine fraîcheur, intensité aromatique et finition premium dans une sélection très solide. ⛽❄️🔥",
                 tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 90.0 },
+            { weight: "25G", price: 200.0 },
                     ],
         },
     
