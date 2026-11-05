@@ -314,6 +314,132 @@ setTimeout(showPromoPopup, 350);
       image: "CategDouble.png", // Ton image de catégorie Weed
 
       products: [
+        {
+  id: 'Calippo Yellow',
+  flag: '🇲🇦',
+  name: 'Calippo Yellow 🍋🟡',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductCYYY.jpg',
+  video: 'VideoCYY.mp4',
+  description:
+    "🍋🟡 CALIPPO YELLOW — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée des agrumes ensoleillés et de la fraîcheur des sorbets citronnés. Calippo Yellow évoque un univers aromatique vif, fruité et légèrement gourmand. 🇲🇦✨\n\n👃 Profil aromatique :\n🍋 Citron jaune et zestes frais\n🍬 Nuances de bonbon acidulé\n🍯 Douceur légèrement sucrée\n🌿 Fond végétal discret\n❄️ Impression de fraîcheur citronnée\n\n👅 Signature aromatique :\nUn profil imaginé autour d'une ouverture citronnée, suivie de nuances candy et d'une douceur qui rappelle les desserts glacés aux agrumes. 🍋🧊\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🟡 Identité jaune et citronnée\n\n🏆 Le verdict :\nUne identité fraîche, acidulée et gourmande, dans l'esprit d'un Calippo au citron. 🍋🟡✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+}, 
+        {
+  id: 'Orangemandarina',
+  flag: '🇲🇦',
+  name: 'Orangemandarina 🍊🌞',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductOMAA.jpg',
+  video: 'VideoOMA.mp4',
+  description:
+    "🍊🌞 ORANGEMANDARINA — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'identité résolument fruitée, inspirée de la douceur des mandarines et de la fraîcheur des oranges mûres. Orangemandarina évoque les agrumes méditerranéens dans un univers aromatique lumineux. 🇲🇦✨\n\n👃 Profil aromatique :\n🍊 Mandarine douce et juteuse\n🍋 Zestes d'agrumes\n🍯 Nuances sucrées\n🌸 Légère touche florale\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUne association imaginaire d'orange fraîche, de mandarine sucrée et de zestes délicatement acidulés, avec une nuance gourmande en arrière-plan. 🍊🌿\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌞 Identité fraîche et ensoleillée\n\n🏆 Le verdict :\nUn univers aromatique fruité et lumineux qui met la mandarine à l'honneur. 🍊🌞✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},          
+{
+  id: 'Gush mint',
+  flag: '🇲🇦',
+  name: 'Gush Mint 🍃❄️',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductGMTT.jpg',
+  video: 'VideoGMT.mp4',
+  description:
+    "🍃❄️ GUSH MINT — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'univers aromatique frais, végétal et crémeux. Gush Mint s'inspire de l'association entre la fraîcheur de la menthe et des notes plus douces, évoquant une gourmandise mentholée. 🇲🇦✨\n\n👃 Profil aromatique :\n🌱 Menthe fraîche\n🍦 Nuances crémeuses et vanillées\n🍬 Douceur sucrée discrète\n🌿 Touches végétales\n❄️ Finition aromatique rafraîchissante\n\n👅 Signature aromatique :\nUn contraste imaginé entre une ouverture mentholée et une douceur crémeuse, presque pâtissière, qui apporte de la rondeur à l'ensemble. 🍃🍦\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n❄️ Identité fraîche et crémeuse\n\n🏆 Le verdict :\nUne identité qui marie fraîcheur végétale et notes gourmandes, autour d'un thème menthe et crème. 🍃❄️✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},             
+{
+  id: 'Pineaple',
+  flag: '🇲🇦',
+  name: 'Pineaple 🍍🌴',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductPEE.jpg',
+  video: 'VideoPE.mp4',
+  description:
+    "🍍🌴 PINEAPLE — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée d'un univers tropical, sucré et ensoleillé. Pineaple évoque l'ananas bien mûr, les fruits exotiques et une douceur gourmande qui rappelle les vacances sous les tropiques. 🇲🇦✨\n\n👃 Profil aromatique :\n🍍 Ananas mûr\n🥭 Fruits tropicaux\n🍬 Nuances de bonbon fruité\n🍯 Douceur légèrement miellée\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUn profil imaginé autour de l'ananas sucré, accompagné de nuances acidulées et d'une rondeur exotique rappelant les fruits jaunes. 🍍🥭\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌴 Identité tropicale et fruitée\n\n🏆 Le verdict :\nUne identité exotique et lumineuse, entièrement construite autour de l'ananas et des fruits tropicaux. 🍍🌴✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},   
+{
+  id: 'Runtz',
+  flag: '🇲🇦',
+  name: 'Runtz 🍬🌈',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductRZZ.jpg',
+  video: 'VideoRZ.mp4',
+  description:
+    "🍬🌈 RUNTZ — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée des univers candy, fruités et colorés. Runtz évoque un mélange de fruits sucrés, de confiseries et de nuances crémeuses dans une identité aromatique moderne. 🇲🇦✨\n\n👃 Profil aromatique :\n🍬 Bonbons aux fruits\n🍇 Raisin et fruits rouges\n🍓 Notes de fraise sucrée\n🍦 Fond légèrement crémeux\n🌸 Nuances florales discrètes\n\n👅 Signature aromatique :\nUn univers imaginé autour des confiseries fruitées, où les baies sucrées rencontrent des nuances douces et crémeuses. 🍬🍇\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌈 Identité candy et fruitée\n\n🏆 Le verdict :\nUne signature colorée et gourmande qui rappelle les assortiments de bonbons aux fruits. 🍬🌈✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},              
+{
+  id: 'Strawberry',
+  flag: '🇲🇦',
+  name: 'Strawberry 🍓❤️',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductSYY.jpg',
+  video: 'VideoSY.mp4',
+  description:
+    "🍓❤️ STRAWBERRY — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'identité fruitée et gourmande, inspirée des fraises mûres et des fruits rouges. Strawberry évoque une douceur familière, délicatement sucrée, accompagnée de nuances florales et crémeuses. 🇲🇦✨\n\n👃 Profil aromatique :\n🍓 Fraise bien mûre\n🍒 Fruits rouges\n🍬 Douceur de confiserie\n🌸 Nuances florales\n🍦 Fond légèrement crémeux\n\n👅 Signature aromatique :\nUne composition imaginée autour de la fraise sucrée, relevée par des nuances de baies et une touche crémeuse évoquant les desserts aux fruits rouges. 🍓🍦\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n❤️ Identité fruitée et gourmande\n\n🏆 Le verdict :\nUne signature douce et fruitée inspirée de la fraise, entre fraîcheur des baies et gourmandise pâtissière. 🍓❤️✨",
+  tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+            { weight: "25G", price: 250.0 },
+            { weight: "50G", price: 450.0 },
+  ]
+},
+{
+  id: 'Lemon Fruit',
+  flag: '🇲🇦',
+  name: 'Lemon Fruit 🍋🍊',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductLFF.jpg',
+  video: 'VideoLF.mp4',
+  description:
+    "🍋🍊 LEMON FRUIT — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée de la fraîcheur du citron et de la douceur des fruits jaunes. Lemon Fruit évoque un univers aromatique vif, ensoleillé et gourmand, mêlant agrumes et nuances fruitées. 🇲🇦✨\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍊 Orange douce\n🍑 Nuances de fruits jaunes\n🍬 Petite touche candy acidulée\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUn mélange imaginé autour d'agrumes frais, d'une pointe d'acidité et d'une rondeur fruitée, évoquant une salade de fruits citronnée. 🍋🍊\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n✨ Identité citronnée et fruitée\n\n🏆 Le verdict :\nUne signature lumineuse qui associe citron, agrumes et fruits jaunes dans un univers frais et gourmand. 🍋🍊✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},
          {
                     id: 'OLIVE 🫒',
                     flag: '🇲🇦',
@@ -328,6 +454,41 @@ setTimeout(showPromoPopup, 350);
                         { weight: '1 olive', price: 110.00 },
                     ]
                 },
+ {
+          id: "Plasma static",
+          flag: "🇺🇸",
+          name: "🔮 Plasma static 🔮",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "STATIC",
+          image: "ProductPPS.png",
+          video: "VideoPPS.mov",
+          description:   "🔮🧤 PLASMA STATIC — STATIC SIFT PREMIUM 🧤🔮\n\nUne sélection Static au profil profond, brillant et très aromatique. Plasma Static se distingue par son caractère résineux, sa texture travaillée et une identité premium pensée pour les amateurs de produits propres et puissants en arômes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🔮 Notes résineuses intenses\n🍬 Touche sucrée légèrement candy\n⛽ Fond gassy bien présent\n🌿 Nuances végétales propres\n🔥 Finition profonde et persistante\n\n👅 Goût :\nEn bouche, Plasma Static développe une attaque riche et aromatique, avec un mélange de notes sucrées, gazeuses et résineuses. La dégustation reste longue, propre et bien équilibrée, avec une finale marquée qui donne une vraie impression premium. 😮‍💨🔮\n\n🧤 Texture & qualité :\n💎 Static Sift soigneusement travaillé\n🤲 Texture premium agréable à manipuler\n🌈 Belle conservation des terpènes\n☁️ Fumée dense et savoureuse\n🔥 Profil propre, intense et régulier\n\n🏆 Le verdict :\nUne Static élégante et pleine de caractère, idéale pour ceux qui aiment les profils résineux, gassy et bien travaillés. Plasma Static combine intensité, propreté et finition haut de gamme dans une sélection très solide. 🔮🧤🔥",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+            { weight: "25G", price: 250.0 },
+            { weight: "50G", price: 450.0 },
+          ],
+        },
+        {
+          id: "La Bomba x Spriter 💣",
+          flag: "🇺🇸",
+          name: "La Bomba x Spriter 💣",
+          farm: "🌟 By Secret House Smoke Farm 🌟",
+          promoEligible: true,
+          type: "STATIC",
+          image: "ProductKBS.jpg",
+          video: "VideoKBS.mp4",
+          description:
+              "💣🧤 LA BOMBA x SPRITER — STATIC SIFT 🧤💣\n\nUne sélection Static au profil explosif, aromatique et ultra travaillé. La Bomba x Spriter mélange une base puissante et résineuse avec une touche fruitée, gazeuse et légèrement sucrée qui lui donne une vraie identité premium. 🇺🇸🔥\n\n👃 Profil aromatique :\n💣 Notes puissantes et résineuses\n🍬 Touche candy légèrement sucrée\n🍋 Agrumes frais et zestés\n⛽ Fond gassy bien présent\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, La Bomba x Spriter développe une attaque intense, avec un mélange de notes fruitées, gazeuses et résineuses. Le profil reste riche et long en bouche, avec une finale propre, lourde et très aromatique. 😮‍💨💣\n\n🧤 Texture & qualité :\n💎 Static Sift soigneusement travaillé\n🤲 Texture premium et agréable à manipuler\n🌈 Belle conservation des terpènes\n☁️ Fumée dense et savoureuse\n🔥 Profil puissant et bien équilibré\n\n🏆 Le verdict :\nUne Static de caractère, pensée pour les amateurs de profils forts, gassy et fruités. La Bomba x Spriter combine intensité, gourmandise et finition premium dans une sélection qui porte bien son nom. 💣🧤🔥",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+            { weight: "25G", price: 250.0 },
+            { weight: "50G", price: 450.0 },
+          ],
+        },
       ],
     },
     // ============================================================
@@ -511,7 +672,7 @@ setTimeout(showPromoPopup, 350);
             { weight: "50g", price: 350.0 },
                     ]
                 }, 
-        {
+       /*  {
           id: "Perm chimera",
           flag: "🇺🇸",
           name: "🎄 Perm chimera 🎄",
@@ -546,7 +707,7 @@ setTimeout(showPromoPopup, 350);
             { weight: "25g", price: 200.0 },
             { weight: "50g", price: 350.0 },
           ],
-        },
+        }, */
         {
           id: "Blueberry 🌀",
           flag: "🇺🇸",
@@ -589,9 +750,9 @@ setTimeout(showPromoPopup, 350);
           description:
             "🍊❄️ MANDARINA — FROZEN PREMIUM ❄️🍊\n\nUne sélection Frozen à l'identité fruitée, lumineuse et tropicale. Mandarina évoque toute la fraîcheur des agrumes, avec une belle douceur inspirée des mandarines mûres et des oranges sucrées. 🇺🇸✨\n\n👃 Profil aromatique :\n🍊 Mandarine mûre et juteuse\n🍋 Zestes d'agrumes frais\n🍬 Nuances candy fruitées\n🍯 Fond légèrement miellé\n🌸 Petite touche florale\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture vive et citronnée, suivie d'une douceur fruitée rappelant la mandarine fraîche. Les nuances sucrées et florales apportent une identité ensoleillée et gourmande. 🍊🌞\n\n❄️ Texture & présentation :\n💎 Sélection Frozen\n🧊 Univers frais et fruité\n🍊 Inspiration agrumes\n✨ Identité tropicale et lumineuse\n\n🏆 Le verdict :\nUne signature ensoleillée qui met la mandarine à l'honneur. Entre agrumes frais, douceur fruitée et nuances gourmandes, Mandarina affiche une identité pleine de fraîcheur. 🍊❄️🔥",
           tarifs: [
-              { weight: '5G', price: 70.00 },
-              { weight: '10G', price: 120.00 },
-              { weight: '25G', price: 250.00 },
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 90.0 },
+            { weight: "25G", price: 200.0 },
                   ],
 },
          {
@@ -645,6 +806,21 @@ setTimeout(showPromoPopup, 350);
             { weight: "25G", price: 200.0 },
                     ],
         },
+            {
+                    id: 'OLIVE',
+                    flag: '🇲🇦',
+                    name: '🍫 OLIVE 🍯🫒',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'FROZEN',
+          image: "ProductOLL.png",
+          video: "VideoOL.mp4",
+                    description:
+                          "🫒🍯 OLIVE — FROZEN PREMIUM 🍯🫒\n\nUne sélection Frozen originale et gourmande, pensée pour les amateurs de résines riches, fondantes et pleines de caractère. Olive se distingue par son format atypique, sa texture travaillée et son profil aromatique profond, mêlant douceur sucrée, notes résineuses et belle rondeur en bouche. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍫 Notes chocolatées et gourmandes\n🍯 Douceur miellée\n🌰 Touches de fruits à coque\n🌿 Fond végétal et résineux\n🔥 Légère finition terreuse élégante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et gourmande, portée par des notes chocolatées et une rondeur sucrée très agréable. Le profil évolue ensuite vers quelque chose de plus résineux et légèrement terreux, avec une finale propre, riche et persistante. 😮‍💨🫒\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement travaillé\n🤲 Texture souple, dense et agréable à manipuler\n🌈 Bonne conservation des arômes\n☁️ Fumée épaisse et savoureuse\n🔥 Profil équilibré et régulier\n\n🏆 Le verdict :\nUne Frozen gourmande et pleine de caractère, idéale pour ceux qui recherchent une résine originale, fondante et bien travaillée. Olive combine douceur, profondeur aromatique et vraie identité premium dans un format qui ne passe pas inaperçu. 🫒🍯🍫🔥",
+                    tarifs: [
+                        { weight: '1 Olive', price: 90.00 },
+                    ]
+                },
     
       ],
     },
@@ -694,7 +870,7 @@ setTimeout(showPromoPopup, 350);
             { weight: "100G", price: 400.0 },
           ],
         },
-        {
+       /*  {
           id: "Guava Runtz",
           flag: "🇲🇦",
           name: "Guava Runtz 🍹",
@@ -712,7 +888,7 @@ setTimeout(showPromoPopup, 350);
             { weight: "50G", price: 250.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "Bruce banner",
           flag: "🇲🇦",
@@ -751,7 +927,7 @@ setTimeout(showPromoPopup, 350);
             { weight: "100G", price: 400.0 },
           ],
         },
-        {
+       /*  {
           id: "SPRITZER 🍸",
           flag: "🇲🇦",
           name: "SPRITZER 🍸",
@@ -769,7 +945,7 @@ setTimeout(showPromoPopup, 350);
             { weight: "50G", price: 250.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "Forbiden 🧤",
           flag: "🇲🇦",
@@ -825,6 +1001,24 @@ setTimeout(showPromoPopup, 350);
       image: "CategHash.png", // Ton image de catégorie Weed
 
       products: [
+        {
+          id: "S`Mores 🍹",
+          flag: "🇲🇦",
+          name: "S`Mores 🍹",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductSM.jpg",
+          video: "VideoSM.mp4",
+          description:
+            "S`Mores 🍹\n\n Une sélection au profil gourmand et bien équilibré, inspirée de l’univers emblématique. Cette variété se distingue par ses notes fruitées, sucrées et légèrement terreuses, avec une belle intensité aromatique dès l’ouverture. 🔥💎\n\n 👃 Profil aromatique :\n 🍓 Fruits rouges sucrés\n 🍄 Notes terreuses légères\n 🍬 Bonbon fruité\n 🍋 Petite touche d’agrumes\n 🌿 Fond végétal doux et naturel\n\n 👅 Goût :\n En bouche, S`Mores développe une attaque fruitée et sucrée, suivie de notes plus rondes et légèrement terreuses. La fumée reste douce, agréable et laisse un arrière-goût gourmand avec une petite fraîcheur citronnée. 😮‍💨🍄\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur et euphorie\n 🧠 Esprit léger et détendu\n 🎮 Sensation agréable et conviviale\n 💆 Relaxation corporelle progressive\n 🌙 Parfaite pour se poser tranquillement\n\n 🏆 Le verdict :\n Une variété originale, fruitée et facile à apprécier, idéale pour les amateurs de profils sucrés avec une légère touche terreuse. S`Mores combine gourmandise, équilibre et bonne vibe dans une sélection pleine de caractère. 🍄⭐🔥💎",
+          tarifs: [
+            { weight: "10g", price: 50.0 },
+            { weight: "25g", price: 110.0 },
+            { weight: "50g", price: 180.0 },
+            { weight: "100g", price: 310.0 },
+          ],
+        },
          {
           id: "Fresh Juice 🍹",
           flag: "🇲🇦",
