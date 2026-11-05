@@ -1038,7 +1038,128 @@ setTimeout(showPromoPopup, 350);
           ],
         },
       ]
-    }
+    },
+      {
+      id: "EXTRA",
+      name: "EXTRA 🔞",
+      type: "EXTRA",
+      quality: "EXTRA 🔞",
+      image: "CategExtra.png",
+
+      // 👇 Sous-catégories de EXTRA
+      farms: [
+        {
+          id: "COKE",
+          name: "COKE 🥚",
+          image: "",
+          badgeText: "",
+          products: [
+            {
+              id: "Pink Scales 🪸",
+              flag: "🇱🇧",
+              name: "Pink Scales 🪸",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              type: "Weed",
+              image: "ProductPink.png",
+              video: "VideoPink.mp4",
+              description: "100% de pureter ",
+              tarifs: [
+                { weight: "1g", price: 80.0 },
+                { weight: "2g", price: 140.0 },
+                { weight: "5g", price: 320.0 },
+                { weight: "10g", price: 600.0 },
+              ],
+            },
+            {
+              id: "La Colombienne",
+              flag: "🇨🇴",
+              name: "La Colombienne 🇨🇴",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              /* clickable: false, */
+              type: "Weed",
+              image: "Product777.png",
+              video: "Video777.mp4",
+              description: "94% de pureter ",
+              tarifs: [
+                { weight: "1g", price: 60.0 },
+                { weight: "2g", price: 100.0 },
+                { weight: "5g", price: 200.0 },
+                { weight: "10g", price: 370.0 },
+              ],
+            },
+            {
+              id: "Fish Scales 🐟",
+              flag: "🇱🇧",
+              name: "Fish Scales 🐟",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              type: "Weed",
+              image: "ProductFish.png",
+              video: "VideoFish.mp4",
+              description: "100% de pureter ",
+              tarifs: [
+                { weight: "1g", price: 70.0 },
+                { weight: "2g", price: 130.0 },
+                { weight: "5g", price: 300.0 },
+                { weight: "10g", price: 550.0 },
+              ],
+            },
+          ],
+        },
+
+        {
+          id: "extasy",
+          name: "extasy 🍬",
+          image: "",
+          badgeText: "",
+          products: [
+            {
+              id: "Blue",
+              flag: "💎",
+              name: "Blue 💙",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              type: "Weed",
+              image: "ProductBL.png",
+              video: "VideoBL.mp4",
+              description: "",
+              tarifs: [
+                { weight: "1", price: 10.0 },
+                { weight: "5", price: 30.0 },
+                { weight: "10", price: 50.0 },
+              ],
+            },
+          ],
+        },
+        {
+          id: "ketamine",
+          name: "ketamine 🔥",
+          image: "",
+          badgeText: "",
+          products: [
+            {
+              id: "Needles 💠",
+              flag: "💎",
+              name: "Needles 💠",
+              farm: "🌾 No Farm 🌾",
+              promoEligible: true,
+              type: "Weed",
+              image: "ProductNeed.jpg",
+              video: "VideoNedd.mp4",
+              description: "",
+              tarifs: [
+                { weight: "1g", price: 20.0 },
+                { weight: "2g", price: 30.0 },
+                { weight: "5g", price: 50.0 },
+                { weight: "10g", price: 90.0 },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   /*
         // ============================================================
     // CATEGORIE 3 : PACKS DE NOEL 🎄
