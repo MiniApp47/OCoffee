@@ -329,179 +329,125 @@ setTimeout(showPromoPopup, 350);
     { weight: '1 olive', price: 100.00 },
   ]
 }, 
-        {
-  id: 'Calippo Yellow',
-  flag: '🇲🇦',
-  name: 'Calippo Yellow 🍋🟡',
-  farm: '🎻 MOZART FARM',
-  promoEligible: true,
-  type: 'STATIC',
-  image: 'ProductCYYY.jpg',
-  video: 'VideoCYY.mp4',
-  description:
-    "🍋🟡 CALIPPO YELLOW — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée des agrumes ensoleillés et de la fraîcheur des sorbets citronnés. Calippo Yellow évoque un univers aromatique vif, fruité et légèrement gourmand. 🇲🇦✨\n\n👃 Profil aromatique :\n🍋 Citron jaune et zestes frais\n🍬 Nuances de bonbon acidulé\n🍯 Douceur légèrement sucrée\n🌿 Fond végétal discret\n❄️ Impression de fraîcheur citronnée\n\n👅 Signature aromatique :\nUn profil imaginé autour d'une ouverture citronnée, suivie de nuances candy et d'une douceur qui rappelle les desserts glacés aux agrumes. 🍋🧊\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🟡 Identité jaune et citronnée\n\n🏆 Le verdict :\nUne identité fraîche, acidulée et gourmande, dans l'esprit d'un Calippo au citron. 🍋🟡✨",
-  tarifs: [
-    { weight: '3G', price: 50.00 },
-    { weight: '10G', price: 140.00 },
-    { weight: '25G', price: 250.00 },
-    { weight: '50G', price: 450.00 },
-  ]
-}, 
-        {
-  id: 'Orangemandarina',
-  flag: '🇲🇦',
-  name: 'Orangemandarina 🍊🌞',
-  farm: '🎻 MOZART FARM',
-  promoEligible: true,
-  type: 'STATIC',
-  image: 'ProductOMAA.jpg',
-  video: 'VideoOMA.mp4',
-  description:
-    "🍊🌞 ORANGEMANDARINA — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'identité résolument fruitée, inspirée de la douceur des mandarines et de la fraîcheur des oranges mûres. Orangemandarina évoque les agrumes méditerranéens dans un univers aromatique lumineux. 🇲🇦✨\n\n👃 Profil aromatique :\n🍊 Mandarine douce et juteuse\n🍋 Zestes d'agrumes\n🍯 Nuances sucrées\n🌸 Légère touche florale\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUne association imaginaire d'orange fraîche, de mandarine sucrée et de zestes délicatement acidulés, avec une nuance gourmande en arrière-plan. 🍊🌿\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌞 Identité fraîche et ensoleillée\n\n🏆 Le verdict :\nUn univers aromatique fruité et lumineux qui met la mandarine à l'honneur. 🍊🌞✨",
-  tarifs: [
-    { weight: '3G', price: 50.00 },
-    { weight: '10G', price: 140.00 },
-    { weight: '25G', price: 250.00 },
-    { weight: '50G', price: 450.00 },
-  ]
-},          
+
 {
-  id: 'Gush mint',
-  flag: '🇲🇦',
-  name: 'Gush Mint 🍃❄️',
-  farm: '🎻 MOZART FARM',
-  promoEligible: true,
-  type: 'STATIC',
-  image: 'ProductGMTT.jpg',
-  video: 'VideoGMT.mp4',
-  description:
-    "🍃❄️ GUSH MINT — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'univers aromatique frais, végétal et crémeux. Gush Mint s'inspire de l'association entre la fraîcheur de la menthe et des notes plus douces, évoquant une gourmandise mentholée. 🇲🇦✨\n\n👃 Profil aromatique :\n🌱 Menthe fraîche\n🍦 Nuances crémeuses et vanillées\n🍬 Douceur sucrée discrète\n🌿 Touches végétales\n❄️ Finition aromatique rafraîchissante\n\n👅 Signature aromatique :\nUn contraste imaginé entre une ouverture mentholée et une douceur crémeuse, presque pâtissière, qui apporte de la rondeur à l'ensemble. 🍃🍦\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n❄️ Identité fraîche et crémeuse\n\n🏆 Le verdict :\nUne identité qui marie fraîcheur végétale et notes gourmandes, autour d'un thème menthe et crème. 🍃❄️✨",
-  tarifs: [
-    { weight: '3G', price: 50.00 },
-    { weight: '10G', price: 140.00 },
-    { weight: '25G', price: 250.00 },
-    { weight: '50G', price: 450.00 },
-  ]
-},             
-{
-  id: 'Pineaple',
-  flag: '🇲🇦',
-  name: 'Pineaple 🍍🌴',
-  farm: '🎻 MOZART FARM',
-  promoEligible: true,
-  type: 'STATIC',
-  image: 'ProductPEE.jpg',
-  video: 'VideoPE.mp4',
-  description:
-    "🍍🌴 PINEAPLE — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée d'un univers tropical, sucré et ensoleillé. Pineaple évoque l'ananas bien mûr, les fruits exotiques et une douceur gourmande qui rappelle les vacances sous les tropiques. 🇲🇦✨\n\n👃 Profil aromatique :\n🍍 Ananas mûr\n🥭 Fruits tropicaux\n🍬 Nuances de bonbon fruité\n🍯 Douceur légèrement miellée\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUn profil imaginé autour de l'ananas sucré, accompagné de nuances acidulées et d'une rondeur exotique rappelant les fruits jaunes. 🍍🥭\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌴 Identité tropicale et fruitée\n\n🏆 Le verdict :\nUne identité exotique et lumineuse, entièrement construite autour de l'ananas et des fruits tropicaux. 🍍🌴✨",
-  tarifs: [
-    { weight: '3G', price: 50.00 },
-    { weight: '10G', price: 140.00 },
-    { weight: '25G', price: 250.00 },
-    { weight: '50G', price: 450.00 },
-  ]
-},   
-{
-  id: 'Runtz',
-  flag: '🇲🇦',
-  name: 'Runtz 🍬🌈',
-  farm: '🎻 MOZART FARM',
-  promoEligible: true,
-  type: 'STATIC',
-  image: 'ProductRZZ.jpg',
-  video: 'VideoRZ.mp4',
-  description:
-    "🍬🌈 RUNTZ — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée des univers candy, fruités et colorés. Runtz évoque un mélange de fruits sucrés, de confiseries et de nuances crémeuses dans une identité aromatique moderne. 🇲🇦✨\n\n👃 Profil aromatique :\n🍬 Bonbons aux fruits\n🍇 Raisin et fruits rouges\n🍓 Notes de fraise sucrée\n🍦 Fond légèrement crémeux\n🌸 Nuances florales discrètes\n\n👅 Signature aromatique :\nUn univers imaginé autour des confiseries fruitées, où les baies sucrées rencontrent des nuances douces et crémeuses. 🍬🍇\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌈 Identité candy et fruitée\n\n🏆 Le verdict :\nUne signature colorée et gourmande qui rappelle les assortiments de bonbons aux fruits. 🍬🌈✨",
-  tarifs: [
-    { weight: '3G', price: 50.00 },
-    { weight: '10G', price: 140.00 },
-    { weight: '25G', price: 250.00 },
-    { weight: '50G', price: 450.00 },
-  ]
-},              
-{
-  id: 'Strawberry',
-  flag: '🇲🇦',
-  name: 'Strawberry 🍓❤️',
-  farm: '🎻 MOZART FARM',
-  promoEligible: true,
-  type: 'STATIC',
-  image: 'ProductSYY.jpg',
-  video: 'VideoSY.mp4',
-  description:
-    "🍓❤️ STRAWBERRY — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'identité fruitée et gourmande, inspirée des fraises mûres et des fruits rouges. Strawberry évoque une douceur familière, délicatement sucrée, accompagnée de nuances florales et crémeuses. 🇲🇦✨\n\n👃 Profil aromatique :\n🍓 Fraise bien mûre\n🍒 Fruits rouges\n🍬 Douceur de confiserie\n🌸 Nuances florales\n🍦 Fond légèrement crémeux\n\n👅 Signature aromatique :\nUne composition imaginée autour de la fraise sucrée, relevée par des nuances de baies et une touche crémeuse évoquant les desserts aux fruits rouges. 🍓🍦\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n❤️ Identité fruitée et gourmande\n\n🏆 Le verdict :\nUne signature douce et fruitée inspirée de la fraise, entre fraîcheur des baies et gourmandise pâtissière. 🍓❤️✨",
-  tarifs: [
-            { weight: "3G", price: 50.0 },
-            { weight: "10G", price: 140.0 },
-            { weight: "25G", price: 250.0 },
-            { weight: "50G", price: 450.0 },
-  ]
-},
-{
-  id: 'Lemon Fruit',
-  flag: '🇲🇦',
-  name: 'Lemon Fruit 🍋🍊',
-  farm: '🎻 MOZART FARM',
-  promoEligible: true,
-  type: 'STATIC',
-  image: 'ProductLFF.jpg',
-  video: 'VideoLF.mp4',
-  description:
-    "🍋🍊 LEMON FRUIT — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée de la fraîcheur du citron et de la douceur des fruits jaunes. Lemon Fruit évoque un univers aromatique vif, ensoleillé et gourmand, mêlant agrumes et nuances fruitées. 🇲🇦✨\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍊 Orange douce\n🍑 Nuances de fruits jaunes\n🍬 Petite touche candy acidulée\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUn mélange imaginé autour d'agrumes frais, d'une pointe d'acidité et d'une rondeur fruitée, évoquant une salade de fruits citronnée. 🍋🍊\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n✨ Identité citronnée et fruitée\n\n🏆 Le verdict :\nUne signature lumineuse qui associe citron, agrumes et fruits jaunes dans un univers frais et gourmand. 🍋🍊✨",
-  tarifs: [
-    { weight: '3G', price: 50.00 },
-    { weight: '10G', price: 140.00 },
-    { weight: '25G', price: 250.00 },
-    { weight: '50G', price: 450.00 },
-  ]
-},
-         {
-                    id: 'OLIVE 🫒',
-                    flag: '🇲🇦',
-                    name: 'OLIVE 🫒',
-                    farm: "🌾 No Farm 🌾",
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductO.png', 
-                    video: 'VideoO.mp4',
-                    description: "🫒🧤 OLIVE — STATIC PREMIUM 🧤🫒\n\nUne sélection Static au format original, propre et bien travaillé. Olive se distingue par une texture soignée, une belle richesse aromatique et un profil rond, résineux et gourmand, pensé pour les amateurs de sélections premium qui sortent du lot. 🇲🇦🔥\n\n👃 Profil aromatique :\n🫒 Notes végétales propres et profondes\n🍯 Douceur légèrement miellée\n🌰 Touches rondes et gourmandes\n🌿 Fond résineux naturel\n🔥 Finition élégante et persistante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et aromatique, avec une belle rondeur dès les premières notes. Le profil devient ensuite plus résineux et profond, avec une finale propre, longue et agréable. 😮‍💨🫒\n\n🧤 Texture & qualité :\n💎 Static soigneusement travaillé\n🤲 Format olive original et premium\n🌈 Belle conservation des arômes\n☁️ Dégustation dense et savoureuse\n🔥 Profil propre, rond et régulier\n\n🏆 Le verdict :\nUne Static originale et pleine de caractère, parfaite pour ceux qui aiment les formats premium et les profils résineux bien équilibrés. Olive combine présentation, qualité et belle intensité aromatique dans une sélection très propre. 🫒🧤🔥",
-                    tarifs: [
-                        { weight: '1 olive', price: 110.00 },
-                    ]
-                },
- {
-          id: "Plasma static",
-          flag: "🇺🇸",
-          name: "🔮 Plasma static 🔮",
-          farm: "🌾 No Farm 🌾",
+          id: "Permanant maker🍬🇺🇸",
+          flag: "🇲🇦",
+          name: "Permanant maker🍬🇺🇸",
+          farm: "TerpValley 🏜️",
           promoEligible: true,
-          type: "STATIC",
-          image: "ProductPPS.png",
-          video: "VideoPPS.mov",
-          description:   "🔮🧤 PLASMA STATIC — STATIC SIFT PREMIUM 🧤🔮\n\nUne sélection Static au profil profond, brillant et très aromatique. Plasma Static se distingue par son caractère résineux, sa texture travaillée et une identité premium pensée pour les amateurs de produits propres et puissants en arômes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🔮 Notes résineuses intenses\n🍬 Touche sucrée légèrement candy\n⛽ Fond gassy bien présent\n🌿 Nuances végétales propres\n🔥 Finition profonde et persistante\n\n👅 Goût :\nEn bouche, Plasma Static développe une attaque riche et aromatique, avec un mélange de notes sucrées, gazeuses et résineuses. La dégustation reste longue, propre et bien équilibrée, avec une finale marquée qui donne une vraie impression premium. 😮‍💨🔮\n\n🧤 Texture & qualité :\n💎 Static Sift soigneusement travaillé\n🤲 Texture premium agréable à manipuler\n🌈 Belle conservation des terpènes\n☁️ Fumée dense et savoureuse\n🔥 Profil propre, intense et régulier\n\n🏆 Le verdict :\nUne Static élégante et pleine de caractère, idéale pour ceux qui aiment les profils résineux, gassy et bien travaillés. Plasma Static combine intensité, propreté et finition haut de gamme dans une sélection très solide. 🔮🧤🔥",
+          type: "Static",
+          image: "ProductPM.png",
+          video: "VideoPM.mp4",
+          description:   "🍬🇺🇸 PERMANANT MAKER — TERPVALLEY 🏜️\n\n Une sélection Static au profil sucré et fruité, inspirée des saveurs gourmandes américaines. Permanant Maker développe une identité aromatique riche, mêlant notes candy, touches crémeuses et fond résineux. 🇲🇦💎✨\n\n 👃 Profil aromatique :\n 🍬 Notes sucrées et candy\n 🍓 Fruits rouges et baies\n 🍦 Crème douce et vanillée\n 🌿 Fond résineux et terreux\n 🪵 Accents boisés subtils\n 🔥 Finition aromatique persistante\n\n 🌈 Signature aromatique :\n Un profil imaginé autour d'une ouverture sucrée et fruitée, associant candy, fruits rouges et nuances crémeuses. Des notes résineuses et boisées viennent compléter cette composition, rappelant les profils gourmands américains. 🍬🍓\n\n 🧤 Texture & présentation :\n 💎 Catégorie Static\n 🇲🇦 Inspiration marocaine\n 🌿 Univers résineux et authentique\n ✨ Présentation soignée\n 👑 Identité premium et gourmande\n\n 🏆 Le verdict :\n Une identité élégante et pleine de caractère, qui associe douceur candy, nuances fruitées et profondeur résineuse. Permanant Maker se distingue par son profil gourmand et son inspiration américaine. 🍬🇺🇸💎",
           tarifs: [
             { weight: "3G", price: 50.0 },
             { weight: "10G", price: 140.0 },
-            { weight: "25G", price: 250.0 },
-            { weight: "50G", price: 450.0 },
           ],
         },
         {
-          id: "La Bomba x Spriter 💣",
-          flag: "🇺🇸",
-          name: "La Bomba x Spriter 💣",
-          farm: "🌟 By Secret House Smoke Farm 🌟",
+          id: "MelonZ 🍈🍭",
+          flag: "🇲🇦",
+          name: "MelonZ 🍈🍭",
+          farm: "TerpValley 🏜️",
           promoEligible: true,
-          type: "STATIC",
-          image: "ProductKBS.jpg",
-          video: "VideoKBS.mp4",
-          description:
-              "💣🧤 LA BOMBA x SPRITER — STATIC SIFT 🧤💣\n\nUne sélection Static au profil explosif, aromatique et ultra travaillé. La Bomba x Spriter mélange une base puissante et résineuse avec une touche fruitée, gazeuse et légèrement sucrée qui lui donne une vraie identité premium. 🇺🇸🔥\n\n👃 Profil aromatique :\n💣 Notes puissantes et résineuses\n🍬 Touche candy légèrement sucrée\n🍋 Agrumes frais et zestés\n⛽ Fond gassy bien présent\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, La Bomba x Spriter développe une attaque intense, avec un mélange de notes fruitées, gazeuses et résineuses. Le profil reste riche et long en bouche, avec une finale propre, lourde et très aromatique. 😮‍💨💣\n\n🧤 Texture & qualité :\n💎 Static Sift soigneusement travaillé\n🤲 Texture premium et agréable à manipuler\n🌈 Belle conservation des terpènes\n☁️ Fumée dense et savoureuse\n🔥 Profil puissant et bien équilibré\n\n🏆 Le verdict :\nUne Static de caractère, pensée pour les amateurs de profils forts, gassy et fruités. La Bomba x Spriter combine intensité, gourmandise et finition premium dans une sélection qui porte bien son nom. 💣🧤🔥",
+          type: "Static",
+          image: "ProductMZ.png",
+          video: "VideoMZ.mp4",
+          description:   "🍈🍭 MELONZ — TERPVALLEY 🏜️\n\n Une sélection Static au profil sucré et fruité, inspirée des saveurs gourmandes de la pastèque et du melon. MelonZ développe une identité aromatique riche, mêlant notes fruitées, touches crémeuses et fond résineux. 🇲🇦💎✨\n\n 👃 Profil aromatique :\n 🍈 Notes sucrées de melon\n 🍉 Pastèque fraîche et juteuse\n 🍦 Crème douce et vanillée\n 🌿 Fond résineux et terreux\n 🪵 Accents boisés subtils\n 🔥 Finition aromatique persistante\n\n 🌈 Signature aromatique :\n Un profil imaginé autour d'une ouverture sucrée et fruitée, associant melon, pastèque et nuances crémeuses. Des notes résineuses et boisées viennent compléter cette composition, rappelant les profils gourmands estivaux. 🍈🍉\n\n 🧤 Texture & présentation :\n 💎 Catégorie Static\n 🇲🇦 Inspiration marocaine\n 🌿 Univers résineux et authentique\n ✨ Présentation soignée\n 👑 Identité premium et gourmande\n\n 🏆 Le verdict :\n Une identité élégante et pleine de caractère, qui associe douceur fruitée, nuances crémeuses et profondeur résineuse. MelonZ se distingue par son profil gourmand et son inspiration estivale. 🍈🍭💎",
           tarifs: [
             { weight: "3G", price: 50.0 },
             { weight: "10G", price: 140.0 },
-            { weight: "25G", price: 250.0 },
-            { weight: "50G", price: 450.0 },
+          ],
+        },
+        {
+          id: "GMO 🧄🧅⛽️",
+          flag: "🇲🇦",
+          name: "GMO 🧄🧅⛽️",
+          farm: "TerpValley 🏜️",
+          promoEligible: true,
+          type: "Static",
+          image: "ProductGMO.png",
+          video: "VideoGMO.mp4",
+          description:   " 🧄🧅 GMO — TERPVALLEY 🏜️\n\n Une sélection Static au profil puissant et résineux, inspirée des saveurs intenses de l’ail et de l’oignon. GMO développe une identité aromatique riche, mêlant notes terreuses, touches épicées et fond résineux. 🇲🇦💎✨\n\n 👃 Profil aromatique :\n 🧄 Notes d’ail et d’oignon\n 🌿 Fond terreux et résineux\n 🪵 Accents boisés subtils\n 🔥 Finition aromatique persistante\n\n 🌈 Signature aromatique :\n Un profil imaginé autour d’une ouverture puissante et résineuse, associant ail, oignon et nuances terreuses. Des notes boisées viennent compléter cette composition, rappelant les profils intenses et authentiques. 🧄🧅\n\n 🧤 Texture & présentation :\n 💎 Catégorie Static\n 🇲🇦 Inspiration marocaine\n 🌿 Univers résineux et authentique\n ✨ Présentation soignée\n 👑 Identité premium et intense\n\n 🏆 Le verdict :\n Une identité élégante et pleine de caractère, qui associe puissance aromatique, nuances terreuses et profondeur résineuse. GMO se distingue par son profil intense et son inspiration authentique. 🧄🧅⛽️💎",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+          ],
+        },
+        {
+          id: "Maracuya 🥭🌴🏖️",
+          flag: "🇲🇦",
+          name: "Maracuya 🥭🌴🏖️",
+          farm: "TerpValley 🏜️",
+          promoEligible: true,
+          type: "Static",
+          image: "ProductM.png",
+          video: "VideoM.mp4",
+          description:   " 🥭🌴🏖️ Maracuya — TERPVALLEY 🏜️\n\n Une sélection Static au profil sucré et fruité, inspirée des saveurs tropicales. Maracuya développe une identité aromatique riche, mêlant notes fruitées, touches crémeuses et fond résineux. 🇲🇦💎✨\n\n 👃 Profil aromatique :\n 🥭 Notes de maracuya\n 🌴 Tropicalité et fraîcheur\n 🍦 Crème douce et vanillée\n 🌿 Fond résineux et terreux\n 🪵 Accents boisés subtils\n 🔥 Finition aromatique persistante\n\n 🌈 Signature aromatique :\n Un profil imaginé autour d'une ouverture tropicale et fruitée, associant maracuya, nuances crémeuses et profondeur résineuse. Des notes boisées viennent compléter cette composition, rappelant les profils tropicaux authentiques. 🥭🌴\n\n 🧤 Texture & présentation :\n 💎 Catégorie Static\n 🇲🇦 Inspiration marocaine\n 🌿 Univers résineux et authentique\n ✨ Présentation soignée\n 👑 Identité premium et gourmande\n\n 🏆 Le verdict :\n Une identité élégante et pleine de caractère, qui associe douceur fruitée, nuances crémeuses et profondeur résineuse. Maracuya se distingue par son profil gourmand et son inspiration tropicale. 🥭🌴🏖️💎",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+          ],
+        },
+        {
+          id: "MaroccanPeach 🇲🇦🍑🤤",
+          flag: "🇲🇦",
+          name: "MaroccanPeach 🇲🇦🍑🤤",
+          farm: "TerpValley 🏜️",
+          promoEligible: true,
+          type: "Static",
+          image: "ProductMP.png",
+          video: "VideoMP.mov",
+          description:   " 🍑🍑 MaroccanPeach — TERPVALLEY 🏜️\n\n Une sélection Static au profil sucré et fruité, inspirée des saveurs marocaines. MaroccanPeach développe une identité aromatique riche, mêlant notes fruitées, touches crémeuses et fond résineux. 🇲🇦💎✨\n\n 👃 Profil aromatique :\n 🍑 Notes de pêche marocaine\n 🌴 Tropicalité et fraîcheur\n 🍦 Crème douce et vanillée\n 🌿 Fond résineux et terreux\n 🪵 Accents boisés subtils\n 🔥 Finition aromatique persistante\n\n 🌈 Signature aromatique :\n Un profil imaginé autour d'une ouverture tropicale et fruitée, associant pêche, nuances crémeuses et profondeur résineuse. Des notes boisées viennent compléter cette composition, rappelant les profils tropicaux authentiques. 🍑🌴\n\n 🧤 Texture & présentation :\n 💎 Catégorie Static\n 🇲🇦 Inspiration marocaine\n 🌿 Univers résineux et authentique\n ✨ Présentation soignée\n 👑 Identité premium et gourmande\n\n 🏆 Le verdict :\n Une identité élégante et pleine de caractère, qui associe douceur fruitée, nuances crémeuses et profondeur résineuse. MaroccanPeach se distingue par son profil gourmand et son inspiration tropicale. 🍑🌴🏖️💎",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+          ],
+        },
+        {
+          id: "Fanta 🥤🧡",
+          flag: "🇲🇦",
+          name: "Fanta 🥤🧡",
+          farm: "TerpValley 🏜️",
+          promoEligible: true,
+          type: "Static",
+          image: "ProductF.png",
+          video: "VideoF.mp4",
+          description:   " 🥤🧡 FANTA — TERPVALLEY 🏜️\n\n Une sélection Static au profil sucré et fruité, inspirée des saveurs de la célèbre boisson Fanta. Fanta développe une identité aromatique riche, mêlant notes d’agrumes, touches crémeuses et fond résineux. 🇲🇦💎✨\n\n 👃 Profil aromatique :\n 🥤 Notes d’orange et d’agrumes\n 🍬 Douceur sucrée et candy\n 🍦 Crème douce et vanillée\n 🌿 Fond résineux et terreux\n 🪵 Accents boisés subtils\n 🔥 Finition aromatique persistante\n\n 🌈 Signature aromatique :\n Un profil imaginé autour d'une ouverture sucrée et fruitée, associant agrumes, nuances crémeuses et profondeur résineuse. Des notes boisées viennent compléter cette composition, rappelant les profils gourmands estivaux. 🥤🍊\n\n 🧤 Texture & présentation :\n 💎 Catégorie Static\n 🇲🇦 Inspiration marocaine\n 🌿 Univers résineux et authentique\n ✨ Présentation soignée\n 👑 Identité premium et gourmande\n\n 🏆 Le verdict :\n Une identité élégante et pleine de caractère, qui associe douceur fruitée, nuances crémeuses et profondeur résineuse. Fanta se distingue par son profil gourmand et son inspiration estivale. 🥤🧡💎",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+          ],
+        },
+        {
+          id: "sb x gold cherry 🍊🍒🟣✨",
+          flag: "🇲🇦",
+          name: "sb x gold cherry 🍊🍒🟣✨",
+          farm: "TerpValley 🏜️",
+          promoEligible: true,
+          type: "Static",
+          image: "ProductSBG.png",
+          video: "VideoSBG.mp4",
+          description:   " 🍊🍒🟣✨ sb x gold cherry — TERPVALLEY 🏜️\n\n Une sélection Static au profil sucré et fruité, inspirée des saveurs de la célèbre boisson Fanta. Fanta développe une identité aromatique riche, mêlant notes d’agrumes, touches crémeuses et fond résineux. 🇲🇦💎✨\n\n 👃 Profil aromatique :\n 🍊 Notes d’orange et d’agrumes\n 🍒 Douceur sucrée et candy\n 🍦 Crème douce et vanillée\n 🌿 Fond résineux et terreux\n 🪵 Accents boisés subtils\n 🔥 Finition aromatique persistante\n\n 🌈 Signature aromatique :\n Un profil imaginé autour d'une ouverture sucrée et fruitée, associant agrumes, nuances crémeuses et profondeur résineuse. Des notes boisées viennent compléter cette composition, rappelant les profils gourmands estivaux. 🍊🍒\n\n 🧤 Texture & présentation :\n 💎 Catégorie Static\n 🇲🇦 Inspiration marocaine\n 🌿 Univers résineux et authentique\n ✨ Présentation soignée\n 👑 Identité premium et gourmande\n\n 🏆 Le verdict :\n Une identité élégante et pleine de caractère, qui associe douceur fruitée, nuances crémeuses et profondeur résineuse. Fanta se distingue par son profil gourmand et son inspiration estivale. 🍊🍒🟣✨",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+          ],
+        },
+        {
+          id: "ICC x TropCherry🍦🍒",
+          flag: "🇲🇦",
+          name: "ICC x TropCherry🍦🍒",
+          farm: "TerpValley 🏜️",
+          promoEligible: true,
+          type: "Static",
+          image: "ProductICC.jpg",
+          video: "VideoICC.mov",
+          description:   " 🍍🥥 TropCherry — TERPVALLEY 🏜️\n\n Une sélection Static au profil sucré et fruité, inspirée des saveurs tropicales. TropCherry développe une identité aromatique riche, mêlant notes fruitées, touches crémeuses et fond résineux. 🇲🇦💎✨\n\n 👃 Profil aromatique :\n 🍍 Notes de mangue et de papaye\n 🌴 Tropicalité et fraîcheur\n 🍦 Crème douce et vanillée\n 🌿 Fond résineux et terreux\n 🪵 Accents boisés subtils\n 🔥 Finition aromatique persistante\n\n 🌈 Signature aromatique :\n Un profil imaginé autour d'une ouverture tropicale et fruitée, associant fruits exotiques, nuances crémeuses et profondeur résineuse. Des notes boisées viennent compléter cette composition, rappelant les profils tropicaux authentiques. 🍍🌴\n\n 🧤 Texture & présentation :\n 💎 Catégorie Static\n 🇲🇦 Inspiration marocaine\n 🌿 Univers résineux et authentique\n ✨ Présentation soignée\n 👑 Identité premium et gourmande\n\n 🏆 Le verdict :\n Une identité élégante et pleine de caractère, qui associe douceur fruitée, nuances crémeuses et profondeur résineuse. TropCherry se distingue par son profil gourmand et son inspiration tropicale. 🍍🥥🏖️💎",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
           ],
         },
       ],
@@ -517,91 +463,6 @@ setTimeout(showPromoPopup, 350);
       image: "CategWeed.png", // Ton image de catégorie Weed
 
       products: [
-         {
-                    id: 'Super sow',
-                    flag: '🇺🇸',
-                    name: 'Super sow 💧',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductSO.png', 
-                    video: 'VideoSO.mp4',
-                    description:  "💧🍋 SUPER SOW — CALI SELECTION 🍋💧\n\nUne sélection à l'identité fraîche, acidulée et fruitée. Super Sow évoque un univers aromatique vif, mêlant agrumes, notes végétales et douceur légèrement sucrée. 🇺🇸✨\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍏 Pomme verte acidulée\n🍬 Petite touche candy\n🌿 Fond végétal et herbacé\n💧 Impression de fraîcheur\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture citronnée et légèrement acidulée, suivie de nuances fruitées plus douces. L'ensemble rappelle les confiseries aux agrumes et les fruits verts. 🍋🍏\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers frais et fruité\n🌱 Notes végétales naturelles\n💧 Signature acidulée\n\n🏆 Le verdict :\nUne identité vive et rafraîchissante qui associe citron, fruits verts et gourmandise acidulée. 💧🍋✨",                 
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                }, 
-        {
-                    id: 'Truffle',
-                    flag: '🇺🇸',
-                    name: 'Truffle ⚜️',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductTR.png', 
-                    video: 'VideoTR.mp4',
-                    description:  "⚜️💎 Truffle — CALI SELECTION 💎⚜️\n\nUne sélection à l'identité élégante, profonde et raffinée. Truffle évoque un univers aromatique complexe, où les nuances boisées rencontrent une douceur fruitée et des accents légèrement épicés. 🇺🇸✨\n\n👃 Profil aromatique :\n🌲 Notes boisées et végétales\n🍇 Fruits noirs et raisin\n🌶️ Nuances légèrement épicées\n🍯 Fond doux et rond\n🌸 Finition florale subtile\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture boisée, accompagnée de touches fruitées et d'une rondeur discrètement sucrée. Un contraste entre caractère et élégance. ⚜️🌿\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers aromatique profond\n🌲 Inspiration boisée\n⚜️ Signature raffinée\n\n🏆 Le verdict :\nUne identité distinguée qui mêle nuances boisées, fruits noirs et douceur aromatique. ⚜️💎✨",                  
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                }, 
-        {
-                    id: 'Lemon Cherry',
-                    flag: '🇺🇸',
-                    name: 'Lemon Cherry 🌿',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductLCD.png', 
-                    video: 'VideoLC.mp4',
-                    description:  "🌿🍬 Lemon Cherry — CALI SELECTION 🍬🌿\n\nUne sélection à l'univers aromatique moderne, fruité et gourmand. Lemon Cherry évoque une association de douceur candy, d'agrumes et de nuances crémeuses, pour une identité colorée et harmonieuse. 🇺🇸✨\n\n👃 Profil aromatique :\n🍋 Agrumes doux et zestés\n🍬 Bonbons fruités\n🍦 Nuances crémeuses\n🍒 Fruits rouges sucrés\n🌿 Fond végétal discret\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture fruitée et citronnée, progressivement accompagnée de notes sucrées et crémeuses. Une inspiration qui rappelle les desserts aux fruits et les confiseries acidulées. 🍬🍋\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers candy et fruité\n🌱 Inspiration végétale\n🍦 Nuances gourmandes\n\n🏆 Le verdict :\nUne signature douce et colorée qui associe fraîcheur des agrumes, fruits rouges et gourmandise crémeuse. 🌿🍬✨",                  
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                }, 
-        {
-                    id: 'BFR',
-                    flag: '🇺🇸',
-                    name: 'BFR 💮',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductBF.png', 
-                    video: 'VideoBF.mp4',
-                    description:  "💮🍓 BFR — CALI SELECTION 🍓💮\n\nUne sélection à l'identité florale, fruitée et délicate. BFR évoque un univers aromatique inspiré des baies rouges et des fleurs fraîches, avec une douceur gourmande et une touche végétale. 🇺🇸✨\n\n👃 Profil aromatique :\n🍓 Fraise et fruits rouges\n🫐 Baies mûres\n💮 Nuances florales\n🍬 Douceur candy\n🌿 Fond végétal discret\n\n🌈 Signature aromatique :\nUne association imaginée autour de fruits rouges sucrés, accompagnés de nuances florales légères. Le contraste entre baies gourmandes et fraîcheur végétale compose une identité délicate. 🍓💮\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers floral et fruité\n🌸 Inspiration botanique\n🍓 Signature fruits rouges\n\n🏆 Le verdict :\nUne identité florale et gourmande qui met à l'honneur les baies, les fleurs et la douceur des fruits rouges. 💮🍓✨",                  
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                }, 
-        {
-                    id: 'Gubua',
-                    flag: '🇺🇸',
-                    name: 'Gubua 🌻',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductGB.png', 
-                    video: 'VideoGB.mp4',
-                    description: "🌻🍯 GUBUA — CALI SELECTION 🍯🌻\n\nUne sélection à l'identité chaleureuse, végétale et gourmande. Gubua évoque un univers aromatique ensoleillé, inspiré du miel, des fleurs et des fruits jaunes, avec une rondeur douce et naturelle. 🇺🇸✨\n\n👃 Profil aromatique :\n🍯 Notes miellées\n🌻 Nuances florales\n🍑 Fruits jaunes mûrs\n🌰 Fond légèrement gourmand\n🌿 Touches végétales\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une douceur miellée, accompagnée de notes florales et de fruits jaunes. L'ensemble rappelle un jardin ensoleillé et une composition aromatique chaleureuse. 🌻🍯\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers doux et ensoleillé\n🌻 Inspiration florale\n🍑 Signature fruitée\n\n🏆 Le verdict :\nUne identité originale qui associe fleurs, miel et fruits jaunes dans un univers chaleureux et gourmand. 🌻🍯✨",                 
-                    tarifs: [
-                        { weight: '5g', price: 50.00 },
-                        { weight: '10g', price: 90.00 },
-                        { weight: '25g', price: 200.00 },
-                        { weight: '50g', price: 350.00 },
-                    ]
-                }, 
         {
                     id: 'Bhb',
                     flag: '🇺🇸',
@@ -636,111 +497,6 @@ setTimeout(showPromoPopup, 350);
                         { weight: '50g', price: 350.00 },
                     ]
                 }, 
-        {
-                    id: 'Kim Tech',
-                    flag: '🇺🇸',
-                    name: 'Kim Tech 🤚',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductKT.png', 
-                    video: 'VideoKT.mp4',
-                    description:   "🤚⛽ KIM TECH — CALI PREMIUM ⛽🤚\n\nUne sélection au profil moderne, aromatique et bien travaillé. Kim Tech se distingue par une belle intensité, un côté légèrement gassy et une rondeur propre qui apporte beaucoup de caractère sans perdre en équilibre. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes gassy discrètes\n🍬 Touche candy légère\n🍦 Fond crémeux et rond\n🌿 Nuance végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, Kim Tech développe une attaque riche et parfumée, avec un mélange de notes sucrées, crémeuses et légèrement gazeuses. Le profil reste propre, long et bien équilibré, avec une finale savoureuse qui marque bien son identité. 😮‍💨🤚\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil moderne et expressif\n☁️ Dégustation dense et parfumée\n🔥 Belle longueur aromatique\n🤚 Produit propre et bien fini\n\n🏆 Le verdict :\nUne variété de caractère, idéale pour ceux qui aiment les profils modernes, légèrement gassy et crémeux. Kim Tech combine intensité aromatique, rondeur et finition premium dans une sélection très solide. 🤚⛽🔥",                    
-                    tarifs: [
-            { weight: "5g", price: 50.0 },
-            { weight: "10g", price: 90.0 },
-            { weight: "25g", price: 200.0 },
-            { weight: "50g", price: 350.0 },
-                    ]
-                }, 
-        {
-                    id: 'Lemon ad',
-                    flag: '🇺🇸',
-                    name: 'Lemon ad 🍋',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductLA.png', 
-                    video: 'VideoLA.mp4',
-                    description:   "🍋✨ LEMON AD — CALI PREMIUM ✨🍋\n\nUne sélection au profil frais, citronné et très aromatique. Lemon Ad se distingue par une belle vivacité, une touche fruitée bien marquée et une finition propre qui rappelle les meilleurs profils lemon modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍬 Touche candy acidulée\n🌿 Fond végétal propre\n🍯 Légère douceur sucrée\n✨ Finition fraîche et parfumée\n\n👅 Goût :\nEn bouche, Lemon Ad développe une attaque vive et citronnée, rapidement équilibrée par une douceur fruitée légère. Le profil reste frais, propre et agréable, avec une finale zestée qui reste bien présente. 😮‍💨🍋\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil lemon expressif\n☁️ Dégustation douce et parfumée\n🔥 Belle fraîcheur aromatique\n🍋 Identité citronnée bien marquée\n\n🏆 Le verdict :\nUne variété parfaite pour ceux qui aiment les profils frais, citronnés et légèrement candy. Lemon Ad combine vivacité, douceur et finition premium dans une sélection très propre. 🍋✨🔥",                    
-                    tarifs: [
-            { weight: "5g", price: 50.0 },
-            { weight: "10g", price: 90.0 },
-            { weight: "25g", price: 200.0 },
-            { weight: "50g", price: 350.0 },
-                    ]
-                }, 
-        {
-                    id: 'Purple',
-                    flag: '🇺🇸',
-                    name: 'Purple 🔮',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductP.png', 
-                    video: 'VideoP.mp4',
-                    description:  "🔮🍇 PURPLE — CALI PREMIUM 🍇🔮\n\nUne sélection au profil fruité, profond et gourmand. Purple se distingue par ses notes de fruits violets, sa rondeur sucrée et une identité douce mais bien marquée, pensée pour les amateurs de profils berry et modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍇 Raisin sucré et fruits violets\n🫐 Notes de baies mûres\n🍬 Touche candy légère\n🍦 Fond doux et légèrement crémeux\n🌿 Finition propre et fruitée\n\n👅 Goût :\nEn bouche, Purple développe une attaque fruitée et sucrée, avec une belle présence de raisin et de fruits rouges. Le profil devient ensuite plus rond et gourmand, avec une finale douce, parfumée et légèrement crémeuse. 😮‍💨🔮\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil fruité bien expressif\n☁️ Dégustation douce et aromatique\n🔥 Belle rondeur en bouche\n🔮 Identité purple reconnaissable\n\n🏆 Le verdict :\nUne variété idéale pour ceux qui aiment les profils fruités, sucrés et berry. Purple combine douceur, gourmandise et finition premium dans une sélection très agréable. 🔮🍇🔥",                    
-                    tarifs: [
-            { weight: "5g", price: 50.0 },
-            { weight: "10g", price: 90.0 },
-            { weight: "25g", price: 200.0 },
-            { weight: "50g", price: 350.0 },
-                    ]
-                }, 
-       /*  {
-          id: "Perm chimera",
-          flag: "🇺🇸",
-          name: "🎄 Perm chimera 🎄",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductPC.jpg",
-          video: "VideoPC.mp4",
-          description:
-             "🎄⛽ PERM CHIMERA — CALI PREMIUM ⛽🎄\n\nUne sélection au profil puissant en arômes, profond et très expressif. Perm Chimera mélange des notes gassy, crémeuses et légèrement fruitées, avec une identité moderne et bien marquée. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes gassy bien présentes\n🍦 Fond crémeux et rond\n🍬 Touche candy discrète\n🌿 Nuances végétales propres\n🔥 Finition résineuse intense\n\n👅 Goût :\nEn bouche, Perm Chimera développe une attaque riche et aromatique, avec une belle présence gassy dès le départ. Le profil devient ensuite plus rond, légèrement sucré et crémeux, avec une finale longue et bien marquée. 😮‍💨🎄\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Arômes profonds et expressifs\n☁️ Dégustation dense et savoureuse\n🔥 Profil moderne et travaillé\n🎄 Belle identité de connaisseur\n\n🏆 Le verdict :\nUne variété de caractère, parfaite pour les amateurs de profils gassy, crémeux et bien marqués. Perm Chimera combine profondeur aromatique, rondeur et finition premium. 🎄⛽🔥",
-          tarifs: [
-            { weight: "5g", price: 50.0 },
-            { weight: "10g", price: 90.0 },
-            { weight: "25g", price: 200.0 },
-            { weight: "50g", price: 350.0 },
-          ],
-        },
-        {
-          id: "Trade",
-          flag: "🇺🇸",
-          name: "Trade 📊",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductT.png",
-          video: "VideoT.mp4",
-          description:
-            "📊🔥 TRADE — CALI PREMIUM 🔥📊\n\nUne sélection moderne au profil propre, équilibré et bien travaillé. Trade se distingue par une identité aromatique ronde, légèrement sucrée et résineuse, avec une belle présence dès l’ouverture. 🇺🇸💎\n\n👃 Profil aromatique :\n🍬 Notes sucrées légères\n🌿 Fond végétal propre\n⛽ Petite touche gassy\n🍦 Rondeur crémeuse discrète\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, Trade développe une attaque douce et aromatique, avec un mélange équilibré entre notes sucrées, résineuses et légèrement crémeuses. La dégustation reste propre, agréable et régulière, avec une finale bien présente. 😮‍💨📊\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil aromatique équilibré\n☁️ Fumée douce et dense\n🔥 Bonne régularité\n📊 Produit simple, propre et efficace\n\n🏆 Le verdict :\nUne sélection fiable et équilibrée, parfaite pour ceux qui recherchent un profil propre, doux et légèrement gassy. Trade mise sur la régularité, la qualité et une belle rondeur aromatique. 📊🔥🇺🇸",
-          tarifs: [
-            { weight: "5g", price: 50.0 },
-            { weight: "10g", price: 90.0 },
-            { weight: "25g", price: 200.0 },
-            { weight: "50g", price: 350.0 },
-          ],
-        }, */
-        {
-          id: "Blueberry 🌀",
-          flag: "🇺🇸",
-          name: "Blueberry 🌀",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "Weed",
-          image: "ProductBB.png",
-          video: "VideoBB.mov",
-          description:
-            "🌀🫐 BLUEBERRY — CALI PREMIUM 🫐🌀\n\nUne sélection fruitée et douce, centrée sur un profil myrtille sucrée, baies mûres et rondeur crémeuse. Blueberry est une valeur sûre pour les amateurs de saveurs fruitées, simples et efficaces. 🇺🇸🔥\n\n👃 Profil aromatique :\n🫐 Myrtille sucrée\n🍓 Fruits rouges mûrs\n🍬 Douceur candy légère\n🍦 Fond crémeux discret\n🌿 Petite touche végétale propre\n\n👅 Goût :\nEn bouche, Blueberry développe une attaque douce et fruitée, avec des notes de myrtille et de fruits rouges bien présentes. La dégustation reste ronde, agréable et parfumée, avec une finale sucrée qui reste longtemps sur le palais. 😮‍💨🫐\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil fruité expressif\n☁️ Fumée douce et aromatique\n🔥 Saveur claire et régulière\n🌀 Identité fruitée reconnaissable\n\n🏆 Le verdict :\nUne variété fruitée, douce et efficace, parfaite pour ceux qui aiment les profils berry, sucrés et crémeux. Blueberry combine gourmandise, fraîcheur et simplicité dans une sélection très agréable. 🌀🫐🔥",
-          tarifs: [
-            { weight: "5g", price: 50.0 },
-            { weight: "10g", price: 90.0 },
-            { weight: "25g", price: 200.0 },
-            { weight: "50g", price: 350.0 },
-          ],
-        },
 
       ],
     },
@@ -753,57 +509,6 @@ setTimeout(showPromoPopup, 350);
       image: "CategFrozen.png", // Ton image de catégorie Weed
 
       products: [
-         {
-          id: "Mandarina",
-          flag: "🇺🇸",
-          name: "Mandarina 🍊",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "FROZEN",
-          image: "ProductMA.jpg",
-          video: "VideoMA.mp4",
-          description:
-            "🍊❄️ MANDARINA — FROZEN PREMIUM ❄️🍊\n\nUne sélection Frozen à l'identité fruitée, lumineuse et tropicale. Mandarina évoque toute la fraîcheur des agrumes, avec une belle douceur inspirée des mandarines mûres et des oranges sucrées. 🇺🇸✨\n\n👃 Profil aromatique :\n🍊 Mandarine mûre et juteuse\n🍋 Zestes d'agrumes frais\n🍬 Nuances candy fruitées\n🍯 Fond légèrement miellé\n🌸 Petite touche florale\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture vive et citronnée, suivie d'une douceur fruitée rappelant la mandarine fraîche. Les nuances sucrées et florales apportent une identité ensoleillée et gourmande. 🍊🌞\n\n❄️ Texture & présentation :\n💎 Sélection Frozen\n🧊 Univers frais et fruité\n🍊 Inspiration agrumes\n✨ Identité tropicale et lumineuse\n\n🏆 Le verdict :\nUne signature ensoleillée qui met la mandarine à l'honneur. Entre agrumes frais, douceur fruitée et nuances gourmandes, Mandarina affiche une identité pleine de fraîcheur. 🍊❄️🔥",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 90.0 },
-            { weight: "25G", price: 200.0 },
-                  ],
-},
-         {
-          id: "Barbara bud",
-          flag: "🇺🇸",
-          name: "Barbara bud 🎂",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "FROZEN",
-          image: "ProductBB.jpg",
-          video: "VideoBB.mp4",
-          description:
-            "",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 90.0 },
-            { weight: "25G", price: 200.0 },
-                  ],
-        },
-         {
-          id: "Champaya",
-          flag: "🇺🇸",
-          name: "Champaya 🥭",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "FROZEN",
-          image: "ProductCY.jpg",
-          video: "VideoCY.mp4",
-          description:
-            "🥭❄️ CHAMPAYA — FROZEN 160/73U ❄️🥭\n\nUne sélection Frozen premium au profil fruité, doux et très aromatique. Champaya se distingue par une belle expression tropicale, une texture soignée et une identité gourmande pensée pour les amateurs de profils frais et sucrés. 🇺🇸🔥\n\n👃 Profil aromatique :\n🥭 Notes tropicales et fruitées\n🍑 Fruits jaunes bien mûrs\n🍯 Fond doux légèrement miellé\n🍬 Petite touche candy\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, Champaya développe une attaque douce et fruitée, avec des notes exotiques bien présentes. Le profil reste rond, agréable et parfumé, avec une finale sucrée et fraîche qui reste longtemps en bouche. 😮‍💨🥭\n\n❄️ Texture & qualité :\n💎 Frozen 160/73u soigneusement travaillé\n🤲 Texture propre et agréable à manipuler\n🌈 Belle conservation des arômes\n☁️ Dégustation douce et savoureuse\n🔥 Profil fruité, propre et premium\n\n🏆 Le verdict :\nUne Frozen gourmande et tropicale, parfaite pour ceux qui aiment les profils fruités, doux et expressifs. Champaya combine fraîcheur, rondeur et finition premium dans une sélection très agréable. 🥭❄️🔥",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 90.0 },
-            { weight: "25G", price: 200.0 },
-                  ],
-        },
          {
           id: "Frosty Diesel",
           flag: "🇺🇸",
@@ -821,22 +526,6 @@ setTimeout(showPromoPopup, 350);
             { weight: "25G", price: 200.0 },
                     ],
         },
-            {
-                    id: 'OLIVE',
-                    flag: '🇲🇦',
-                    name: '🍫 OLIVE 🍯🫒',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'FROZEN',
-          image: "ProductOLL.png",
-          video: "VideoOL.mp4",
-                    description:
-                          "🫒🍯 OLIVE — FROZEN PREMIUM 🍯🫒\n\nUne sélection Frozen originale et gourmande, pensée pour les amateurs de résines riches, fondantes et pleines de caractère. Olive se distingue par son format atypique, sa texture travaillée et son profil aromatique profond, mêlant douceur sucrée, notes résineuses et belle rondeur en bouche. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍫 Notes chocolatées et gourmandes\n🍯 Douceur miellée\n🌰 Touches de fruits à coque\n🌿 Fond végétal et résineux\n🔥 Légère finition terreuse élégante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et gourmande, portée par des notes chocolatées et une rondeur sucrée très agréable. Le profil évolue ensuite vers quelque chose de plus résineux et légèrement terreux, avec une finale propre, riche et persistante. 😮‍💨🫒\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement travaillé\n🤲 Texture souple, dense et agréable à manipuler\n🌈 Bonne conservation des arômes\n☁️ Fumée épaisse et savoureuse\n🔥 Profil équilibré et régulier\n\n🏆 Le verdict :\nUne Frozen gourmande et pleine de caractère, idéale pour ceux qui recherchent une résine originale, fondante et bien travaillée. Olive combine douceur, profondeur aromatique et vraie identité premium dans un format qui ne passe pas inaperçu. 🫒🍯🍫🔥",
-                    tarifs: [
-                        { weight: '1 Olive', price: 90.00 },
-                    ]
-                },
-    
       ],
     },
     {
@@ -848,16 +537,16 @@ setTimeout(showPromoPopup, 350);
 
       products: [
          {
-          id: "général",
+          id: "Peach Oz ⭐",
           flag: "🇲🇦",
-          name: "Général 💂",
+          name: "Peach Oz ⭐",
           farm: "🌾 No Farm 🌾",
           promoEligible: true,
           type: "3xFiltre",
-          image: "ProductGE.jpg",
-          video: "VideoGE.mp4",
+          image: "ProductPOZ.png",
+          video: "VideoPOZ.mov",
           description:
-                "💂👑 GÉNÉRAL — 3X FILTRE PREMIUM 👑💂\n\nUne sélection 3X Filtre à l'identité affirmée, classique et raffinée. Général évoque un univers aromatique profond, mêlant notes résineuses, douceur gourmande et touches boisées. Une signature inspirée du savoir-faire marocain. 🇲🇦✨\n\n👃 Profil aromatique :\n🍯 Notes douces et miellées\n🌰 Touches de noisette grillée\n🌿 Fond végétal et résineux\n🍫 Nuances chocolatées\n🪵 Finition boisée et terreuse\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture douce et gourmande, accompagnée de nuances boisées et légèrement épicées. L'ensemble évoque une identité traditionnelle, profonde et équilibrée. 💂🌿\n\n✨ Texture & présentation :\n💎 Sélection 3X Filtre\n🤲 Univers résineux et authentique\n🇲🇦 Inspiration marocaine\n👑 Identité classique et élégante\n\n🏆 Le verdict :\nUne signature de caractère, entre douceur miellée, notes boisées et profondeur résineuse. Général porte une identité sobre, authentique et distinguée. 💂👑🔥",
+                " 🍑👑 PEACH OZ — 3X FILTRE PREMIUM 👑🍑 \n\nUne sélection 3X Filtre à l'identité affirmée, classique et raffinée. Peach Oz évoque un univers aromatique profond, mêlant notes résineuses, douceur gourmande et touches boisées. Une signature inspirée du savoir-faire marocain. 🇲🇦✨\n\n👃 Profil aromatique :\n🍯 Notes douces et miellées\n🌰 Touches de noisette grillée\n🌿 Fond végétal et résineux\n🍫 Nuances chocolatées\n🪵 Finition boisée et terreuse\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture douce et gourmande, accompagnée de nuances boisées et légèrement épicées. L'ensemble évoque une identité traditionnelle, profonde et équilibrée. 🍑🌿\n\n✨ Texture & présentation :\n💎 Sélection 3X Filtre\n🤲 Univers résineux et authentique\n🇲🇦 Inspiration marocaine\n👑 Identité classique et élégante\n\n🏆 Le verdict :\nUne signature de caractère, entre douceur miellée, notes boisées et profondeur résineuse. Peach Oz porte une identité sobre, authentique et distinguée. 🍑👑🔥",
           tarifs: [
             { weight: "5G", price: 50.0 },
             { weight: "10G", price: 80.0 },
@@ -866,137 +555,17 @@ setTimeout(showPromoPopup, 350);
             { weight: "100G", price: 400.0 },
           ],
         },
-        {
-          id: "Ghost",
+         {
+          id: "Fruity Peach 🍑",
           flag: "🇲🇦",
-          name: "Ghost 👻",
-          farm: "🌾 No Farm 🌾",
+          name: "Fruity Peach 🍑",
+          farm: "🌾 PJS",
           promoEligible: true,
           type: "3xFiltre",
-          image: "ProductGH.jpg",
-          video: "VideoGH.mp4",
+          image: "ProductFP.png",
+          video: "VideoFP.mov",
           description:
-                "👻❄️ GHOST — 3X FILTRE PREMIUM ❄️👻\n\nUne sélection 3X Filtre à l'identité mystérieuse, fraîche et aromatique. Ghost s'inspire d'un univers subtil, où des notes végétales rencontrent une douceur crémeuse et une pointe d'agrumes. 🇲🇦✨\n\n👃 Profil aromatique :\n🌬️ Impression de fraîcheur\n🍋 Notes citronnées légères\n🌿 Nuances végétales\n🍦 Fond doux et crémeux\n🌲 Touches boisées discrètes\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture fraîche et citronnée, suivie de notes plus rondes et légèrement crémeuses. Une identité qui joue sur le contraste entre fraîcheur et profondeur. 👻❄️\n\n✨ Texture & présentation :\n💎 Sélection 3X Filtre\n🤲 Inspiration résineuse\n🇲🇦 Collection d'origine marocaine\n🌫️ Univers mystérieux et raffiné\n\n🏆 Le verdict :\nUne signature originale qui associe fraîcheur citronnée, douceur crémeuse et nuances végétales. Ghost se distingue par son identité discrète et mystérieuse. 👻❄️✨",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        },
-       /*  {
-          id: "Guava Runtz",
-          flag: "🇲🇦",
-          name: "Guava Runtz 🍹",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductGR.jpg",
-          video: "VideoGR.mp4",
-          description:
-                "",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        }, */
-        {
-          id: "Bruce banner",
-          flag: "🇲🇦",
-          name: "Bruce Banner 🎗",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductBR.jpg",
-          video: "VideoBR.mp4",
-          description:
-                "",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        },
-        {
-          id: "mango sherbet",
-          flag: "🇲🇦",
-          name: "MANGO SHERBET 🍯",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductMS.png",
-          video: "VideoMS.mp4",
-          description:
-                "",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        },
-       /*  {
-          id: "SPRITZER 🍸",
-          flag: "🇲🇦",
-          name: "SPRITZER 🍸",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductSP.png",
-          video: "VideoSP.mov",
-          description:
-                "🍸✨ SPRITZER — DRY SIFT ✨🍸\n\nUne sélection 3X Filtre au profil frais, fruité et raffiné. Spritzer se distingue par une belle vivacité aromatique, une touche légèrement sucrée et une identité moderne qui le rend particulièrement agréable pour les amateurs de profils expressifs. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍋 Notes fraîches et zestées\n🍇 Touche fruitée légère\n🍬 Fond sucré discret\n🌿 Nuance végétale propre\n✨ Finition élégante et parfumée\n\n👅 Goût :\nEn bouche, Spritzer développe une attaque fraîche et aromatique, avec une belle présence fruitée et une rondeur légère qui équilibre l’ensemble. Le profil reste propre, vif et agréable, avec une finale douce et parfumée. 😮‍💨🍸\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement sélectionné\n🤲 Texture souple et homogène\n🌈 Arômes frais bien conservés\n☁️ Dégustation douce et parfumée\n🔥 Profil propre, moderne et régulier\n\n🏆 Le verdict :\nUne 3X Filtre fraîche et élégante, idéale pour ceux qui aiment les profils fruités, légers et bien travaillés. Spritzer combine fraîcheur, gourmandise et finition premium dans une sélection très agréable. 🍸✨🔥",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        }, */
-        {
-          id: "Forbiden 🧤",
-          flag: "🇲🇦",
-          name: "Forbiden 🧤",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductDS.png",
-          video: "VideoDS.mp4",
-          description:
-                "🧤🍯 Forbiden — 3X FILTRE PREMIUM 🍯🧤\n\nUne sélection de filtrer au profil propre, gourmand et bien travaillé. DrySift se distingue par une texture soignée, une belle richesse aromatique et une identité résineuse très agréable, pensée pour les amateurs de profils classiques mais efficaces. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍯 Notes douces et légèrement miellées\n🌿 Fond végétal propre\n🍫 Petite touche gourmande\n🌰 Nuances rondes et résineuses\n🔥 Finition élégante et persistante\n\n👅 Goût :\nEn bouche, Forbiden développe une attaque douce et aromatique, avec une belle rondeur dès les premières notes. Le profil reste propre, équilibré et agréable, avec une finale légèrement gourmande et résineuse qui tient bien en bouche. 😮‍💨🧤\n\n✨ Texture & qualité :\n💎 Sélection soigneusement travaillée\n🤲 Texture souple et agréable à manipuler\n🌈 Arômes bien conservés\n☁️ Dégustation douce et savoureuse\n🔥 Profil propre et régulier\n\n🏆 Le verdict :\nUne valeur sûre pour ceux qui aiment les profils doux, résineux et bien équilibrés. DrySift combine simplicité, qualité et belle rondeur aromatique dans une sélection très propre. 🧤🍯🔥",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        },
-        {
-          id: "FILTRED ⚡",
-          flag: "🇲🇦",
-          name: "FILTRED ⚡",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductF.png",
-          video: "VideoF.mov",
-          description:
-              "⚡❄️ FILTRED — SÉLECTION PREMIUM ❄️⚡\n\nUne sélection filtrée au profil gourmand, propre et bien travaillé. FILTRED se distingue par une texture souple, une belle intensité aromatique et plusieurs saveurs bien marquées pour varier les plaisirs. 🇲🇦🔥\n\n👃 Saveurs disponibles : \n🍫 Nutella : profil cacao, noisette et rondeur gourmande \n\n👅 Goût :\nEn bouche, FILTRED développe une attaque douce et aromatique, avec une belle rondeur selon la saveur choisie. Le profil reste propre, agréable et bien équilibré, avec une finale gourmande qui reste présente. 😮‍💨⚡\n\n✨ Texture & qualité :\n💎 Filtré soigneusement sélectionné\n🤲 Texture souple et facile à travailler\n🌈 Saveurs bien distinctes\n☁️ Fumée douce et parfumée\n🔥 Profil propre, régulier et gourmand\n\n🏆 Le verdict :\nUne sélection filtrée efficace et gourmande, parfaite pour ceux qui aiment choisir entre plusieurs profils aromatiques. FILTRED combine qualité, variété et finition propre dans une gamme simple et bien maîtrisée. ⚡❄️🔥",
-          variantTitle: "Saveurs Filtrer ❄️ :",
-          jars: [
-            /* { name: "Super Caramelo", emoji: "🍮", colorClass: "style-brown" }, */
-            { name: "Nutella", emoji: "🍫", colorClass: "style-red" },
-            /* { name: "Fanta", emoji: "🌸", colorClass: "style-yellow" }, */
-          ],
+                "🍑👑 Fruity Peach — 3X FILTRE PREMIUM 👑🍑 \n\nUne sélection 3X Filtre à l'identité affirmée, classique et raffinée. Fruity Peach évoque un univers aromatique profond, mêlant notes résineuses, douceur gourmande et touches boisées. Une signature inspirée du savoir-faire marocain. 🇲🇦✨\n\n👃 Profil aromatique :\n🍯 Notes douces et miellées\n🌰 Touches de noisette grillée\n🌿 Fond végétal et résineux\n🍫 Nuances chocolatées\n🪵 Finition boisée et terreuse\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture douce et gourmande, accompagnée de nuances boisées et légèrement épicées. L'ensemble évoque une identité traditionnelle, profonde et équilibrée. 🍑🌿\n\n✨ Texture & présentation :\n💎 Sélection 3X Filtre\n🤲 Univers résineux et authentique\n🇲🇦 Inspiration marocaine\n👑 Identité classique et élégante\n\n🏆 Le verdict :\nUne signature de caractère, entre douceur miellée, notes boisées et profondeur résineuse. Fruity Peach porte une identité sobre, authentique et distinguée. 🍑👑🔥",
           tarifs: [
             { weight: "5G", price: 50.0 },
             { weight: "10G", price: 80.0 },
